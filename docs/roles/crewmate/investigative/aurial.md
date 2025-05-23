@@ -1,3 +1,3 @@
 # Aurial
 
-Blinds ass mf
+Blind ass mf
