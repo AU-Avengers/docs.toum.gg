@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'A comprehensive guide to Town Of Us: Mira',
   favicon: 'img/logo.ico',
   url: 'https://docs.toum.gg',
-  baseUrl: '/docs.toum.gg/',
+  baseUrl: 'au-avengers.github.io/docs.toum.gg/',
   organizationName: 'AU-Avengers',
   projectName: 'docs.toum.gg',
   deploymentBranch: 'gh-pages',
