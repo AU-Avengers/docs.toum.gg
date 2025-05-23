@@ -90,12 +90,12 @@ const config: Config = {
           items: [
             {
               label: 'Roles',
-              to: '/roles',
+              to: '/docs/category/crewmates',
             },
-            {
-              label: 'Modifiers',
-              to: '/modifiers',
-            },
+            // {
+            //   label: 'Modifiers',
+            //   to: '/docs/modifiers',
+            // },
           ],
         },
         {
