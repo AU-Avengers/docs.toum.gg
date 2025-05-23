@@ -2,16 +2,15 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
 const config: Config = {
   title: 'Town Of Us: Mira Docs',
   tagline: 'A comprehensive guide to Town Of Us: Mira',
   favicon: 'img/logo.ico',
-  url: 'https://docs.tour.gg',
+  url: 'https://docs.toum.gg',
   baseUrl: '/',
-  organizationName: 'AU-Avengers', // Usually your GitHub org/user name.
-  projectName: 'docs.tour.gg', // Usually your repo name.
+  organizationName: 'AU-Avengers',
+  projectName: 'docs.toum.gg',
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   trailingSlash: false,
@@ -27,7 +26,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/AU-Avengers/docs.tour.gg/tree/main/',
+            'https://github.com/AU-Avengers/docs.toum.gg/blob/main/',
         },
         blog: {
           showReadingTime: true,
@@ -36,7 +35,7 @@ const config: Config = {
             xslt: true,
           },
           editUrl:
-            'https://github.com/AU-Avengers/docs.tour.gg/tree/main/',
+            'https://github.com/AU-Avengers/docs.toum.gg/blob/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -96,6 +95,10 @@ const config: Config = {
             //   label: 'Modifiers',
             //   to: '/docs/modifiers',
             // },
+            {
+              label: 'Changelog',
+              to: '/blog',
+            },
           ],
         },
         {
@@ -104,15 +107,6 @@ const config: Config = {
             {
               label: 'Discord',
               href: 'https://discord.gg/ugyc4EVUYZ',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Changelog',
-              to: '/blog',
             },
             {
               label: 'GitHub Organization',
@@ -123,9 +117,13 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} AU Avengers. All rights reserved.`,
     },
+    colorMode: {
+      defaultMode: 'dark'
+    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ['csharp', 'ini']
     },
   } satisfies Preset.ThemeConfig,
 };
