@@ -6,8 +6,10 @@ const config: Config = {
   title: 'Town Of Us: Mira Docs',
   tagline: 'A comprehensive guide to Town Of Us: Mira',
   favicon: 'img/logo.ico',
-  url: 'https://docstoum.com',
-  baseUrl: 'docstoum.com',
+  url: 'https://au-avengers.github.io',
+  baseUrl: 'https://au-avengers.github.io/docs.toum.gg/',
+  // url: 'https://docstoum.com',
+  // baseUrl: 'docstoum.com',
   organizationName: 'AU-Avengers',
   projectName: 'docs.toum.gg',
   deploymentBranch: 'gh-pages',
@@ -26,7 +28,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/AU-Avengers/docstoum.com/blob/main/',
+            'https://github.com/AU-Avengers/docs.toum.gg/blob/main/',
         },
         blog: {
           showReadingTime: true,
@@ -35,7 +37,7 @@ const config: Config = {
             xslt: true,
           },
           editUrl:
-            'https://github.com/AU-Avengers/docstoum.com/blob/main/',
+            'https://github.com/AU-Avengers/docs.toum.gg/blob/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -54,7 +56,7 @@ const config: Config = {
       title: 'Town Of Us: Mira',
       logo: {
         alt: 'Town Of Us: Mira Logo',
-        src: 'img/logo.png',
+        src: '/img/logo.png',
       },
       items: [
         {
