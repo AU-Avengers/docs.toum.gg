@@ -1,5 +1,5 @@
-import Icon from '/img/icons/Lookout.png';
-import WatchButton from '/img/CrewButtons/WatchButton.png';
+import Icon from '/static/img/icons/Lookout.png';
+import WatchButton from '/static/img/CrewButtons/WatchButton.png';
 
 # Lookout
 <img src={Icon} alt="Icon" style={{width: 70}} />
