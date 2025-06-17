@@ -14,6 +14,7 @@ const config: Config = {
   projectName: 'docs.toum.gg',
   deploymentBranch: 'gh-pages',
   onBrokenLinks: 'warn',
+  staticDirectories: ['static'],
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
   i18n: {
