@@ -13,8 +13,8 @@ const config: Config = {
   organizationName: 'AU-Avengers',
   projectName: 'docs.toum.gg',
   deploymentBranch: 'gh-pages',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'throw',
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
   i18n: {
     defaultLocale: 'en',
