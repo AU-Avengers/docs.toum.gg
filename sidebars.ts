@@ -57,7 +57,8 @@ const sidebars: SidebarsConfig = {
           link: {
             type: 'generated-index',
             title: 'Investigative',
-            description: 'Investigative roles have the primary ability to gather information about other players. They can use this information to deduce who is crew or not.'
+            description: 'Investigative roles have the primary ability to gather information about other players. They can use this information to deduce who is crew or not.',
+            image: 'img/icons/Detective.png',
           },
           items:
           [
@@ -66,7 +67,6 @@ const sidebars: SidebarsConfig = {
             'roles/crewmate/investigative/haunter',
             'roles/crewmate/investigative/investigator',
             'roles/crewmate/investigative/lookout',
-            'roles/crewmate/investigative/medium',
             'roles/crewmate/investigative/mystic',
             'roles/crewmate/investigative/seer',
             'roles/crewmate/investigative/snitch',
@@ -82,7 +82,8 @@ const sidebars: SidebarsConfig = {
           link: {
             type: 'generated-index',
             title: 'Killing',
-            description: 'Killing roles have the primary ability to kill other players. However, with great power comes great responsibility'
+            description: 'Killing roles have the primary ability to kill other players. However, with great power comes great responsibility',
+            image: 'img/icons/Sheriff.png',
           },
           items:
           [
@@ -100,7 +101,8 @@ const sidebars: SidebarsConfig = {
           link: {
             type: 'generated-index',
             title: 'Power',
-            description: 'Power roles have the primary ability to influence how the game is played via interfering with the voting capabilities of either their own votes or others\'.'
+            description: 'Power roles have the primary ability to influence how the game is played via interfering with the voting capabilities of either their own votes or others\'.',
+            image: 'img/icons/Mayor.png',
           },
           items:
           [
@@ -118,7 +120,8 @@ const sidebars: SidebarsConfig = {
           link: {
             type: 'generated-index',
             title: 'Protective',
-            description: 'Protective roles have the primary ability to protect other players from being killed. They can use this ability to protect themselves or other players.'
+            description: 'Protective roles have the primary ability to protect other players from being killed. They can use this ability to protect themselves or other players.',
+            image: 'img/icons/Medic.png',
           },
           items:
           [
@@ -135,12 +138,14 @@ const sidebars: SidebarsConfig = {
           link: {
             type: 'generated-index',
             title: 'Support',
-            description: 'Support roles have the primary ability to support other players.'
+            description: 'Support roles have the primary ability to support other players.',
+            image: 'img/icons/Imitator.png',
           },
           items:
           [
             'roles/crewmate/support/engineer',
             'roles/crewmate/support/imitator',
+            'roles/crewmate/support/medium',
             'roles/crewmate/support/plumber',
             'roles/crewmate/support/transporter'
           ]

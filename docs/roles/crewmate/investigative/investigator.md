@@ -1,3 +1,3 @@
 # Investigator
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The Investigator is a Crewmate Investigative role can see player's footprints throughout the game. Swooper footprints are hidden.

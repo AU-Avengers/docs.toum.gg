@@ -1,3 +1,3 @@
 # Detective
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The Detective is a Crewmate Investigative role that can inspect a crime scene and examine players to see if they were at the crime scene, flashing red if they were there.
