@@ -1,8 +1,7 @@
-import Icon from '/static/img/icons/Lookout.png';
-import WatchButton from '/static/img/CrewButtons/WatchButton.png';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Lookout
-<img src={Icon} alt="Icon" style={{width: 70}} />
+<img src={useBaseUrl('/img/icons/Lookout.png')} alt="Icon" style={{width: 70}} />
 
 The Lookout is a Crewmate Investigative role that can watch other players during rounds. During meetings they will see all roles who interact with each watched player.
 
@@ -10,7 +9,7 @@ The Lookout is a Crewmate Investigative role that can watch other players during
 
 | Button | Ability | Description | Type |
 |----------|----------|:-----------------:|:------:|
-| <img src={WatchButton} alt="Button" style={{width: 50}} /> | Watch | Watch a player or multiple, the next meeting you will know which players interacted with the watched ones. | Player Interaction |
+| <img src={useBaseUrl('/img/CrewButtons/WatchButton.png')} alt="Button" style={{width: 50}} /> | Watch | Watch a player or multiple, the next meeting you will know which players interacted with the watched ones. | Player Interaction |
 
 ### Options
 
