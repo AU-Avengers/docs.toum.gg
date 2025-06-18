@@ -60,12 +60,13 @@ export default function HomepageFeatures(): ReactNode {
   return (
     <section className={styles.features}>
       <div className="container">
-      <div className="text--center">
-        <div className="row" style={{marginTop: "5px", paddingLeft: "25px", paddingRight: "25px"}}>
-        <p className="h2">Town Of Us: Mira is a reimagining of Town of Us Reactivated, with new roles and modifiers, as well as visual and codebase overhauls. The mod includes nerfs and buffs for certain pre-existing roles, so feel free to check them out and join the TOUR discord for feedback and suggestions.</p>
+        <div className="text--center">
+            <div className="row" style={{marginTop: "5px", paddingLeft: "25px", paddingRight: "25px"}}>
+            <p className="h2">Town Of Us: Mira is a reimagining of Town of Us Reactivated, with new roles and modifiers, as well as visual and codebase overhauls. The mod includes nerfs and buffs for certain pre-existing roles, so feel free to check them out and join the TOUR discord for feedback and suggestions.</p>
           {/* {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))} */}
+            <p className="h3">Development Team: Zeo and friends :p</p>
           </div>
         </div>
       </div>
