@@ -14,7 +14,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h6" className="hero__title" style={{fontSize: "2rem"}}>
+        <Heading as="h6" className="hero__title" style={{fontSize: "1.5rem"}}>
           A comprehensive guide to:
         </Heading>
         <div className={styles.img}>

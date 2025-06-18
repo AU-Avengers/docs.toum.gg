@@ -12,7 +12,6 @@ const config: Config = {
   // baseUrl: 'docstoum.com',
   organizationName: 'AU-Avengers',
   projectName: 'docs.toum.gg',
-  //deploymentBranch: 'gh-pages',
   deploymentBranch: 'gh-pages',
   onBrokenLinks: 'warn',
   staticDirectories: ['static'],
