@@ -1,7 +1,7 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+<img src={useBaseUrl('/img/icons/Lookout.png')} alt="Icon" align="left" style={{width: 60}} />
 # Lookout
-<img src={useBaseUrl('/img/Icons/Lookout.png')} alt="Icon" style={{width: 70}} />
 
 The Lookout is a Crewmate Investigative role that can watch other players during rounds. During meetings they will see all roles who interact with each watched player.
 

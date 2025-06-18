@@ -1,3 +1,6 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img src={useBaseUrl('/img/icons/Investigator.png')} alt="Icon" align="left" style={{width: 60}} />
 # Investigator
 
 The Investigator is a Crewmate Investigative role can see player's footprints throughout the game. Swooper footprints are hidden.
