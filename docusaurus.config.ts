@@ -78,12 +78,6 @@ const config: Config = {
           position: 'left',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {
           href: 'https://github.com/AU-Avengers/TOU-Mira',
           label: 'GitHub',
           position: 'right',
