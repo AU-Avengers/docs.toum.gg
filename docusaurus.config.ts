@@ -100,7 +100,7 @@ const config: Config = {
             },
              {
                label: 'Modifiers',
-               to: '/docs/modifiers',
+               to: '/docs/category/alliances',
              },
             {
               label: 'Changelog',
