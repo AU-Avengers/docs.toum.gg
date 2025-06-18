@@ -45,7 +45,7 @@ const sidebars: SidebarsConfig = {
       link: {
         type: 'generated-index',
         title: 'Crewmates',
-        description: 'Crewmates are the main characters of the game. They win when they have either completed all tasks, or have managed to kill all impostors and neutral killers. This faction has the following alignments: investigative, protective, killing, power and support.',
+        description: 'Crewmates are the main characters of the game. They win when they have either completed all tasks, or have managed to kill all impostors and neutral killers. This faction has the following alignments: Investigative, Protective, Killing, Power and Support.',
         image: '/img/Crew.png',
       },
       items:
@@ -151,6 +151,152 @@ const sidebars: SidebarsConfig = {
           ]
         },
         'roles/crewmate/crewmate'
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Impostors',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+        title: 'Impostors',
+        description: 'Impostors are the main antagonists of the game. They win by eliminating all Crewmates or with a sabotage ending the game. This faction has the following alignments: Concealing, Killing, and Support.',
+        image: '/img/Imp.png',
+      },
+      items:
+      [
+        {
+          type: 'category',
+          label: 'Concealing',
+          collapsed: false,
+          link: {
+            type: 'generated-index',
+            title: 'Concealing',
+            description: 'Concealing roles have the ability to kill as well as deceive other players while doing so.',
+            image: '/img/Icons/Grenadier.png',
+          },
+          items:
+          [
+            'roles/impostor/concealing/Eclipsal',
+            'roles/impostor/concealing/Escapist',
+            'roles/impostor/concealing/Grenadier',
+            'roles/impostor/concealing/Morphling',
+            'roles/impostor/concealing/Swooper',
+            'roles/impostor/concealing/Venerer',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Killing',
+          collapsed: false,
+          link: {
+            type: 'generated-index',
+            title: 'Killing',
+            description: 'Killing roles have enhanced killing abilities, allowing them to kill other players more effectively than a standard Impostor.',
+            image: '/img/Icons/Warlock.png',
+          },
+          items:
+          [
+            'roles/impostor/killing/Bomber',
+            'roles/impostor/killing/Scavenger',
+            'roles/impostor/killing/Traitor',
+            'roles/impostor/killing/Warlock'
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Support',
+          collapsed: false,
+          link: {
+            type: 'generated-index',
+            title: 'Support',
+            description: 'Support roles have the ability to help their team hide bodies or make killing more accessible.',
+            image: '/img/Icons/Janitor.png',
+          },
+          items:
+          [
+            'roles/impostor/support/Blackmailer',
+            'roles/impostor/support/Hypnotist',
+            'roles/impostor/support/Janitor',
+            'roles/impostor/support/Miner',
+            'roles/impostor/support/Undertaker'
+          ]
+        },
+        'roles/impostor/impostor'
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Neutrals',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+        title: 'Neutrals',
+        description: 'Neutrals have their own goals that may or may not impact others. This faction has the following alignments: Benign, Evil, and Killing.',
+        image: '/img/Neutral.png',
+      },
+      items:
+      [
+        {
+          type: 'category',
+          label: 'Benign',
+          collapsed: false,
+          link: {
+            type: 'generated-index',
+            title: 'Benign',
+            description: 'Benign roles usually help out others or simply live to win the game.',
+            image: '/img/Icons/GuardianAngel.png',
+          },
+          items:
+          [
+            'roles/neutral/benign/Amnesiac',
+            'roles/neutral/benign/Guardian Angel',
+            'roles/neutral/benign/Mercenary',
+            'roles/neutral/benign/Survivor',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Evil',
+          collapsed: false,
+          link: {
+            type: 'generated-index',
+            title: 'Evil',
+            description: 'Evil roles set out to complete their goals to stay as a kingmaker, leave in victory, or end the game.',
+            image: '/img/Icons/Doomsayer.png',
+          },
+          items:
+          [
+            'roles/neutral/evil/Doomsayer',
+            'roles/neutral/evil/Executioner',
+            'roles/neutral/evil/Inquisitor',
+            'roles/neutral/evil/Jester',
+            'roles/neutral/evil/Phantom',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Killing',
+          collapsed: false,
+          link: {
+            type: 'generated-index',
+            title: 'Killing',
+            description: 'Killing roles set out to be the last killer alive at all costs.',
+            image: '/img/Icons/Juggernaut.png',
+          },
+          items:
+          [
+            'roles/neutral/killing/Arsonist',
+            'roles/neutral/killing/Glitch',
+            'roles/neutral/killing/Juggernaut',
+            'roles/neutral/killing/Plaguebearer',
+            'roles/neutral/killing/Pestilence',
+            'roles/neutral/killing/Soul Collector',
+            'roles/neutral/killing/Vampire',
+            'roles/neutral/killing/Werewolf',
+          ]
+        },
+        'roles/neutral/neutral'
       ]
     },
   ],
