@@ -5,4 +5,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 #### Universal Alliance
 
-As a lover, you can chat with your other lover (signified with a pink **♥**) during the round, and you can win with your lover if you are both a part of the final 3 players.
+As a lover, you can chat with your other lover (signified with a pink **♥**) during the round, and you can win with your lover if you are both a part of the final 3 players, or you can win with your original win condition.

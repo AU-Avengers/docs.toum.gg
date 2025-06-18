@@ -334,6 +334,16 @@ const sidebars: SidebarsConfig = {
         'modifiers/crewmate/Celebrity',
         'modifiers/crewmate/Diseased',
         'modifiers/crewmate/Frosty',
+        'modifiers/crewmate/Investigator',
+        'modifiers/crewmate/Multitasker',
+        'modifiers/crewmate/Noisemaker',
+        'modifiers/crewmate/Operative',
+        'modifiers/crewmate/Rotting',
+        'modifiers/crewmate/Scientist',
+        'modifiers/crewmate/Scout',
+        'modifiers/crewmate/Spy',
+        'modifiers/crewmate/Taskmaster',
+        'modifiers/crewmate/Torch',
       ]
     },
     {
@@ -368,6 +378,16 @@ const sidebars: SidebarsConfig = {
       items:
       [
         'modifiers/universal/Button Barry',
+        'modifiers/universal/Flash',
+        'modifiers/universal/Giant',
+        'modifiers/universal/Immovable',
+        'modifiers/universal/Mini',
+        'modifiers/universal/Radar',
+        'modifiers/universal/Satellite',
+        'modifiers/universal/Shy',
+        'modifiers/universal/Sixth Sense',
+        'modifiers/universal/Sleuth',
+        'modifiers/universal/Tiebreaker',
       ]
     },
   ],
