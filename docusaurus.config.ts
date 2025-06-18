@@ -78,6 +78,11 @@ const config: Config = {
           position: 'left',
         },
         {
+          href: 'https://discord.gg/ugyc4EVUYZ',
+          label: 'Discord',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/AU-Avengers/TOU-Mira',
           label: 'GitHub',
           position: 'right',
@@ -94,10 +99,10 @@ const config: Config = {
               label: 'Roles',
               to: '/docs/category/crewmates',
             },
-            // {
-            //   label: 'Modifiers',
-            //   to: '/docs/modifiers',
-            // },
+             {
+               label: 'Modifiers',
+               to: '/docs/modifiers',
+             },
             {
               label: 'Changelog',
               to: '/blog',
