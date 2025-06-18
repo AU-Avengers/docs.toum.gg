@@ -308,41 +308,66 @@ const sidebars: SidebarsConfig = {
       link: {
         type: 'generated-index',
         title: 'Alliances',
-        description: 'Alliances are modifiers that allow players to form teams with other players. These alliances can either go alongside their role as an optional win condition or outright replace it.',
+        description: 'Alliances are modifiers that allow players to form teams with other players. These alliances can either go alongside their role as an optional win condition or outright replace it. These modifiers can be stacked with a Faction and Universal modifier.',
         image: '/img/Egotist.png',
       },
       items:
       [
-        {
-          type: 'category',
-          label: 'Crewmate',
-          collapsed: false,
-          link: {
-            type: 'generated-index',
-            title: 'Crewmate',
-            description: 'Crewmate Alliances can only apply to crewmates.',
-            image: '/img/Icons/Egotist.png',
-          },
-          items:
-          [
-            'modifiers/alliance/crewmate/Egotist',
-          ]
-        },
-        {
-          type: 'category',
-          label: 'Universal',
-          collapsed: false,
-          link: {
-            type: 'generated-index',
-            title: 'Universal',
-            description: 'Universal Alliances can apply to any player, regardless of their faction.',
-            image: '/img/Icons/Lover.png',
-          },
-          items:
-          [
-            'modifiers/alliance/universal/Lovers',
-          ]
-        },
+        'modifiers/alliance/Egotist',
+        'modifiers/alliance/Lovers',
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Crewmate',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+        title: 'Crewmate',
+        description: 'These modifiers are Crewmate specific, and can be stacked with an Alliance and Universal modifier.',
+        image: '/img/Bait.png',
+      },
+      items:
+      [
+        'modifiers/crewmate/Aftermath',
+        'modifiers/crewmate/Bait',
+        'modifiers/crewmate/Celebrity',
+        'modifiers/crewmate/Diseased',
+        'modifiers/crewmate/Frosty',
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Impostor',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+        title: 'Impostor',
+        description: 'These modifiers are Impostor specific, and can be stacked with an Alliance and Universal modifier.',
+        image: '/img/Saboteur.png',
+      },
+      items:
+      [
+        'modifiers/impostor/Disperser',
+        'modifiers/impostor/Double Shot',
+        'modifiers/impostor/Saboteur',
+        'modifiers/impostor/Telepath',
+        'modifiers/impostor/Underdog',
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Universal',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+        title: 'Universal',
+        description: 'These modifiers are Universal and can apply to anyone, which can be stacked with an Alliance and Faction modifier.',
+        image: '/img/Shy.png',
+      },
+      items:
+      [
+        'modifiers/universal/Button Barry',
       ]
     },
   ],
