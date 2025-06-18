@@ -45,18 +45,18 @@ const sidebars: SidebarsConfig = {
       link: {
         type: 'generated-index',
         title: 'Crewmates',
-        description: 'Crewmates are the main characters of the game. They win when they have either completed all tasks, or have managed to kill all impostors and neutral killers. This faction has the following alignments: Investigative, Protective, Killing, Power and Support.',
+        description: 'Crewmates are the main faction of the game. They win when they have either completed all tasks, or have managed to eliminate all impostors and neutral killers. This faction has the following alignments: Investigative, Protective, Killing, Power and Support.',
         image: '/img/Crew.png',
       },
       items:
       [
         {
           type: 'category',
-          label: 'Investigative',
+          label: 'Crew Investigative',
           collapsed: false,
           link: {
             type: 'generated-index',
-            title: 'Investigative',
+            title: 'Crewmate Investigative',
             description: 'Investigative roles have the primary ability to gather information about other players. They can use this information to deduce who is crew or not.',
             image: '/img/Icons/Detective.png',
           },
@@ -77,11 +77,11 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Killing',
+          label: 'Crew Killing',
           collapsed: false,
           link: {
             type: 'generated-index',
-            title: 'Killing',
+            title: 'Crewmate Killing',
             description: 'Killing roles have the primary ability to kill other players. However, with great power comes great responsibility',
             image: '/img/Icons/Sheriff.png',
           },
@@ -96,11 +96,11 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Power',
+          label: 'Crew Power',
           collapsed: false,
           link: {
             type: 'generated-index',
-            title: 'Power',
+            title: 'Crewmate Power',
             description: 'Power roles have the primary ability to influence how the game is played via interfering with the voting capabilities of either their own votes or others\'.',
             image: '/img/Icons/Mayor.png',
           },
@@ -115,11 +115,11 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Protective',
+          label: 'Crew Protective',
           collapsed: false,
           link: {
             type: 'generated-index',
-            title: 'Protective',
+            title: 'Crewmate Protective',
             description: 'Protective roles have the primary ability to protect other players from being killed. They can use this ability to protect themselves or other players.',
             image: '/img/Icons/Medic.png',
           },
@@ -133,12 +133,12 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Support',
+          label: 'Crew Support',
           collapsed: false,
           link: {
             type: 'generated-index',
-            title: 'Support',
-            description: 'Support roles have the primary ability to support other players.',
+            title: 'Crewmate Support',
+            description: 'Support roles have the ability to either get extra information for the crew or manipulate the game in subtle ways.',
             image: '/img/Icons/Imitator.png',
           },
           items:
@@ -150,7 +150,6 @@ const sidebars: SidebarsConfig = {
             'roles/crewmate/support/Transporter'
           ]
         },
-        'roles/crewmate/crewmate'
       ]
     },
     {
@@ -167,11 +166,11 @@ const sidebars: SidebarsConfig = {
       [
         {
           type: 'category',
-          label: 'Concealing',
+          label: 'Imp Concealing',
           collapsed: false,
           link: {
             type: 'generated-index',
-            title: 'Concealing',
+            title: 'Impostor Concealing',
             description: 'Concealing roles have the ability to kill as well as deceive other players while doing so.',
             image: '/img/Icons/Grenadier.png',
           },
@@ -187,11 +186,11 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Killing',
+          label: 'Imp Killing',
           collapsed: false,
           link: {
             type: 'generated-index',
-            title: 'Killing',
+            title: 'Impostor Killing',
             description: 'Killing roles have enhanced killing abilities, allowing them to kill other players more effectively than a standard Impostor.',
             image: '/img/Icons/Warlock.png',
           },
@@ -205,11 +204,11 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Support',
+          label: 'Imp Support',
           collapsed: false,
           link: {
             type: 'generated-index',
-            title: 'Support',
+            title: 'Impostor Support',
             description: 'Support roles have the ability to help their team hide bodies or make killing more accessible.',
             image: '/img/Icons/Janitor.png',
           },
@@ -222,7 +221,6 @@ const sidebars: SidebarsConfig = {
             'roles/impostor/support/Undertaker'
           ]
         },
-        'roles/impostor/impostor'
       ]
     },
     {
@@ -239,11 +237,11 @@ const sidebars: SidebarsConfig = {
       [
         {
           type: 'category',
-          label: 'Benign',
+          label: 'Neut Benign',
           collapsed: false,
           link: {
             type: 'generated-index',
-            title: 'Benign',
+            title: 'Neutral Benign',
             description: 'Benign roles usually help out others or simply live to win the game.',
             image: '/img/Icons/GuardianAngel.png',
           },
@@ -257,11 +255,11 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Evil',
+          label: 'Neut Evil',
           collapsed: false,
           link: {
             type: 'generated-index',
-            title: 'Evil',
+            title: 'Neutral Evil',
             description: 'Evil roles set out to complete their goals to stay as a kingmaker, leave in victory, or end the game.',
             image: '/img/Icons/Doomsayer.png',
           },
@@ -276,11 +274,11 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Killing',
+          label: 'Neut Killing',
           collapsed: false,
           link: {
             type: 'generated-index',
-            title: 'Killing',
+            title: 'Neutral Killing',
             description: 'Killing roles set out to be the last killer alive at all costs.',
             image: '/img/Icons/Juggernaut.png',
           },
@@ -296,7 +294,6 @@ const sidebars: SidebarsConfig = {
             'roles/neutral/killing/Werewolf',
           ]
         },
-        'roles/neutral/neutral'
       ]
     },
   ],
