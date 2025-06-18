@@ -3,4 +3,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/Icons/Swooper.png')} alt="Icon" align="left" style={{width: 60}} />
 # Swooper
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The Swooper is an Impostor Concealing role that can temporarily turn invisible.

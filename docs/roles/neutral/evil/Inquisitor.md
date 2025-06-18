@@ -3,4 +3,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/Icons/Inquisitor.png')} alt="Icon" align="left" style={{width: 60}} />
 # Inquisitor
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The Inquisitor is a Neutral Evil role that wins if their targets (Heretics) die. The only information provided is their roles, and it's up to the Inquisitor to identify those players (marked with a dark pink-ish **$** to the dead) and get them killed by any means neccesary.

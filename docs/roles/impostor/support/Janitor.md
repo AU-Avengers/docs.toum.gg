@@ -3,4 +3,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/Icons/Janitor.png')} alt="Icon" align="left" style={{width: 60}} />
 # Janitor
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The Janitor is an Impostor Support role that can clean dead bodies, clearing any evidence besides the victim's pet (if any).

@@ -3,4 +3,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/Icons/Miner.png')} alt="Icon" align="left" style={{width: 60}} />
 # Miner
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The Miner is an Impostor Support role that can create vents around the map that connect together.

@@ -3,4 +3,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/Icons/GuardianAngel.png')} alt="Icon" align="left" style={{width: 60}} />
 # Guardian Angel
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The Guardian Angel is a Neutral Benign that needs to protect their target (signified by a light blue **★**) from getting killed/ejected.
