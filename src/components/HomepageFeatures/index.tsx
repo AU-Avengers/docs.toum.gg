@@ -61,9 +61,10 @@ export default function HomepageFeatures(): ReactNode {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
+        <p className="hero__subtitle">Town Of Us: Mira is a reimagining of Town of Us Reactivated, with new roles and modifiers, as well as visual and codebase overhauls. The mod includes nerfs and buffs for certain pre-existing roles, so feel free to check them out and join the TOUR discord for feedback and suggestions.</p>
+          {/* {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
-          ))}
+          ))} */}
         </div>
       </div>
     </section>
