@@ -21,7 +21,7 @@ function HomepageHeader() {
           <img
             src={useBaseUrl('/img/Banner.png')}
             alt="TOU Mira Logo"
-            style={{width: "auto", height: "200px"}}
+            style={{width: "auto", height: "auto", maxHeight: "200px", maxWidth: "100%"}}
           />
         </div>
         {/* <p className="hero__subtitle">Town Of Us: Mira is a reimagining of Town of Us Reactivated, with new roles and modifiers, as well as visual and codebase overhauls.</p> */}
