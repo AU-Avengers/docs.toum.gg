@@ -6,7 +6,7 @@ const config: Config = {
   title: 'Town Of Us: Mira Docs',
   tagline: 'A comprehensive guide to Town Of Us: Mira',
   favicon: 'img/logo.ico',
-  url: 'https://username.github.io',
+  url: 'https://au-avengers.github.io',
   baseUrl: '/docs.toum.gg/',
   // url: 'https://docstoum.com',
   // baseUrl: 'docstoum.com',
