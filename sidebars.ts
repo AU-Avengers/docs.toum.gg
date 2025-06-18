@@ -300,6 +300,52 @@ const sidebars: SidebarsConfig = {
       ]
     },
   ],
+  modifiersSidebar: [
+    {
+      type: 'category',
+      label: 'Alliances',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+        title: 'Alliances',
+        description: 'Alliances are modifiers that allow players to form teams with other players. These alliances can either go alongside their role as an optional win condition or outright replace it.',
+        image: '/img/Egotist.png',
+      },
+      items:
+      [
+        {
+          type: 'category',
+          label: 'Crewmate',
+          collapsed: false,
+          link: {
+            type: 'generated-index',
+            title: 'Crewmate',
+            description: 'Crewmate Alliances can only apply to crewmates.',
+            image: '/img/Icons/Egotist.png',
+          },
+          items:
+          [
+            'modifiers/alliance/crewmate/Egotist',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Universal',
+          collapsed: false,
+          link: {
+            type: 'generated-index',
+            title: 'Universal',
+            description: 'Universal Alliances can apply to any player, regardless of their faction.',
+            image: '/img/Icons/Lover.png',
+          },
+          items:
+          [
+            'modifiers/alliance/universal/Lovers',
+          ]
+        },
+      ]
+    },
+  ],
 };
 
 export default sidebars;

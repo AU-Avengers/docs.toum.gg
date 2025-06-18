@@ -52,8 +52,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/Embed.png',
     navbar: {
       title: 'Town Of Us: Mira',
       logo: {
@@ -66,6 +65,12 @@ const config: Config = {
           sidebarId: 'rolesSidebar',
           position: 'left',
           label: 'Roles',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'modifiersSidebar',
+          position: 'left',
+          label: 'Modifiers',
         },
         {
           to: '/blog',
