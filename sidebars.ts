@@ -46,7 +46,7 @@ const sidebars: SidebarsConfig = {
         type: 'generated-index',
         title: 'Crewmates',
         description: 'Crewmates are the main characters of the game. They win when they have either completed all tasks, or have managed to kill all impostors and neutral killers. This faction has the following alignments: investigative, protective, killing, power and support.',
-        image: 'img/Crew.png',
+        image: '/img/Crew.png',
       },
       items:
       [
@@ -58,21 +58,21 @@ const sidebars: SidebarsConfig = {
             type: 'generated-index',
             title: 'Investigative',
             description: 'Investigative roles have the primary ability to gather information about other players. They can use this information to deduce who is crew or not.',
-            image: 'img/icons/Detective.png',
+            image: '/img/icons/Detective.png',
           },
           items:
           [
-            'roles/crewmate/investigative/aurial',
-            'roles/crewmate/investigative/detective',
-            'roles/crewmate/investigative/haunter',
-            'roles/crewmate/investigative/investigator',
-            'roles/crewmate/investigative/lookout',
-            'roles/crewmate/investigative/mystic',
-            'roles/crewmate/investigative/seer',
-            'roles/crewmate/investigative/snitch',
-            'roles/crewmate/investigative/spy',
-            'roles/crewmate/investigative/tracker',
-            'roles/crewmate/investigative/trapper'
+            'roles/crewmate/investigative/Aurial',
+            'roles/crewmate/investigative/Detective',
+            'roles/crewmate/investigative/Haunter',
+            'roles/crewmate/investigative/Investigator',
+            'roles/crewmate/investigative/Lookout',
+            'roles/crewmate/investigative/Mystic',
+            'roles/crewmate/investigative/Seer',
+            'roles/crewmate/investigative/Snitch',
+            'roles/crewmate/investigative/Spy',
+            'roles/crewmate/investigative/Tracker',
+            'roles/crewmate/investigative/Trapper'
           ]
         },
         {
@@ -83,15 +83,15 @@ const sidebars: SidebarsConfig = {
             type: 'generated-index',
             title: 'Killing',
             description: 'Killing roles have the primary ability to kill other players. However, with great power comes great responsibility',
-            image: 'img/icons/Sheriff.png',
+            image: '/img/icons/Sheriff.png',
           },
           items:
           [
-            'roles/crewmate/killing/deputy',
-            'roles/crewmate/killing/hunter',
-            'roles/crewmate/killing/sheriff',
-            'roles/crewmate/killing/veteran',
-            'roles/crewmate/killing/vigilante'
+            'roles/crewmate/killing/Deputy',
+            'roles/crewmate/killing/Hunter',
+            'roles/crewmate/killing/Sheriff',
+            'roles/crewmate/killing/Veteran',
+            'roles/crewmate/killing/Vigilante'
           ]
         },
         {
@@ -102,15 +102,15 @@ const sidebars: SidebarsConfig = {
             type: 'generated-index',
             title: 'Power',
             description: 'Power roles have the primary ability to influence how the game is played via interfering with the voting capabilities of either their own votes or others\'.',
-            image: 'img/icons/Mayor.png',
+            image: '/img/icons/Mayor.png',
           },
           items:
           [
-            'roles/crewmate/power/jailor',
-            'roles/crewmate/power/mayor',
-            'roles/crewmate/power/politician',
-            'roles/crewmate/power/prosecutor',
-            'roles/crewmate/power/swapper'
+            'roles/crewmate/power/Jailor',
+            'roles/crewmate/power/Mayor',
+            'roles/crewmate/power/Politician',
+            'roles/crewmate/power/Prosecutor',
+            'roles/crewmate/power/Swapper'
           ]
         },
         {
@@ -121,14 +121,14 @@ const sidebars: SidebarsConfig = {
             type: 'generated-index',
             title: 'Protective',
             description: 'Protective roles have the primary ability to protect other players from being killed. They can use this ability to protect themselves or other players.',
-            image: 'img/icons/Medic.png',
+            image: '/img/icons/Medic.png',
           },
           items:
           [
-            'roles/crewmate/protective/altruist',
-            'roles/crewmate/protective/cleric',
-            'roles/crewmate/protective/medic',
-            'roles/crewmate/protective/oracle'
+            'roles/crewmate/protective/Altruist',
+            'roles/crewmate/protective/Cleric',
+            'roles/crewmate/protective/Medic',
+            'roles/crewmate/protective/Oracle'
           ]
         },
         {
@@ -139,15 +139,15 @@ const sidebars: SidebarsConfig = {
             type: 'generated-index',
             title: 'Support',
             description: 'Support roles have the primary ability to support other players.',
-            image: 'img/icons/Imitator.png',
+            image: '/img/icons/Imitator.png',
           },
           items:
           [
-            'roles/crewmate/support/engineer',
-            'roles/crewmate/support/imitator',
-            'roles/crewmate/support/medium',
-            'roles/crewmate/support/plumber',
-            'roles/crewmate/support/transporter'
+            'roles/crewmate/support/Engineer',
+            'roles/crewmate/support/Imitator',
+            'roles/crewmate/support/Medium',
+            'roles/crewmate/support/Plumber',
+            'roles/crewmate/support/Transporter'
           ]
         },
         'roles/crewmate/crewmate'
