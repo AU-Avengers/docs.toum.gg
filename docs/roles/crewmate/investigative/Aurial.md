@@ -1,6 +1,6 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Aurial.png')} alt="Icon" align="left" style={{width: 60}} />
+<img src={useBaseUrl('/img/Icons/Aurial.png')} alt="Icon" align="left" style={{height: 60}} />
 # Aurial
 
 The Aurial is a Crewmate Investigative role that will be alerted whenever a player near them uses one of their abilities.
