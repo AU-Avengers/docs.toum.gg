@@ -6,3 +6,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 #### Impostor Passive
 
 You have a reduced cooldown when sabotaging.
+
+### Options
+
+| Option | Description | Type | Default | Min/Max |
+|----------|:-----------------:|:------:|:------:|:------:|
+| Reduced Sabo Cooldown | Amount of time trimmed off your sabotage cooldown. | Seconds | 10s | 5s - 15s |

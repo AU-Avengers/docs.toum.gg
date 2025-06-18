@@ -6,3 +6,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 #### Crewmate Postmortem
 
 After you die, your killer's kill cooldown is multiplied by a specified factor.
+
+### Options
+
+| Option | Description | Type | Default | Min/Max |
+|----------|:-----------------:|:------:|:------:|:------:|
+| Cooldown Multiplier | The multiplier applied to the killer's cooldown. | Multiplier | 3x | 1.5x - 5x |
