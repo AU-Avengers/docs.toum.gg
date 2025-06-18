@@ -3,4 +3,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/Icons/Trapper.png')} alt="Icon" align="left" style={{width: 60}} />
 # Trapper
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The Trapper is a Crewmate Investigative role that can place traps around the map. If someone stays in it for enough time and enough players go through, they will get a list of their roles in the next meeting in random order.

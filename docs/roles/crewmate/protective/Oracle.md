@@ -3,4 +3,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/Icons/Oracle.png')} alt="Icon" align="left" style={{width: 60}} />
 # Oracle
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The Oracle is a Crewmate Protective role that can get another player to confess (revealing their faction with some accuracy if the Oracle dies) or can protect a player from being ejected.

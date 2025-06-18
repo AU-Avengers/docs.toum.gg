@@ -3,6 +3,5 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/Icons/Snitch.png')} alt="Icon" align="left" style={{width: 60}} />
 # Snitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+The Snitch is a Crewmate Investigative role that can reveal the Impostors to themselves by finishing all their tasks. Upon completing all tasks, the Impostors will be revealed to the Snitch with an arrow and their red name.
 

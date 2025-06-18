@@ -3,4 +3,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/Icons/Deputy.png')} alt="Icon" align="left" style={{width: 60}} />
 # Deputy
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The Deputy is a Crewmate Killing role that can camp other players. Once a camped player dies the Deputy is alerted to their death. The following meeting the Deputy may then attempt to shoot the killer of the camped player. If successful the killer dies and if not, nothing happens.
