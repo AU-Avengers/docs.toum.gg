@@ -1,6 +1,6 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/icons/Mystic.png')} alt="Icon" align="left" style={{width: 60}} />
+<img src={useBaseUrl('/img/Icons/Mystic.png')} alt="Icon" align="left" style={{width: 60}} />
 # Mystic
 
 The Mystic is a Crewmate Investigative role that gets an alert when someone dies.
