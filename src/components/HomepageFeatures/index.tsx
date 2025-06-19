@@ -68,7 +68,7 @@ export default function HomepageFeatures(): ReactNode {
           ))} */}
       <div className="container">
             <div className="text--center">
-                <p className="h3">Development Team: Atony, AlchlcSystm, anglewtf, twix, xerminator, SigmaCube, and Zeo (the Unc) :p</p>
+                <p className="h3">Development Team: Atony, AlchlcSystm, anglewtf, DigiWorm, Donners, K3ndo, MyDragonBreath, Pietro, twix, xerminator, SigmaCube, and Zeo (the Unc) :p</p>
                 </div>
             </div>
           </div>
