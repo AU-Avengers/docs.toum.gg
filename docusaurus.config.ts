@@ -77,6 +77,12 @@ const config: Config = {
           position: 'left',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'installSidebar',
+          position: 'left',
+          label: 'Installation',
+        },
+        {
           href: 'https://discord.gg/ugyc4EVUYZ',
           label: 'Discord',
           position: 'right',
@@ -106,6 +112,10 @@ const config: Config = {
               label: 'Changelog',
               to: '/blog',
             },
+             {
+               label: 'Installation',
+               to: '/docs/install/intro',
+             },
           ],
         },
         {

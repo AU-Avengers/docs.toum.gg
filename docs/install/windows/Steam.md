@@ -1,0 +1,29 @@
+
+# Steam
+
+#### Most Compatible Release: Among Us v16.1.0s + TOU Mira v0.9.81
+
+This method will work on Windows by using the Steam version of Among Us.
+
+### What you'll need
+
+- Among Us on [Steam](https://store.steampowered.com/app/945360) running on the most compatible version of Among Us
+
+### Setup + Downgrading (If Required)
+
+If downgrading is required, you can do so by clicking "Properties", then "Betas", then selecting "public-beta".
+
+Once you've installed the game, navigate to its install folder - "Manage", then "Browse local files".
+Duplicate the folder that Among Us is installed to, rename it to something like "Among Us (TOU Mira)", and proceed to the next step.
+
+### Mod Installation
+
+1. Download the latest version of TOU: Mira that supports steam from [here](https://github.com/AU-Avengers/TOU-Mira/releases/latest).
+2. Extract the contents of the archive into your "Among Us (TOU Mira)" folder.
+    - "Among Us.exe" and the "BepInEx" folder should both be visible in the same place.
+
+### You're Done!
+
+If everything was set up correctly, launching the **Among Us.exe** file in the "Among Us (TOU Mira)" folder should open Among Us with the Town of Us logo on the home screen, replacing the original Among Us logo. Happy tasking!
+
+If your game crashes, doesn't load mods, or another issue occurs, join our [Discord](https://discord.gg/ugyc4EVUYZ) and make a ticket in the [#tour-support](https://discord.com/channels/890249154402586734/900986905154453504) channel for assistance.
