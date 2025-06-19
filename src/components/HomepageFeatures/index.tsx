@@ -66,7 +66,11 @@ export default function HomepageFeatures(): ReactNode {
           {/* {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))} */}
-            <p className="h3">Development Team: Zeo and friends :p</p>
+      <div className="container">
+            <div className="text--center">
+                <p className="h3">Development Team: Atony, AlchlcSystm, anglewtf, twix, xerminator, SigmaCube, and Zeo (the Unc) :p</p>
+                </div>
+            </div>
           </div>
         </div>
       </div>

@@ -34,7 +34,7 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
+      //title={`Main Page`}
       /* description="Town Of Us: Mira is a reimagining of Town of Us Reactivated, with new roles and modifiers, as well as visual and codebase overhauls." */>
       <HomepageHeader />
       <main>
