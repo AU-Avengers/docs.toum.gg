@@ -1,5 +1,6 @@
 
 # Itch.io
+###### Guide Written by [Chloe](https://totallychloe.carrd.co/)
 
 #### Most Compatible Release: Among Us Version 105 + TOU Mira v0.9.81
 

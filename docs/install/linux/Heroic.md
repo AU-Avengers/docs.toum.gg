@@ -1,7 +1,7 @@
 
 # Heroic (Epic Games) - WIP
 
-#### Most Compatible Release: Among Us v16.1.0s + TOU Mira v0.9.81
+#### Most Compatible Release: Among Us v16.1.0 + TOU Mira v0.9.81
 
 This method will work on Linux by using the Heroic Launcher for use with the Epic Games version of Among Us.
 

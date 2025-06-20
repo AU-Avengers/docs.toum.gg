@@ -401,7 +401,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Linux Install',
+      label: 'Linux / Steam Deck Install',
       collapsed: false,
       link: {
         type: 'generated-index',

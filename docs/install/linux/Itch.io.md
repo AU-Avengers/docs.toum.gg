@@ -1,5 +1,6 @@
 
 # Itch.io - WIP
+###### Guide Written by [Chloe](https://totallychloe.carrd.co/)
 
 #### Most Compatible Release: Among Us v16.1.0 + TOU Mira v0.9.81
 

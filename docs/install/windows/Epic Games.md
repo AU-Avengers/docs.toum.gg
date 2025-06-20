@@ -1,7 +1,8 @@
 
 # Epic Games
+###### Guide Written by [Chloe](https://totallychloe.carrd.co/)
 
-#### Most Compatible Release: Among Us v16.1.0s + TOU Mira v0.9.81
+#### Most Compatible Release: Among Us v16.1.0 + TOU Mira v0.9.81
 
 This method will work on Windows by using the Epic Games version of Among Us.
 
