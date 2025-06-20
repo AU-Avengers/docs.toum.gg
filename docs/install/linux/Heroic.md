@@ -1,13 +1,14 @@
 
-# Itch.io - WIP
+# Heroic (Epic Games) - WIP
 
-#### Most Compatible Release: Among Us v16.1.0 + TOU Mira v0.9.81
+#### Most Compatible Release: Among Us v16.1.0s + TOU Mira v0.9.81
 
-This method will work on Linux by using the Itch.io version of Among Us.
+This method will work on Linux by using the Heroic Launcher for use with the Epic Games version of Among Us.
 
 ### What you'll need
 
-- Among Us on [Itch.io](https://innersloth.itch.io/among-us) running on the most compatible version of Among Us
+- Own Among Us on [Epic Games](https://store.epicgames.com/en-US/p/among-us)
+- Among Us on the [Heroic Games Launcher](https://heroicgameslauncher.com/downloads) running on the most compatible version of Among Us
 
 ### Setup
 

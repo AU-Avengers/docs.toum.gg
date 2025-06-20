@@ -18,7 +18,7 @@ Duplicate the folder that Among Us is installed to, rename it to something like 
 
 ### Mod Installation
 
-1. Download the latest version of TOU: Mira that supports steam from [here](https://github.com/AU-Avengers/TOU-Mira/releases/latest).
+1. Download the latest version of TOU: Mira that supports Steam from [here](https://github.com/AU-Avengers/TOU-Mira/releases/latest).
 2. Extract the contents of the archive into your "Among Us (TOU Mira)" folder.
     - "Among Us.exe" and the "BepInEx" folder should both be visible in the same place.
 

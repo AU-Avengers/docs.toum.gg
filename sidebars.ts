@@ -374,7 +374,7 @@ const sidebars: SidebarsConfig = {
         type: 'generated-index',
         title: 'Windows Install',
         description: 'Windows installation guide for Town of Us: Mira. This guide will help you install the mod on Windows on the following storefronts: Epic Games, Itch.io, Microsoft Store and Steam.',
-        image: '/img/Egotist.png',
+        image: '/img/Spy.png',
       },
       items:
       [
@@ -391,8 +391,8 @@ const sidebars: SidebarsConfig = {
       link: {
         type: 'generated-index',
         title: 'Android',
-        description: 'Android installation guide for Town of Us: Mira. This guide will help you install the mod on Android using Starlight (Unreleased.)',
-        image: '/img/Glitch.png',
+        description: 'Android installation guide for Town of Us: Mira. This guide will help you install the mod on Android using Starlight.',
+        image: '/img/Scientist.png',
       },
       items:
       [
@@ -406,11 +406,12 @@ const sidebars: SidebarsConfig = {
       link: {
         type: 'generated-index',
         title: 'Linux',
-        description: 'Linux installation guide for Town of Us: Mira. This guide will help you install the mod on Linux on the following storefronts: Itch.io and Steam.',
-        image: '/img/Glitch.png',
+        description: 'Linux installation guide for Town of Us: Mira. This guide will help you install the mod on Linux on the following storefronts: Epic Games (Using the Heroic Launcher), Itch.io and Steam.',
+        image: '/img/Operative.png',
       },
       items:
       [
+        'install/linux/Heroic',
         'install/linux/Itch.io',
         'install/linux/Steam',
       ]

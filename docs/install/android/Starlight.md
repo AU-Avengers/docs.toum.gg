@@ -1,5 +1,5 @@
 
-# Starlight (UNRELEASED)
+# Starlight - UNRELEASED
 
 #### Most Compatible Release: Among Us v16.1.0a + TOU Mira v1.0.0
 
@@ -17,7 +17,7 @@ If the release is not for the latest version of Among Us, you will need to downg
 
 ### Mod Installation
 
-1. Download the latest version of TOU: Mira that supports android from [here](https://github.com/AU-Avengers/TOU-Mira/releases/latest).
+1. Download the latest version of TOU: Mira that supports Android from [here](https://github.com/AU-Avengers/TOU-Mira/releases/latest).
 2. Extract the zip file that contains TOU: Mira and its dependencies (should be MiraAPI.dll, Reactor.dll, and TownOfUs.dll) into a folder like your downloads folder.
 3. Make sure to run vanilla among us at least once prior to launching the mod, and then enter the Starlight app.
 4. Import all the mods that you extracted into the Mods tab of the application.
