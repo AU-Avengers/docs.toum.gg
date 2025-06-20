@@ -8,3 +8,13 @@ alchlcdvl:
   socials:
     x: alchlcdvl
     github: AlchlcDvl
+atony:
+  name: Atony
+  title: Developer
+  url: https://github.com/AtonyGit
+  image_url: https://github.com/AtonyGit.png
+  page:
+    permalink: '/all-atony-articles'
+  socials:
+    x: AtonyNothing
+    github: AtonyGit
