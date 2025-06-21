@@ -16,6 +16,6 @@ The Lookout is a Crewmate Investigative role that can watch other players during
 | Option | Description | Type | Default | Range |
 |----------|:-----------------:|:------:|:------:|:------:|
 | Watch Cooldown | Cooldown for watching a player. | Seconds | 20s | 1s - 30s |
-| Max Watches | Maximum players that can be watched. | Uses | 5 | 1 - 15 |
-| Reset Each Round | Determines if uses are reset each round or not. | Toggle | True | N/A |
-| Task Uses | Determines if doing tasks gives more uses. | Toggle | False | N/A |
+| Max Watches | Maximum players that can be watched. | Count | 5 | 1 - 15 |
+| Reset Each Round | Determines if uses are reset each round or not. | Toggle | True | True / False |
+| Task Uses | Determines if doing tasks gives more uses. | Toggle | False | True / False |

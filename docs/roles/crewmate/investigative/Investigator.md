@@ -12,5 +12,5 @@ The Investigator is a Crewmate Investigative role can see player's footprints th
 | Footprint Size | Changes how big footprints are. | Multiplier | 4x | 1x - 10x |
 | Footprint Interval | Changes how often footprints are created. | Seconds | 1s | 0.5s - 6s |
 | Footprint Duration | Changes how long footprints are visible for. | Seconds | 10s | 1s - 15s |
-| Anonymous Footprints | Determines if footprints are color coded based off the player. | Toggle | False | N/A |
-| Show Vent Footprints | Determines if footprints are visible from a player that's in a vent. | Toggle | False | N/A |
+| Anonymous Footprints | Determines if footprints are color coded based off the player. | Toggle | False | True / False |
+| Show Vent Footprints | Determines if footprints are visible from a player that's in a vent. | Toggle | False | True / False |
