@@ -8,7 +8,7 @@ The Lookout is a Crewmate Investigative role that can watch other players during
 ### Abilities
 
 | Button | Ability | Description | Type |
-|----------|----------|:-----------------:|:------:|
+|:----------:|:----------:|:-----------------:|:------:|
 | <img src={useBaseUrl('/img/CrewButtons/WatchButton.png')} alt="Button" style={{width: 50}} /> | Watch | Watch a player or multiple, the next meeting you will know which players interacted with the watched ones. | Player Interaction |
 
 ### Options
