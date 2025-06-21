@@ -9,7 +9,7 @@ Know when your teammate kills (maybe where depending on settings), and depending
 
 ### Options
 
-| Option | Description | Type | Default | Min/Max |
+| Option | Description | Type | Default | Range |
 |----------|:-----------------:|:------:|:------:|:------:|
 | Know Kill Location | Determines if you know **where** your teammate **kills**. | Toggle | True | N/A |
 | Know Death Time | Determines if you know **when** your teammate **dies**. | Toggle | True | N/A |

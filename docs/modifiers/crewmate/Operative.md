@@ -9,7 +9,7 @@ Use cameras at anytime, anywhere with a limited battery charge.
 
 ### Options
 
-| Option | Description | Type | Default | Min/Max |
+| Option | Description | Type | Default | Range |
 |----------|:-----------------:|:------:|:------:|:------:|
 | Move On Mira | Determines if you can move around while the Mira Doorlog is open. | Toggle | True | N/A |
 | Starting Charge | Amount of charge given right off the bat. | Seconds | 20s | 0s - 30s |

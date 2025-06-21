@@ -9,7 +9,7 @@ As a lover, you can chat with your other lover (signified with a pink **♥**) d
 
 ### Options
 
-| Option | Description | Type | Default | Min/Max |
+| Option | Description | Type | Default | Range |
 |----------|:-----------------:|:------:|:------:|:------:|
 | Lifelink | Determines if lovers die and revive together. | Toggle | True | N/A |
 | Loving Imp Percent | Chance that one of the lovers is a killer. | Percent | 20% | 0% - 100% |

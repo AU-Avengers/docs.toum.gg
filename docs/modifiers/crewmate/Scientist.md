@@ -9,7 +9,7 @@ Access Vitals anytime, anywhere with a limited battery charge.
 
 ### Options
 
-| Option | Description | Type | Default | Min/Max |
+| Option | Description | Type | Default | Range |
 |----------|:-----------------:|:------:|:------:|:------:|
 | Move With Vitals | Determines if you can move around with vitals open. | Toggle | True | N/A |
 | Starting Charge | Amount of charge given right off the bat. | Seconds | 20s | 0s - 30s |

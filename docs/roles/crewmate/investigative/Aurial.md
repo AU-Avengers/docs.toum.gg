@@ -8,7 +8,7 @@ Depending on how close a player uses an ability, the aurial will see a colored a
 
 ### Options
 
-| Option | Description | Type | Default | Min/Max |
+| Option | Description | Type | Default | Range |
 |----------|:-----------------:|:------:|:------:|:------:|
 | Radiate Colour Range | Range where arrows will be colored. | Multiplier | 0.5x | 0x - 1x |
 | Max Radiate Range | Range where arrows will. | Multiplier | 1.5x | 1x - 5x |

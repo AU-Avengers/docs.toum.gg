@@ -9,7 +9,7 @@ The Spy gains extra information on the admin table. Not only does the Spy see ho
 
 ### Options
 
-| Option | Description | Type | Default | Min/Max |
+| Option | Description | Type | Default | Range |
 |----------|:-----------------:|:------:|:------:|:------:|
 | Who Sees Bodies On Admin | Changes who sees bodies on admin. | Nobody / Spy / Everyone But Spy / Everyone | Both | N/A |
 | Portable Admin | Changes if the Spy Role and/or/nor the Modifier has access to the portable Admin. | Role / Modifier / Both / Neither | Both | N/A |

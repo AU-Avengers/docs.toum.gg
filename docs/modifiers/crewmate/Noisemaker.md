@@ -9,7 +9,7 @@ After your death, you will show a red body indicator to everyone on the map.
 
 ### Options
 
-| Option | Description | Type | Default | Min/Max |
+| Option | Description | Type | Default | Range |
 |----------|:-----------------:|:------:|:------:|:------:|
 | Impostors Alerted | Determines if impostors see the alert or not. | Toggle | True | N/A |
 | Neutrals Alerted | Determines if neutral killers see the alert or not. | Toggle | True | N/A |
