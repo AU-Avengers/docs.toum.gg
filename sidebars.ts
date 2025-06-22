@@ -396,7 +396,7 @@ const sidebars: SidebarsConfig = {
       },
       items:
       [
-        'install/android/Starlight',
+        // 'install/android/Starlight',
       ]
     },
     {
