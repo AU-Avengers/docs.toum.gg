@@ -20,5 +20,5 @@ The Trapper is a Crewmate Investigative role that can place traps around the map
 | Max Number Of Traps | The maximum number of traps the Trapper can place | Count | 5 | 1 - 15 |
 | Trap Size | The range of the traps | Multiplier | 0.25x | 0.05x - 1x |
 | Traps Removed After Each Round | Toggles whether trap positions reset at the end of every meeting | Toggle | True | True / False |
+| ┗ Get More Uses From Completing Tasks | Toggles whether the maximum number of traps increases upon task completion | Toggle | False | True / False |
 | Minimum Number Of Roles Required To Trigger Trap | The minimum threshold of roles the traps much have gathered before the info is presented to the Trapper | Count | 3 | 1 - 15 |
-| Get More Uses From Completing Tasks | Toggles whether the maximum number of traps increases upon task completion | Toggle | False | True / False |

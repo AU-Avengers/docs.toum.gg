@@ -1,8 +1,8 @@
 
 # Itch.io - WIP
-###### Guide Written by [Chloe](https://totallychloe.carrd.co/)
+###### Guide Is Not Available Yet
 
-#### Most Compatible Release: Among Us v16.1.0 + TOU Mira v0.9.81
+#### Most Compatible Release: Among Us v16.1.0 + TOU Mira v1.0.0
 
 This method will work on Linux by using the Itch.io version of Among Us.
 
