@@ -3,7 +3,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 # Microsoft Store / Xbox App
 ###### Guide Written by [Atony](https://github.com/AtonyGit)
 
-#### Most Compatible Release: Among Us v16.1.0 + TOU Mira v1.0.0
+#### Most Compatible Release: Among Us v16.1.0 (**LATEST**) + TOU Mira v1.0.0
 
 This method will work on Windows by using the Microsoft Store / Xbox App version of Among Us, but **only** if the mod can run on the latest release.
 

@@ -2,7 +2,7 @@
 # Steam
 ###### Guide Written by [Chloe](https://totallychloe.carrd.co/)
 
-#### Most Compatible Release: Among Us v16.1.0 + TOU Mira v1.0.0
+#### Most Compatible Release: Among Us v16.1.0 (**LATEST**) + TOU Mira v1.0.0
 
 This method will work on Windows by using the Steam version of Among Us.
 
@@ -12,7 +12,8 @@ This method will work on Windows by using the Steam version of Among Us.
 
 ### Setup + Downgrading (If Required)
 
-If downgrading is required, you can do so by clicking "Properties", then "Betas", then selecting "public-beta".
+If downgrading is required, you can do so by clicking "Properties", then "Betas", then selecting "public-beta" or "public-previous".
+If the mod runs on latest, then make sure that the Beta is set to "None".
 
 Once you've installed the game, navigate to its install folder - "Manage", then "Browse local files".
 Duplicate the folder that Among Us is installed to, rename it to something like "Among Us (TOU Mira)", and proceed to the next step.
