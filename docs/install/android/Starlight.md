@@ -2,7 +2,7 @@
 # Starlight - UNRELEASED
 ###### Guide Written by [Atony](https://github.com/AtonyGit)
 
-#### Most Compatible Release: Among Us v16.1.0 (**LATEST**) + TOU Mira v1.0.0
+#### Most Compatible Release: Among Us v16.1.0 (**LATEST**) + TOU Mira v1.0.1
 
 This method will work on Android or through the use of **[Bluestacks](https://www.bluestacks.com/download.html)** on PC.
 
