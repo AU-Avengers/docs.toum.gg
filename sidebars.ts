@@ -104,7 +104,8 @@ const sidebars: SidebarsConfig = {
             'roles/crewmate/protective/Altruist',
             'roles/crewmate/protective/Cleric',
             'roles/crewmate/protective/Medic',
-            'roles/crewmate/protective/Oracle'
+            'roles/crewmate/protective/Oracle',
+            'roles/crewmate/protective/Warden'
           ]
         },
         {
