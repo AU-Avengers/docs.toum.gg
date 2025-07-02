@@ -10,6 +10,7 @@ The Hunter is a Crewmate Killing role that can stalk players during the round. I
 | Button | Ability | Description | Type |
 |:----------:|:----------:|:-----------------:|:------:|
 | <img src={useBaseUrl('/img/CrewButtons/StalkButton.png')} alt="Button" style={{width: 50}} /> | Stalk | Stalk any player of your choosing. If they use any ability while stalked, they’re added to the Hunter's hitlist and can be killed. | Player Interaction |
+| <img src={useBaseUrl('/img/CrewButtons/HunterKillButton.png')} alt="Button" style={{width: 50}} /> | Kill | Kill any player that has been added to your hitlist. | Player Interaction |
 
 ### Options
 
