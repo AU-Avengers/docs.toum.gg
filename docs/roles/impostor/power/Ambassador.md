@@ -1,0 +1,9 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img src={useBaseUrl('/img/Icons/Ambassador.png')} alt="Icon" align="left" style={{height: 60}} />
+# Ambassador
+#### UPCOMING ROLE FOR TOU MIRA V1.1.0
+
+The Ambassador is an Impostor Power role that can retrain impostors into other impostor roles of the same caliber.
+
+Impostor Concealing/Support Roles can become other Concealing and Support roles, while Impostor Killing and Power roles can be any Non-Power roles.

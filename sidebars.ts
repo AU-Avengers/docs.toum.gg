@@ -104,6 +104,7 @@ const sidebars: SidebarsConfig = {
             'roles/crewmate/protective/Altruist',
             'roles/crewmate/protective/Cleric',
             'roles/crewmate/protective/Medic',
+            'roles/crewmate/protective/Mirrorcaster',
             'roles/crewmate/protective/Oracle',
             'roles/crewmate/protective/Warden'
           ]
@@ -173,12 +174,28 @@ const sidebars: SidebarsConfig = {
           },
           items:
           [
+              'roles/impostor/killing/Ambusher',
             'roles/impostor/killing/Bomber',
             'roles/impostor/killing/Scavenger',
-            'roles/impostor/killing/Traitor',
             'roles/impostor/killing/Warlock'
           ]
         },
+          {
+              type: 'category',
+              label: 'Imp Power',
+              collapsed: false,
+              link: {
+                  type: 'generated-index',
+                  title: 'Impostor Power',
+                  description: 'Power roles have abilities that can be deemed far stronger than other roles, which can alter the game for Impostors drastically.',
+                  image: '/img/Icons/Ambassador.png',
+              },
+              items:
+                  [
+                      'roles/impostor/power/Ambassador',
+                      'roles/impostor/power/Traitor'
+                  ]
+          },
         {
           type: 'category',
           label: 'Imp Support',
