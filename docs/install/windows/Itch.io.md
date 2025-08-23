@@ -2,7 +2,7 @@
 # Itch.io
 ###### Guide Written by [Chloe](https://totallychloe.carrd.co/)
 
-#### Most Compatible Release: Among Us Version 105 (**LATEST**) + TOU Mira v1.1.0
+#### Most Compatible Release: Among Us Version 105 (**LATEST**) + TOU Mira v1.1.1
 
 This method will work on Windows by using the Itch.io version of Among Us.
 

@@ -2,7 +2,7 @@
 # Steam
 ###### Guide Written by [Chloe](https://totallychloe.carrd.co/)
 
-#### Most Compatible Release: Among Us v16.1.0 (**LATEST**) + TOU Mira v1.1.0
+#### Most Compatible Release: Among Us v16.1.0 (**LATEST**) + TOU Mira v1.1.1
 
 This method will work on Windows by using the Steam version of Among Us.
 
