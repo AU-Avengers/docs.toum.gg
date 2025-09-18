@@ -6,25 +6,131 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #940000;
+  --ifm-color-primary-dark: #850000;
+  --ifm-color-primary-darker: #7e0000;
+  --ifm-color-primary-darkest: #680000;
+  --ifm-color-primary-light: #a30000;
+  --ifm-color-primary-lighter: #aa0000;
+  --ifm-color-primary-lightest: #c00000;
+  --ifm-background-color: #eeeeee;
+  --ifm-color-content:#000000;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-link: #f19696; /* change your link text color */
+  --docusaurus-details-decoration-color: #cdd2ff;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #e64747;
+  --ifm-color-primary-dark: #e22d2d;
+  --ifm-color-primary-darker: #e11f1f;
+  --ifm-color-primary-darkest: #b91919;
+  --ifm-color-primary-light: #ea6161;
+  --ifm-color-primary-lighter: #eb6f6f;
+  --ifm-color-primary-lightest: #f19696;
+  --ifm-background-color: #18181b;
+  --ifm-color-link: #f19696; /* change your link text color */
+  --ifm-color-content: #ffffff;
+  --ifm-details-background-color: #f0f0f0;      /* details background */
+  --docusaurus-details-decoration-color: #ff6600; /* arrow & border color */
+}
+
+a {
+  text-decoration: none; /* remove underline */
+  color:#e64747;
+}
+
+/* Optional: hover effect */
+a:hover {
+  text-decoration: none; /* still no underline on hover */
+}
+.theme-doc-markdown a {
+  text-decoration: none;
+}
+
+.theme-doc-markdown a:hover {
+  text-decoration: none;
+}
+
+.hero { 
+  background-color: #101029; /* light theme default */
+}
+.hero__title {
+  color: var(--ifm-color-primary); /* Light theme default */
+}
+
+.hero__subtitle {
+  color: var(--ifm-color-secondary); /* Light theme subtitle */
+}
+
+/* Dark mode overrides */
+@media (prefers-color-scheme: dark) {
+  .hero__title {
+    color: #ffffff; /* fallback if variable not defined */
+  }
+
+  .hero__subtitle {
+    color: #FFDD55; /* custom dark subtitle color */
+  }
+}
+
+/* Details elements */
+details.customdetails {
+  background-color: var(--ifm-background-color);
+  border-color: var(--ifm-color-primary-lightest);
+  --docusaurus-details-decoration-color: var(--ifm-color-primary-lightest);
+}
+
+/* Fix background, border, and transition */
+details {
+  background-color: var(--ifm-background-color) !important;
+  border: 1px solid var(--ifm-color-primary-lightest) !important;
+  border-radius: 8px;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Adjust when open */
+details[open] {
+  border-color: var(--ifm-color-primary-lightest) !important;
+}
+
+/* Summary matches container */
+details > summary {
+  background-color: var(--ifm-background-color) !important;
+  color: var(--ifm-color-content) !important;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Hover effect */
+details > summary:hover {
+  background-color: var(--ifm-color-emphasis-200) !important;
+}
+
+details[open] > summary::after {
+  transform: rotate(90deg);
+}
+
+/* Collapsed details box */
+.markdown details {
+  background-color: #f0f0f0;
+  border-radius: 6px;
+
+}
+
+/* The clickable summary line */
+.markdown details summary {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+/* Expanded details content */
+.markdown details[open] {
+  background-color: #fafafa;
+}
+.theme-doc-markdown details summary {
+  background-color: #e0e0e0; /* summary background */
+  padding: 0.5em;
+  cursor: pointer;
 }
