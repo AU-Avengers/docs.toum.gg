@@ -20,7 +20,7 @@ atony:
     github: AtonyGit
 moon:
   name: moon  
-  title: TOU Server Staff Manager
+  title: TOU Staff Manager
   url: https://github.com/aquaamoon
   image_url: https:github.com/aquaamoon.png
   page:
