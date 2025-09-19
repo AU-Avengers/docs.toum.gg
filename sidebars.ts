@@ -391,7 +391,7 @@ const sidebars: SidebarsConfig = {
       link: {
         type: 'generated-index',
         title: 'Windows Install',
-        description: 'Windows installation guide for Town of Us: Mira. This guide will help you install the mod on Windows on the following storefronts: Epic Games, Itch.io, Microsoft Store and Steam.',
+        description: 'These guides will help you install Town of Us: Mira on Windows for the following platforms: Epic Games, Itch.io, Microsoft Store and Steam.',
         image: '/img/Spy.png',
       },
       items:
@@ -424,7 +424,7 @@ const sidebars: SidebarsConfig = {
       link: {
         type: 'generated-index',
         title: 'Linux',
-        description: 'Linux installation guide for Town of Us: Mira. This guide will help you install the mod on Linux on the following storefronts: Epic Games (Using the Heroic Launcher), Itch.io and Steam.',
+        description: 'These guides will help you install Town of Us: Mira on Linux for the following platforms: Epic Games (Heroic Launcher), Itch.io and Steam.',
         image: '/img/Operative.png',
       },
       items:
@@ -432,6 +432,21 @@ const sidebars: SidebarsConfig = {
         'install/linux/Heroic',
         'install/linux/Itch.io',
         'install/linux/Steam',
+      ]
+    },
+     {
+      type: 'category',
+      label: 'Mac',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+        title: 'Mac Installation',
+        description: 'This guide will help you install Town of Us: Mira on MacOS via Steam.',
+        image:"/img/Multitasker.png",
+      },
+      items:
+      [
+        'install/mac/steam',
       ]
     },
   ],
