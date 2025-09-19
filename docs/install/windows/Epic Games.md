@@ -1,38 +1,54 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Epic Games
-###### Guide Written by [Chloe](https://totallychloe.carrd.co/)
+Guide to install Town of Us: Mira via Epic Games on Windows.
 
-#### Most Compatible Release: Among Us v16.1.0 (**DOWNGRADE NEEDED**) + TOU Mira v1.1.1
+<img src={useBaseUrl('/img/Install/epiclogo.png')}   style={{ float: 'right', width: '100px', margin: '-100px 50px 00px 20px' }}
+/>
 
-This method will work on Windows by using the Epic Games version of Among Us.
+This guide requires that you own <i>Among Us</i> on [Epic Games](https://store.epicgames.com/en-US/p/among-us).
 
-### What you'll need
+**Required base game version:** v.16.1.0 — **DOWNGRADE REQUIRED.**
+***
+### Downgrading
 
-- Among Us on [Epic Games](https://store.epicgames.com/en-US/p/among-us) running on the most compatible version of Among Us
+**1.** In the Windows search bar, search for PowerShell and open it.
 
-### Setup (If Mod Is For Latest Release)
-
-1. Find your game's install directory and duplicate the game folder. Rename it to something like "Among Us (TOU Mira)".
-2 Download [this zip file](https://github.com/whichtwix/EpicGamesStarter/releases/latest), unzip it, and place the exe file inside your copied folder. Proceed to "Mod Installation".
-
-### Setup (If Downgrade Is Required)
-
-1. Make sure Epic Games is open and you're signed in.
-2. Open the PowerShell app and run the command:
-````md
+**2.** Copy the following command, paste  it into PowerShell and hit Enter:
+```md
 iwr https://github.com/whichtwix/EpicGamesDowngrader/releases/latest/download/DowngradeEpic.ps1 -UseBasicParsing | iex 
-````
+```
+<b>Note:</b> If you see the prompt <b>Do you want to install Among Us [Y/N]?</b>, type <b>Y</b> and hit Enter.
 
-**Note:** You may have to press "Y" a few times through the prompts on screen. Once it has finished, your downgraded folder will be at "C:\Users\[YOUR NAME]\Games\AmongUs". Proceed to "Mod Installation".
+**3.** If successful, a new folder will open with the downgraded game version at `C:\YourName\Games\AmongUs`. If you see the **.egstore** folder, it has not downgraded correctly.
+
+**4.** Download the [latest](https://github.com/AU-Avengers/TOU-Mira/releases/latest) mod version (look for the **.epic.msstore.zip** file) and extract the contents of the folder. Copy all of the contents and paste them into the downgraded folder. It should look like this example:
+
+<img src={useBaseUrl('/img/Install/miraepicDG.png')} style={{  width: '600px' }}/>
+
+**5.** Launch using the **EpicGamesStarter.exe**. If the exe is missing, download it [here](https://github.com/whichtwix/EpicGamesStarter/releases/latest) and add it to the folder.
+
+<b>Note:</b> After launching, if the console window shows `waiting...` over and over, check that you are logged into the Epic Games Launcher, as the downgrade process may log you out.
+
+***
 
 ### Mod Installation
 
-1. Download the latest version of TOU: Mira that supports Epic Games from [here](https://github.com/AU-Avengers/TOU-Mira/releases/latest).
-2. Extract the contents of the archive into your "Among Us (TOU Mira)" folder.
-    - "Among Us.exe" and the "BepInEx" folder should both be visible in the same place.
+<b>1.</b> Download the [latest](https://github.com/AU-Avengers/TOU-Mira/releases/latest) mod version (look for the **.epic.msstore.zip** file).
 
-### You're Done!
+<b>2.</b> Navigate to the Epic Games installation location (e.g. `C:\Program Files\Epic Games`). Duplicate the *Among Us* folder and rename it to something like <b>'Among Us - TOU Mira'.</b>
 
-If everything was set up correctly, launching the **EpicGamesStarter.exe** file in the "Among Us (TOU Mira)" folder should open Among Us with the Town of Us logo on the home screen, replacing the original Among Us logo. Happy tasking!
+<b>3.</b> Extract the contents of the .zip folder you downloaded and open it. Copy all of the contents and paste them into the new TOU Mira folder. It should look like this example:
 
-If your game crashes, doesn't load mods, or another issue occurs, join our [Discord](https://discord.gg/ugyc4EVUYZ) and make a ticket in the [#tour-support](https://discord.com/channels/890249154402586734/900986905154453504) channel for assistance.
+<img src="https://media.discordapp.net/attachments/1362163503779155968/1397851420002091038/image.png?ex=68cd0e15&is=68cbbc95&hm=059138f802911d1a30c12b6264431517c2974fcc72fef9439a798c55d4902daf&format=webp&quality=lossless&"/>
+
+<b>4.</b> Download the <b>EpicGamesStarter.exe</b> [here](https://github.com/whichtwix/EpicGamesStarter/releases/latest). Extract the file and place it into the TOU Mira folder.
+
+<b>5.</b> Launch the game using the <b>EpicGamesStarter.exe.</b>
+
+If installed correctly, the <b>Town of Us: Mira</b> logo will be displayed in the top left corner.
+
+***
+* If you encounter any errors or other issues during the downgrade process, please join the [TOU Discord](https://discord.com/invite/town-of-us-reactivated) server and open a **Mira Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel, and provide a screenshot of the full terminal window displaying the errors.
+
+<sub>Original guide written by [Chloe](https://totallychloe.carrd.co/).</sub>
