@@ -40,7 +40,7 @@ iwr https://github.com/whichtwix/EpicGamesDowngrader/releases/latest/download/Do
 
 <b>3.</b> Extract the contents of the .zip folder you downloaded and open it. Copy all of the contents and paste them into the new TOU Mira folder. It should look like this example:
 
-<img src="https://media.discordapp.net/attachments/1362163503779155968/1397851420002091038/image.png?ex=68cd0e15&is=68cbbc95&hm=059138f802911d1a30c12b6264431517c2974fcc72fef9439a798c55d4902daf&format=webp&quality=lossless&"/>
+<img src={useBaseUrl('/img/Install/miraepicNDG.png')} style={{  width: '600px' }}/>
 
 <b>4.</b> Download the <b>EpicGamesStarter.exe</b> [here](https://github.com/whichtwix/EpicGamesStarter/releases/latest). Extract the file and place it into the TOU Mira folder.
 
@@ -49,6 +49,7 @@ iwr https://github.com/whichtwix/EpicGamesDowngrader/releases/latest/download/Do
 If installed correctly, the <b>Town of Us: Mira</b> logo will be displayed in the top left corner.
 
 ***
-* If you encounter any errors or other issues during the downgrade process, please join the [TOU Discord](https://discord.com/invite/town-of-us-reactivated) server and open a **Mira Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel, and provide a screenshot of the full terminal window displaying the errors.
+
+If you encounter any errors or other issues during the downgrade process, please join the [TOU Discord](https://discord.com/invite/town-of-us-reactivated) server and open a **Mira Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel, and provide a screenshot of the full terminal window displaying the errors.
 
 <sub>Original guide written by [Chloe](https://totallychloe.carrd.co/).</sub>
