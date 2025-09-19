@@ -1,10 +1,10 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+<img src={useBaseUrl('/img/install/epiclogo.png')} alt="Icon" align="left" style={{ height: '40px', margin: '15px 10px 10px 00px'}} />
+
 # Epic Games
 Guide to install Town of Us: Mira via Epic Games on Windows.
 
-<img src={useBaseUrl('/img/Install/epiclogo.png')}   style={{ float: 'right', width: '100px', margin: '-100px 50px 00px 20px' }}
-/>
 
 This guide requires that you own <i>Among Us</i> on [Epic Games](https://store.epicgames.com/en-US/p/among-us).
 
