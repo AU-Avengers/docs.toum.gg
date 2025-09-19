@@ -1,26 +1,7 @@
-
 # Heroic (Epic Games) - WIP
-###### Guide Is Not Available Yet
+### This guide is not available yet.
 
-#### Most Compatible Release: Among Us v16.1.0 (**PREVIOUS RELEASE**) + TOU Mira v1.1.1
+This guide requires that you own *Among Us* on [Epic Games](https://store.epicgames.com/en-US/p/among-us) and *Among Us* on the [Heroic Games Launcher](https://heroicgameslauncher.com/downloads).
 
-This method will work on Linux by using the Heroic Launcher for use with the Epic Games version of Among Us.
-
-### What you'll need
-
-- Own Among Us on [Epic Games](https://store.epicgames.com/en-US/p/among-us)
-- Among Us on the [Heroic Games Launcher](https://heroicgameslauncher.com/downloads) running on the most compatible version of Among Us
-
-### Setup
-
-Check back later!
-
-### Mod Installation
-
-1. Check back later!
-
-### You're Done!
-
-If everything was set up correctly, launching the **Unknown** file in the "Unknown" folder should open Among Us with the Town of Us logo on the home screen, replacing the original Among Us logo. Happy tasking!
-
-If your game crashes, doesn't load mods, or another issue occurs, join our [Discord](https://discord.gg/ugyc4EVUYZ) and make a ticket in the [#tour-support](https://discord.com/channels/890249154402586734/900986905154453504) channel for assistance.
+***
+If your game crashes, doesn't load mods, or another issue occurs, please join the Town of Us [Discord](https://discord.gg/ugyc4EVUYZ) server and make a **Mira Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel for assistance.
