@@ -1,31 +1,38 @@
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Itch.io
-###### Guide Written by [Chloe](https://totallychloe.carrd.co/)
+Guide to install Town of Us: Mira via Itch.io on Windows.
 
-#### Most Compatible Release: Among Us Version 105 (**PREVIOUS RELEASE**) + TOU Mira v1.1.1
+<img src={useBaseUrl('/img/Install/itchlogo.png')}   style={{ float: 'right', width: '150px', margin: '-100px 50px 00px 20px' }}
+/>
 
-This method will work on Windows by using the Itch.io version of Among Us.
+This guide requires that you own *Among Us* on [Itch.io](https://innersloth.itch.io/among-us) and have the [Itch.io app](https://itch.io/app) installed.
 
-### What you'll need
+* **Required base game version:** v.16.1.0 — **downgrade required.**
+***
+### Downgrading
 
-- Among Us on [Itch.io](https://innersloth.itch.io/among-us) running on the most compatible version of Among Us
-- The [Itch.io app](https://itch.io/app)
+**1.** In your Itch.io library, right-click Among Us and click **Manage > Switch to another version...**
 
-### Setup
+**2.** Select `version 105 (10 June)`.
 
-To start, install Among Us in the itch.io app. 
+***
 
-If downgrading is required, go to your Library, right-click Among Us, then "Manage", then "Switch to another version...". Select the correct version here.
+### Installation
 
-### Mod Installation
+**1.** Download the [latest](https://github.com/AU-Avengers/TOU-Mira/releases/latest) **Town of Us: Mira** version (download the  *steam-itch.zip* file.)
 
-1. Right click on Among Us, then "Manage", then "Open folder in explorer".
-1. Download the latest version of TOU: Mira that supports Itch.io from [here](https://github.com/AU-Avengers/TOU-Mira/releases/latest).
-2. Extract the contents of the archive into your game folder.
-    - "Among Us.exe" and the "BepInEx" folder should both be visible in the same place.
+**2.** In your Itch.io library, right-click *Among Us*, then `Manage` > `Open folder in  explorer`.
 
-### You're Done!
+**3.** Duplicate the *Among Us* folder and rename it to something like **Among Us - TOU Mira**. 
 
-If everything was set up correctly, launching the **Among Us.exe** file in the "Among Us (TOU Mira)" folder should open Among Us with the Town of Us logo on the home screen, replacing the original Among Us logo. Happy tasking!
+**4.** Extract the contents of the .zip file you downloaded and copy the contents. Paste the files into the TOU Mira folder. It should look like this example:
 
-If your game crashes, doesn't load mods, or another issue occurs, join our [Discord](https://discord.gg/ugyc4EVUYZ) and make a ticket in the [#tour-support](https://discord.com/channels/890249154402586734/900986905154453504) channel for assistance.
+<img src={useBaseUrl('/img/Install/miraitch.png')} style={{  width: '600px' }}/>
+
+**5.** Launch the *Among Us* exe from the TOU Mira folder. If successful, it will launch with the **Town of Us: Mira** logo displayed in the top left corner.
+
+***
+If you encounter any issues with installing, please join the Town of Us [Discord](https://discord.gg/ugyc4EVUYZ) server and make a **Mira Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel for assistance.
+
+<sub>Original guide written by [Chloe](https://totallychloe.carrd.co/).</sub>
