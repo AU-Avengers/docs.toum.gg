@@ -3,12 +3,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 # Steam 
 Guide to install Town of Us: Mira via Steam on Windows.
 
-<img src={useBaseUrl('/img/Install/steamlogo.png')}   style={{ float: 'right', width: '150px', margin: '-100px 50px 00px 20px' }}
+<img src={useBaseUrl('/img/Install/steamlogo.png')}   style={{ width: '100%', maxWidth: '100px', height:'auto', float: 'right', margin: '-100px 50px 00px 20px' }}
 />
 
-**Required base game version:** v16.1.0 — **downgrade required**.
-
 This guide requires that you own *Among Us* on [Steam](https://store.steampowered.com/app/945360).
+
+**Required base game version:** v16.1.0 — **DOWNGRADE REQUIRED**.
+
 ***
 ### Downgrading
 **1.** Right-click *Among Us* on Steam, then click **Properties**.
