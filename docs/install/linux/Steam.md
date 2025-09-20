@@ -1,6 +1,6 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Install/steamlogo.png')} align="left" style={{height: 50}}/>
+<img src={useBaseUrl('/img/Install/steamlogo.png')} alt="Icon" align="left" style={{ height: '40px', margin: '10px 10px 10px 10px'}} />
 # Steam
 Guide to install Town of Us: Mira via Steam on Linux / Steam Deck.
 
