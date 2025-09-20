@@ -1,6 +1,6 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/install/epiclogo.png')} alt="Icon" align="left" style={{ height: '40px', margin: '15px 10px 10px 00px'}} />
+<img src={useBaseUrl('/img/Install/epiclogo.png')} alt="Icon" align="left" style={{ height: '40px', margin: '15px 10px 10px 00px'}} />
 
 # Epic Games
 Guide to install Town of Us: Mira via Epic Games on Windows.
@@ -28,8 +28,9 @@ iwr https://github.com/whichtwix/EpicGamesDowngrader/releases/latest/download/Do
 
 **5.** Launch using the **EpicGamesStarter.exe**. If the exe is missing, download it [here](https://github.com/whichtwix/EpicGamesStarter/releases/latest) and add it to the folder.
 
-<b>Note:</b> After launching, if the console window shows `waiting...` over and over, check that you are logged into the Epic Games Launcher, as the downgrade process may log you out.
+If downgraded and installed correctly, the game will launch with the **Town of Us: Mira** logo displayed in the top left corner.
 
+<sub><b>Note:</b> After launching, if the console window shows `waiting...` over and over, check that you are logged into the Epic Games Launcher, as the downgrade process may log you out.</sub>
 ***
 
 ### Mod Installation
@@ -40,16 +41,16 @@ iwr https://github.com/whichtwix/EpicGamesDowngrader/releases/latest/download/Do
 
 <b>3.</b> Extract the contents of the .zip folder you downloaded and open it. Copy all of the contents and paste them into the new TOU Mira folder. It should look like this example:
 
-<img src={useBaseUrl('/img/Install/miraepicNDG.png')} style={{  width: '600px' }}/>
+<img src={useBaseUrl('/img/Install/miraepicNDG.png')} />
 
 <b>4.</b> Download the <b>EpicGamesStarter.exe</b> [here](https://github.com/whichtwix/EpicGamesStarter/releases/latest). Extract the file and place it into the TOU Mira folder.
 
 <b>5.</b> Launch the game using the <b>EpicGamesStarter.exe.</b>
 
-If installed correctly, the <b>Town of Us: Mira</b> logo will be displayed in the top left corner.
+If installed correctly, the game will launch with <b>Town of Us: Mira</b> logo  displayed in the top left corner.
 
 ***
 
-If you encounter any errors or other issues during the downgrade process, please join the [TOU Discord](https://discord.com/invite/town-of-us-reactivated) server and open a **Mira Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel, and provide a screenshot of the full terminal window displaying the errors.
+If you encounter any errors during the downgrade process, or any other issues installing, please join the [TOU Discord](https://discord.com/invite/town-of-us-reactivated) server and open a **Mira Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel. Please provide a screenshot of the full terminal window displaying downgrade errors.
 
 <sub>Original guide written by [Chloe](https://totallychloe.carrd.co/).</sub>
