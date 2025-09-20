@@ -1,5 +1,7 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+<img src={useBaseUrl('/img/Install/itchlogo.png')} alt="Icon" align="left" style={{ height: '40px', margin: '10px 10px 10px 00px'}} />
+
 # Itch.io
 Guide to install Town of Us: Mira via Itch.io on Windows.
 
