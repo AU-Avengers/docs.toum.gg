@@ -75,6 +75,7 @@ a:hover {
   }
 }
 
+
 /* Details elements */
 details.customdetails {
   background-color: var(--ifm-background-color);
@@ -82,7 +83,7 @@ details.customdetails {
   --docusaurus-details-decoration-color: var(--ifm-color-primary-lightest);
 }
 
-/* Fix background, border, and transition */
+/* Details background, border, and transition */
 details {
   background-color: var(--ifm-background-color) !important;
   border: 1px solid var(--ifm-color-primary-lightest) !important;
@@ -90,7 +91,7 @@ details {
   transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
-/* Adjust when open */
+/* Adjusts when open */
 details[open] {
   border-color: var(--ifm-color-primary-lightest) !important;
 }
@@ -112,25 +113,9 @@ details[open] > summary::after {
   transform: rotate(90deg);
 }
 
-/* Collapsed details box */
-.markdown details {
-  background-color: #f0f0f0;
-  border-radius: 6px;
-
-}
-
-/* The clickable summary line */
-.markdown details summary {
-  background-color: #e0e0e0;
-  cursor: pointer;
-}
-
-/* Expanded details content */
-.markdown details[open] {
-  background-color: #fafafa;
-}
-.theme-doc-markdown details summary {
-  background-color: #e0e0e0; /* summary background */
-  padding: 0.5em;
-  cursor: pointer;
+/* Change the horizontal rule color */
+hr {
+  border: none; /* remove default styling */
+  border-top: 2px solid var(--ifm-color-primary-lighter); 
+  margin: 1.5em 0;
 }
