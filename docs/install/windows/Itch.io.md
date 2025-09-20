@@ -26,7 +26,7 @@ This guide requires that you own *Among Us* on [Itch.io](https://innersloth.itch
 
 **4.** Extract the contents of the .zip file you downloaded and copy the contents. Paste the files into the TOU Mira folder. It should look like this example:
 
-<img src={useBaseUrl('/img/Install/miraitch.png')} style={{  width: '600px' }}/>
+<img src={useBaseUrl('/img/Install/miraitch.png')} />
 
 **5.** Launch the *Among Us* exe from the TOU Mira folder. If successful, it will launch with the **Town of Us: Mira** logo displayed in the top left corner.
 
