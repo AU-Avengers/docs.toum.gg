@@ -1,5 +1,7 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+<img src={useBaseUrl('/img/install/xboxlogo.png')} alt="Icon" align="left" style={{ height: '40px', margin: '12px 10px 10px 00px'}} />
+
 # Microsoft Store / Xbox App
 Guide to install Town of Us: Mira via Microsoft Store/Xbox App.
 
@@ -33,4 +35,4 @@ This guide requires that you own *Among Us* on [Microsoft Store / Xbox App](http
 If installed correctly, launching *Among Us* from the Xbox App should open the auto-updater, then *Among Us* with the **Town of Us: Mira** logo displayed in the top left corner.
 
 *** 
-If your game crashes, doesn't load mods, or another issue occurs, please join the Town of Us [Discord](https://discord.gg/ugyc4EVUYZ) server and make a **Mira Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel for assistance.
+If you encounter any issues with installing, please join the Town of Us [Discord](https://discord.gg/ugyc4EVUYZ) server and make a **Mira Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel for assistance.
