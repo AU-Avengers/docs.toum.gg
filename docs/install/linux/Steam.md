@@ -1,10 +1,8 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+<img src={useBaseUrl('/img/install/steamlogo.png')} align="left" style={{height: 50}}/>
 # Steam
 Guide to install Town of Us: Mira via Steam on Linux / Steam Deck.
-
-<img src={useBaseUrl('/img/Install/steamlogo.png')}   style={{ float: 'right', width: '100px', margin: '-100px 50px 20px 20px' }}
-/>
 
 This guide requires that you own *Among Us* on [Steam](https://store.steampowered.com/app/945360). You will also need Protontricks from your preferred Flatpak manager.
 
@@ -13,7 +11,7 @@ This guide requires that you own *Among Us* on [Steam](https://store.steampowere
 *** 
 ### Downgrading
 * Right-click *Among Us* on Steam, then click **Properties**.
-* Click **Betas** and select `public previous` on the drop down.
+* Click **Betas** and select `public previous` on the drop-down.
 
 Steam should automatically update the game to the compatible version, then you can then follow the installation steps below.
 
@@ -47,6 +45,6 @@ If installed correctly, launching via the Steam shortcut will open the mod with 
 **Note**: This guide works as-is on Steam Deck, but TOU: Mira's controller support is imperfect. You will need to use a mouse and keyboard to play, or do a lot of controller configuration.
 
 ***
-If your game crashes, doesn't load mods, or another issue occurs, please join the Town of Us [Discord](https://discord.gg/ugyc4EVUYZ) server and make a **Mira Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel for assistance.
+If you encounter any issues with installing, please join the Town of Us [Discord](https://discord.gg/ugyc4EVUYZ) server and make a **Mira Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel for assistance.
 
 <sub>Original guide written by [Chloe](https://totallychloe.carrd.co/).</sub>
