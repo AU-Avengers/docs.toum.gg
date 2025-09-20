@@ -1,6 +1,6 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/install/xboxlogo.png')} alt="Icon" align="left" style={{ height: '40px', margin: '12px 10px 10px 00px'}} />
+<img src={useBaseUrl('/img/Install/xboxlogo.png')} alt="Icon" align="left" style={{ height: '40px', margin: '12px 10px 10px 00px'}} />
 
 # Microsoft Store / Xbox App
 Guide to install Town of Us: Mira via Microsoft Store/Xbox App.
