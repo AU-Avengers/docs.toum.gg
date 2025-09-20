@@ -24,7 +24,7 @@ iwr https://github.com/whichtwix/EpicGamesDowngrader/releases/latest/download/Do
 
 **4.** Download the [latest](https://github.com/AU-Avengers/TOU-Mira/releases/latest) mod version (look for the **.epic.msstore.zip** file) and extract the contents of the folder. Copy all of the contents and paste them into the downgraded folder. It should look like this example:
 
-<img src={useBaseUrl('/img/Install/miraepicDG.png')} style={{  width: '600px' }}/>
+<img src={useBaseUrl('/img/Install/miraepicDG.png')} />
 
 **5.** Launch using the **EpicGamesStarter.exe**. If the exe is missing, download it [here](https://github.com/whichtwix/EpicGamesStarter/releases/latest) and add it to the folder.
 
