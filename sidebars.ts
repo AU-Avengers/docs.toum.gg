@@ -446,7 +446,7 @@ const sidebars: SidebarsConfig = {
       },
       items:
       [
-        'install/mac/steam',
+        'install/mac/Steam',
       ]
     },
   ],
