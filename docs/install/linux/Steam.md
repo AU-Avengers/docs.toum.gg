@@ -6,7 +6,7 @@ Guide to install Town of Us: Mira via Steam on Linux / Steam Deck.
 
 This guide requires that you own *Among Us* on [Steam](https://store.steampowered.com/app/945360). You will also need Protontricks from your preferred Flatpak manager.
 
-**Required base game version:** v.16.1.0 — **DOWNGRADE REQUIRED.**
+**Required base game version:** v17.0.0 — **NO DOWNGRADE.**
 
 *** 
 ### Downgrading

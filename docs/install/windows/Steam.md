@@ -6,7 +6,7 @@ Guide to install Town of Us: Mira via Steam on Windows.
 
 This guide requires that you own *Among Us* on [Steam](https://store.steampowered.com/app/945360).
 
-**Required base game version:** v16.1.0 — **DOWNGRADE REQUIRED.**
+**Required base game version:** v17.0.0 — **NO DOWNGRADE.**
 
 ***
 ### Downgrading

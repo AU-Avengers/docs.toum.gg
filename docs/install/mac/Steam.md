@@ -6,7 +6,7 @@ Guide to install Town of Us: Mira via Steam on MacOS.
 
 This guide requires that you own *Among Us* on Steam and have **[Crossover](https://www.codeweavers.com/crossover/download)** installed (does not require a purchase).
 
-**Required base game version:** v16.1.0 — **DOWNGRADE REQUIRED.**
+**Required base game version:** v17.0.0 — **NO DOWNGRADE.**
 
 ***
 
