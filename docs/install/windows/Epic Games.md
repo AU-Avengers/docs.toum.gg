@@ -22,32 +22,9 @@ This guide requires that you own <i>Among Us</i> on [Epic Games](https://store.e
 
 <img src={useBaseUrl('/img/Install/miraepicNDG.png')} />
 
-<b>4.</b> Launch the game using the <b>EpicGamesStarter.exe. **Note:** You may have to launch as Administrator. 
+<b>4.</b> Launch the game using the <b>EpicGamesStarter.exe.</b> **Note:** You may have to launch as Administrator. 
 
-If installed correctly, the game will launch with <b>Town of Us: Mira</b> logo displayed in the top left corner.
-
-***
-### Downgrading — Not required for v1.2.0
-
-**1.** In the Windows search bar, search for PowerShell and open it.
-
-**2.** Copy the following command, paste  it into PowerShell and hit Enter:
-```md
-iwr https://github.com/whichtwix/EpicGamesDowngrader/releases/latest/download/DowngradeEpic.ps1 -UseBasicParsing | iex 
-```
-<b>Note:</b> If you see the prompt <b>Do you want to install Among Us [Y/N]?</b>, type <b>Y</b> and hit Enter.
-
-**3.** If successful, a new folder will open with the downgraded game version at `C:\YourName\Games\AmongUs`. If you see the **.egstore** folder, it has not downgraded correctly.
-
-**4.** Download the [latest](https://github.com/AU-Avengers/TOU-Mira/releases/latest) mod version (look for the **.epic.msstore.zip** file) and extract the contents of the folder. Copy all of the contents and paste them into the downgraded folder. It should look like this example:
-
-<img src={useBaseUrl('/img/Install/miraepicDG.png')} />
-
-**5.** Launch using the **EpicGamesStarter.exe**. If the exe is missing, download it [here](https://github.com/whichtwix/EpicGamesStarter/releases/latest) and add it to the folder.
-
-If downgraded and installed correctly, the game will launch with the **Town of Us: Mira** logo displayed in the top left corner.
-
-<sub><b>Note:</b> After launching, if the console window shows `waiting...` over and over, check that you are logged into the Epic Games Launcher, as the downgrade process may log you out.</sub>
+If installed correctly, the game will launch with <b>Town of Us: Mira</b> logo displayed in the top-left corner.
 
 ***
 If you encounter any issues installing or with the downgrade process, please join the [TOU Discord](https://discord.com/invite/town-of-us-reactivated) server and open a **Mira Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel. Please provide a screenshot of the full terminal window displaying any downgrade errors.
