@@ -7,12 +7,7 @@ Guide to install Town of Us: Mira via Itch.io on Windows.
 
 This guide requires that you own *Among Us* on [Itch.io](https://innersloth.itch.io/among-us) and have the [Itch.io app](https://itch.io/app) installed.
 
-**Required base game version:** v17.0.0 — **NO DOWNGRADE.**
-***
-### Downgrading
-
-* In your Itch.io library, right-click Among Us and click **Manage > Switch to another version...**
-* Select `version 106 (September 9)`.
+**Required base game version:** v17.0.0 (latest version)
 
 ***
 
@@ -31,6 +26,7 @@ This guide requires that you own *Among Us* on [Itch.io](https://innersloth.itch
 **5.** Launch the *Among Us* exe from the TOU Mira folder. If successful, it will launch with the **Town of Us: Mira** logo displayed in the top left corner.
 
 ***
+
 If you encounter any issues with installing, please join the Town of Us [Discord](https://discord.gg/ugyc4EVUYZ) server and make a **Mira Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel for assistance.
 
 <sub>Original guide written by [Chloe](https://totallychloe.carrd.co/).</sub>
