@@ -6,14 +6,7 @@ Guide to install Town of Us: Mira via Steam on Linux / Steam Deck.
 
 This guide requires that you own *Among Us* on [Steam](https://store.steampowered.com/app/945360). You will also need Protontricks from your preferred Flatpak manager.
 
-**Required base game version:** v17.0.0 — **NO DOWNGRADE.**
-
-*** 
-### Downgrading
-* Right-click *Among Us* on Steam, then click **Properties**.
-* Click **Betas** and select `public previous` on the drop-down.
-
-Steam should automatically update the game to the compatible version, then you can then follow the installation steps below.
+**Required base game version:** v17.0.0 (latest version)
 
 ***
 
@@ -27,7 +20,7 @@ Steam should automatically update the game to the compatible version, then you c
 
 **4.** Extract the contents of the .zip folder you downloaded and open it. Copy all the contents (two folders and five files) and paste them into the new TOU Mira folder. It should look like this example:
 
-<img src={useBaseUrl('/img/Install/mirasteam.png')} />
+<img src={useBaseUrl('/img/Install/steammira.png')} />
 
 **5.** On Steam, click **Add a Game** in the bottom left corner, select **Add a non-Steam game...**. In the pop-up, locate the AmongUs.exe from your new folder.
 
@@ -39,7 +32,7 @@ Steam should automatically update the game to the compatible version, then you c
 * Select **Edit the default wine prefix**, then **Run winecfg**.
 * In **winecfg**, click **Libraries**. Enter `winhttp` into the text box, click **Add > OK**. 
 
-If installed correctly, launching via the Steam shortcut will open the mod with the **Town of Us: Mira** logo displayed in the top left corner.
+If installed correctly, launching via the Steam shortcut will open the game with the **Town of Us: Mira** logo displayed in the top left corner.
 
 *** 
 **Note**: This guide works as-is on Steam Deck, but TOU: Mira's controller support is imperfect. You will need to use a mouse and keyboard to play, or do a lot of controller configuration.
