@@ -8,16 +8,7 @@ Guide to install Town of Us: Mira via Steam on MacOS.
 
 This guide requires that you own _Among Us_ on Steam and have **[Crossover](https://www.codeweavers.com/crossover/download)** installed (does not require a purchase).
 
-**Required base game version:** v.17.0.0 — **DOWNGRADE REQUIRED.**
-
----
-
-### Downgrading
-
-- Right-click _Among Us_ on Steam, then click **Properties**.
-- Click **Betas** and select `public previous` on the drop-down.
-
-Steam should automatically update the game to the compatible version, then you can follow the installation steps below.
+**Required base game version:** v.17.0.1 (latest version)
 
 ---
 
@@ -58,6 +49,15 @@ Run the following command in Terminal to reset the expired Crossover trial perio
 ```md
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Nygosaki/crossover-trial-renew/refs/heads/main/resetCrossoverTrial.sh)"
 ```
+
+---
+
+### Downgrading
+
+- Right-click _Among Us_ on Steam, then click **Properties**.
+- Click **Betas** and select `public previous` on the drop-down.
+
+Steam should automatically update the game to the compatible version, then you can follow the installation steps below.
 
 ---
 
