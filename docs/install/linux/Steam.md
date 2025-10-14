@@ -8,16 +8,7 @@ Guide to install Town of Us: Mira via Steam on Linux / Steam Deck.
 
 This guide requires that you own _Among Us_ on [Steam](https://store.steampowered.com/app/945360). You will also need Protontricks from your preferred Flatpak manager.
 
-**Required base game version:** v.17.0.0 — **DOWNGRADE REQUIRED.**
-
----
-
-### Downgrading
-
-- Right-click _Among Us_ on Steam, then click **Properties**.
-- Click **Betas** and select `public previous` on the drop down.
-
-Steam should automatically update the game to the compatible version, then you can then follow the installation steps below.
+**Required base game version:** v.17.0.1 (latest version)
 
 ---
 
@@ -35,7 +26,7 @@ Steam should automatically update the game to the compatible version, then you c
 
 **5.** On Steam, click **Add a Game** in the bottom left corner, select **Add a non-Steam game...**. In the pop-up, locate the AmongUs.exe from your new folder.
 
-**6.** Select your preferred Proton version from the drop-down options (e.g. 90-4). After this, launch the shortcut (it will not launch the mod yet, but this step is required).
+**6.** Select your preferred Proton version from the drop-down options (e.g., 90-4). After this, launch the shortcut (it will not launch the mod yet, but this step is required).
 
 ### DLL Override
 
@@ -44,6 +35,14 @@ Steam should automatically update the game to the compatible version, then you c
 - In **winecfg**, click **Libraries**. Enter `winhttp` into the text box, click **Add > OK**.
 
 If installed correctly, launching via the Steam shortcut will open the mod with the **Town of Us: Mira** logo displayed in the top left corner.
+
+---
+### Downgrading
+
+- Right-click _Among Us_ on Steam, then click **Properties**.
+- Click **Betas** and select `public previous` on the drop-down.
+
+Steam should automatically update the game to the compatible version, then you can follow the installation steps.
 
 ---
 
