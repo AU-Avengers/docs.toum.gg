@@ -193,7 +193,8 @@ const sidebars: SidebarsConfig = {
               items:
                   [
                       'roles/impostor/power/Ambassador',
-                      'roles/impostor/power/Traitor'
+                      'roles/impostor/power/Traitor',
+                      'roles/impostor/power/Spellslinger'
                   ]
           },
         {
