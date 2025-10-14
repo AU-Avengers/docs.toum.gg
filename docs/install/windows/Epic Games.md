@@ -8,7 +8,7 @@ Guide to install Town of Us: Mira via Epic Games on Windows.
 
 This guide requires that you own <i>Among Us</i> on [Epic Games](https://store.epicgames.com/en-US/p/among-us).
 
-**Required base game version:** v17.0.0 (latest version)
+**Required base game version:** v17.0.1 (latest version)
 
 ***
 
