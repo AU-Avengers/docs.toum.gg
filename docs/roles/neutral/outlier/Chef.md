@@ -22,6 +22,6 @@ The Chef is a Neutral Outlier role that wins with any other faction as long as t
 | Reset Cook and Serve Cooldowns Together |       Reset the ability cooldowns.       | Toggle  |  True   | True / False |
 | Amount of Servings Needed               |   Number of servings required to win.    |  Count  |    3    |    2 - 5     |
 | Duration of Side Effects                |     How long side effects will last      | Seconds |   60s   |   0 - 120s   |
-| Show Arrows Pointing to Dead Bodies     |      Cooldown for Serving players.       | Toggle  |  True   | True / False |
+| Show Arrows Pointing to Dead Bodies     |      An arrow will point to dead bodies.       | Toggle  |  True   | True / False |
 | Dead Body Arrow Delay                   |     Delay before the arrow appears.      | Seconds |  0.5s   |   0 - 15s    |
 | Dead Body Arrow Duration                | How long an arrow points to a dead body. | Seconds |   25s   |   ∞ - 15s    |
