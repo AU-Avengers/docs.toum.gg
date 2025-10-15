@@ -262,7 +262,6 @@ const sidebars: SidebarsConfig = {
           [
             'roles/neutral/evil/Doomsayer',
             'roles/neutral/evil/Executioner',
-            'roles/neutral/evil/Inquisitor',
             'roles/neutral/evil/Jester',
             'roles/neutral/evil/Phantom',
           ]
