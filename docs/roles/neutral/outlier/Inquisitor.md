@@ -4,7 +4,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Inquisitor
 
-The Inquisitor is a Neutral Evil role that wins if their targets (Heretics) die. The only information provided is their roles, and it's up to the Inquisitor to identify those players (marked with a dark pink-ish **$** to the dead) and get them killed by any means neccesary.
+The Inquisitor is a Neutral Outlier role that wins if their targets (Heretics) die. The only information provided is their roles, and it's up to the Inquisitor to identify those players (marked with a dark pink-ish **$** to the dead) and get them killed by any means necessary.
 
 |                                               Button                                               | Ability  |                                                                                                    Description                                                                                                     |        Type        |
 | :------------------------------------------------------------------------------------------------: | :------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------: |
@@ -16,9 +16,9 @@ The Inquisitor is a Neutral Evil role that wins if their targets (Heretics) die.
 | Option                               |                                Description                                |  Type   | Default |    Range     |
 | ------------------------------------ | :-----------------------------------------------------------------------: | :-----: | :-----: | :----------: |
 | Vanquish Cooldown                    |                     Cooldown for Vanquishing players.                     | Seconds |   25s   |   10 - 60s   |
-| Allow Vanquish in First Round        |              Determins if Inquisitor can Vanquish round one.              | Toggle  |  False  | True / False |
+| Allow Vanquish in First Round        |              Determines if Inquisitor can Vanquish round one.              | Toggle  |  False  | True / False |
 | Inquisitor Continues Game in Final 3 | Determines if the game will continue if the Inquisitor is in the final 3. | Toggle  |  True   | True / False |
 | Inquisitor Can't Inquire             |      Determines whether the Inquisitor can use the Inquire ability.       | Toggle  |  False  | True / False |
 | Inquire Cooldown                     |                       Cooldown for Inquire ability.                       | Seconds |   25s   |   10 - 60s   |
-| Max Nunber of Inquiries              |          Determines how many times Inquire ability can be used.           |  Uses   |    5    |    1 - 15    |
+| Max Number of Inquiries              |          Determines how many times Inquire ability can be used.           |  Uses   |    5    |    1 - 15    |
 | Amount of Heretics Needed            |      Determines how many Heretic targets must be vanquished to win.       |  Count  |    3    |    3 - 5     |
