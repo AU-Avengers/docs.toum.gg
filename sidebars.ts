@@ -289,6 +289,22 @@ const sidebars: SidebarsConfig = {
             'roles/neutral/killing/Werewolf',
           ]
         },
+               {
+          type: 'category',
+          label: 'Neut Outlier',
+          collapsed: false,
+          link: {
+            type: 'generated-index',
+            title: 'Neutral Outlier',
+            description: 'Outlier roles set out to achieve their own goals and leave in victory.',
+            image: '/img/Icons/Inquuisitor.png',
+          },
+          items:
+          [
+            'roles/neutral/outlier/Inquisitor',
+            'roles/neutral/outlier/Chef',
+          ]
+        },
       ]
     },
   ],
