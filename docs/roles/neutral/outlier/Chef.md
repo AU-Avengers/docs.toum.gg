@@ -11,7 +11,7 @@ The Chef is a Neutral Outlier role that wins with any other faction as long as t
 |                                               Button                                               | Ability |                        Description                        |        Type        |
 | :------------------------------------------------------------------------------------------------: | :-----: | :-------------------------------------------------------: | :----------------: |
 |   <img src={useBaseUrl('/img/NeutButtons/IgniteButton.png')} alt="Button" style={{width: 50}} />   |  Cook   |        Cook a dead body and save it for later use.        | Player Interaction |
-| <img src={useBaseUrl('/img/NeutButtons/ServeEmptyButton.png')} alt="Button" style={{width: 50}} /> |  Serve  | Serve the oldest meal you have on hand to another player. | Player Interaction |
+| <img src={useBaseUrl('/img/NeutButtons/ChefServe.gif')} alt="Button" style={{width: 50}} /> |  Serve  | Serve the oldest meal you have on hand to another player. | Player Interaction |
 
 ### Options
 
