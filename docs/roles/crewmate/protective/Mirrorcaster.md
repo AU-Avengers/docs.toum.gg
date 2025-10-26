@@ -8,9 +8,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 #### **Alignment:** Crewmate Protective
 
-The **Mirrorcaster** can cast a Magic Mirror on a player to protect them. If the player is attacked directly, the Mirrorcaster will be notified, and they can attempt to unleash the absorbed attack onto another player.
+The **Mirrorcaster** can cast a **Magic Mirror** on a player to protect them. If the player is attacked directly, the Mirrorcaster will be notified, and they can attempt to **unleash** the absorbed attack onto another player.
 
-**Note:** Arsonist, Veteran, Pestilence, Bomber, and some other roles ignore the Magic Mirror.
+<sub>**Note:** Arsonist, Veteran, Pestilence, Bomber, and some other roles ignore the Magic Mirror.</sub>
 
 ### Abilities
 
