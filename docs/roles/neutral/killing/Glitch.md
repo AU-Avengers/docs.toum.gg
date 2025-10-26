@@ -25,7 +25,7 @@ The **Glitch** wins by being the last killer alive. They can **Mimic** into anot
 | Kill Cooldown                         | Cooldown for killing.                                              | Seconds |   25s   |   10 - 60s   |
 | Mimic Cooldown                        | Cooldown for using the Mimic ability.                              | Seconds |   25s   |   10 - 60s   |
 | Mimic Duration                        | How long the Mimic ability lasts.                              | Seconds |   10s   |   5 - 15s    |
-| Move While Using Mimic Menu (KB ONLY) | Determines whether the Glitch can use the Mimic Menu while moving. | Toggle  |  True   | True / False |
+| Move While Using Mimic Menu (Keyboard Only) | Determines whether the Glitch can use the Mimic Menu while moving. | Toggle  |  True   | True / False |
 | Hack Cooldown                         | Cooldown for using the Hack ability.                               | Seconds |   25s   |   10 - 60s   |
 | Hack Duration                         | How long the Hack will last, stopping players from using any abilities. | Seconds |   25s   |   10 - 60s   |
 | Glitch Can Vent                       | Determines whether the Glitch can use vents.                       | Toggle  |  True   | True / False |
