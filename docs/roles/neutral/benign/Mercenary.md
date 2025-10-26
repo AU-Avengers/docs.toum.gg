@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 #### **Alignment:** Neutral Benign
 
-The **Mercenary** is can only win by bribing players, allowing them to gain multiple win conditions.
+The **Mercenary** can only win by bribing players, allowing them to gain multiple win conditions.
 
 The Mercenary must **guard** a player and wait for them to be interacted with, which will give the Mercenary gold to **bribe** players with. If a bribed player wins, the Mercenary will win with them.
 
@@ -25,4 +25,4 @@ The Mercenary must **guard** a player and wait for them to be interacted with, w
 | -------------------- | ------------------------------------- | :-----: | :-----: | :------: |
 | Guard Cooldown       | Cooldown for using the Guard ability. | Seconds |   25s   | 10 - 60s |
 | Max Number of Guards | The maximum number of Guard uses.     |  Count  |    6    |  1 -15   |
-| Bribe Cost           | How many Golds required per Bribe.    |  Count  |    2    |  1 -15   |
+| Bribe Cost           | How many Golds are required per Bribe.    |  Count  |    2    |  1 -15   |
