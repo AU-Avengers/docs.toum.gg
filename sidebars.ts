@@ -193,8 +193,8 @@ const sidebars: SidebarsConfig = {
               items:
                   [
                       'roles/impostor/power/Ambassador',
-                      'roles/impostor/power/Traitor',
                       'roles/impostor/power/Spellslinger'
+                      'roles/impostor/power/Traitor',
                   ]
           },
         {
@@ -300,8 +300,8 @@ const sidebars: SidebarsConfig = {
           },
           items:
           [
-            'roles/neutral/outlier/Inquisitor',
-            'roles/neutral/outlier/Chef',
+           'roles/neutral/outlier/Chef',
+           'roles/neutral/outlier/Inquisitor',
           ]
         },
       ]
