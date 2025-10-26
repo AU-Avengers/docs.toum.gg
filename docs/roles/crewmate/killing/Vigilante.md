@@ -16,7 +16,7 @@ The **Vigilante** can **guess** evil roles during meetings to kill evil players.
 
 |                                          Button                                          |  Ability  |      Description      |           Type            |
 | :--------------------------------------------------------------------------------------: | :-------: | :-------------------: | :-----------------------: |
-| <img src={useBaseUrl('/img/OtherButtons/Guess.png')} alt="Button" style={{width: 50}} /> | **Guess** | Guess a player's role | Targetted Meeting Ability |
+| <img src={useBaseUrl('/img/OtherButtons/Guess.png')} alt="Button" style={{width: 50}} /> | **Guess** | Guess a player's role | Targeted Meeting Ability |
 
 ### Options
 
