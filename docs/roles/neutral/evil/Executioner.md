@@ -10,8 +10,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 The **Executioner** wins by getting their target (signified by a brown **X**) ejected in a meeting.
 
-If enabled, when the Executioner wins, they may leave the game in victory and **taunt** another player, choosing to kill someone from the players who voted for the Executioner's target.
+If enabled, when the Executioner wins, they may leave the game in victory and be able to taunt another player, choosing to kill someone from the players who voted for the Executioner's target.
 
+### Abilities
+
+|                                               Button                                               |   Ability   |                                                                  Description                                                                   | Type |
+| :------------------------------------------------------------------------------------------------: | :---------: | :--------------------------------------------------------------------------------------------------------------------------------------------: | :--: |
+| <img src={useBaseUrl('/img/NeutButtons/ExeTormentButton.png')} alt="Button" style={{width: 50}} /> | **Torment** | If enabled, after winning, the Executioner can choose someone to Torment (kill) from a menu of those who voted for the Executioner's target. | Menu |
 ### Options
 
 | Option                               | Description                                                        |  Type  |      Default      |                      Range                      |
