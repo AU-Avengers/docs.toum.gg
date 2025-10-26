@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 #### **Alignment:** Crewmate Power
 
-The **Jailor** can **jail** other players. During a meeting, everyone will see who is jailed. The Jailor can privately talk with the jailed player using the private chatbox. The Jailor can then decide whether to execute the jailed player (unless the Jailor is an **Imitator**). If the player is a Crewmate, the Jailor will lose the ability to Jail.
+The **Jailor** can **jail** other players. During a meeting, everyone will see who is jailed. The Jailor can privately talk with the jailed player using the private chatbox. The Jailor can then decide whether to **execute** the jailed player (unless the Jailor is an **Imitator**). If the executed player is a Crewmate, the Jailor will lose the ability to Jail.
 
 ### Abilities
 
