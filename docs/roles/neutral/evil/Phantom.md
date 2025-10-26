@@ -16,7 +16,7 @@ If successful and the setting is enabled, the Phantom can **Spook** a chosen pla
 
 |                                               Button                                                |  Ability  |                              Description                               |        Type        |
 | :-------------------------------------------------------------------------------------------------: | :-------: | :--------------------------------------------------------------------: | :----------------: |
-| <img src={useBaseUrl('/img/NeutButtons/JesterHauntButton.png')} alt="Button" style={{width: 50}} /> | **Spook** | If enabled, after winning, the Phantom can Spook a player to kill them. | Player Interaction |
+| <img src={useBaseUrl('/img/NeutButtons/PhantomSpookButton.png')} alt="Button" style={{width: 50}} /> | **Spook** | If enabled, after winning, the Phantom can Spook a player to kill them. | Player Interaction |
 
 ### Options
 
