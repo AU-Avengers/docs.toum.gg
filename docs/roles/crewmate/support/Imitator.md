@@ -4,7 +4,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Imitator
 
-### _Maintain Important Systems on the Ship!_
+### _>Use Dead Roles To Benefit The Crew!_
 
 #### **Alignment:** Crewmate Support
 
