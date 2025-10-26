@@ -14,8 +14,8 @@ The **Spellslinger** can **hex** a player, priming them for detonation. Once all
 
 |                                             Button                                              | Ability  |                                            Description                                            |      Type       |
 | :---------------------------------------------------------------------------------------------: | :------: | :-----------------------------------------------------------------------------------------------: | :-------------: |
-| <img src={useBaseUrl('/img/ImpButtons/TraitorSelect.png')} alt="Button" style={{width: 50}} />  |   Hex    |                            Hex a player, priming them for detonation.                             |  Basic Ability  |
-| <img src={useBaseUrl('/img/CrewButtons/ExamineButton.png')} alt="Button" style={{width: 50}} /> | Hex Bomb | Begin the countdown for the hex bomb. If you are alive when the hex bomb triggers, impostors win! | Delayed Ability |
+| <img src={useBaseUrl('/img/ImpButtons/TraitorSelect.png')} alt="Button" style={{width: 50}} />  |   **Hex**    |                            Hex a player, priming them for detonation.                             |  Basic Ability  |
+| <img src={useBaseUrl('/img/CrewButtons/ExamineButton.png')} alt="Button" style={{width: 50}} /> | **Hex Bomb** | Begin the countdown for the hex bomb. If you are alive when the hex bomb triggers, impostors win! | Delayed Ability |
 
 ### Options
 
