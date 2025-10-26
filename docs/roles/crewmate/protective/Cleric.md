@@ -22,7 +22,7 @@ The **Cleric** can protect other players by **Cleansing** their negative effects
 | Option                          |                           Description                           |  Type   | Default |                    Range                     |
 | ------------------------------- | :-------------------------------------------------------------: | :-----: | :-----: | :------------------------------------------: |
 | Barrier Cooldown                |               Cooldown for using Barrier ability.               | Seconds |   25s   |                   10 - 60s                   |
-| Barrier Duration                |   How long the Barrier effect will last on the chosen player.   | Secons  |  0.25s  |                   10 - 60s                   |
+| Barrier Duration                |   How long the Barrier effect will last on the chosen player.   | Seconds  |  0.25s  |                   10 - 60s                   |
 | Cleanse Cooldown                |               Cooldown for using Cleanse ability.               | Seconds |   25s   |                   10 - 60s                   |
 | Show Barriered Player           |             Determines who sees the Barrier shield.             | String  | Cleric  | Sheriff / Target / Sheriff & Target / No One |
 | Cleric Gets Attack Notification | Determines whether the Cleric is notified of attempted attacks. | Toggle  |  True   |                 True / False                 |
