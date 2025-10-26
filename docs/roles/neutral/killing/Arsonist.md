@@ -18,7 +18,7 @@ If Legacy Arsonist is active, they must douse players individually, but can igni
 | :----------------------------------------------------------------------------------------------: | :--------: | :-------------------------------------: | :----------------: |
 |  <img src={useBaseUrl('/img/NeutButtons/DouseButton.png')} alt="Button" style={{width: 50}} />   | **Douse**  |       Douse a player in gasoline.       | Player Interaction |
 |  <img src={useBaseUrl('/img/NeutButtons/IgniteButton.png')} alt="Button" style={{width: 50}} />  | **Ignite** |          Kill doused players.           | Player Interaction |
-| <img src={useBaseUrl('/img/NeutButtons/ArsoVentButton.png')} alt="Button" style={{width: 50}} /> |  **Vent**  | If enabled, the Arsonist can use vents. | Player Interaction |
+| <img src={useBaseUrl('/img/NeutButtons/ArsoVentButton.png')} alt="Button" style={{width: 50}} /> |  **Vent**  | If enabled, the Arsonist can use vents. | Basic Ability, if enabled |
 
 
 ### Options
