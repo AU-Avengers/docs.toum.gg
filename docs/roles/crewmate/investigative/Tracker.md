@@ -13,7 +13,7 @@ The **Tracker** can place markers on other players to **track** their general lo
 ### Abilities
 
 | Button                                                                                        | Ability   |                                                           Description                                                           |        Type        |
-| --------------------------------------------------------------------------------------------- | --------- | :-----------------------------------------------------------------------------------------------------------------------------: | :----------------: |
+| --------------------------------------------------------------------------------------------- | :---------: | :-----------------------------------------------------------------------------------------------------------------------------: | :----------------: |
 | <img src={useBaseUrl('/img/CrewButtons/TrackButton.png')} alt="Button" style={{width: 50}} /> | **Track** | Places a tracker (arrow) on a player, making it so that the player's location is visible to the Tracker, updating periodically. | Player Interaction |
 
 ### Options
