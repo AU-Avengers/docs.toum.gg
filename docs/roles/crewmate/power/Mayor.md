@@ -8,4 +8,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 #### **Alignment:** Crewmate Power
 
-After successfully campaigning half of the Crewmates as the Politician, the **Mayor** can then reveal themselves during a meeting. The Mayor gains 3 total votes, in addition to changing their appearance in meetings. Once revealed, the Mayor cannot be guessed in meetings, but their role will be visible to all during rounds.
+After successfully campaigning half of the Crewmates as the Politician, the **Mayor** can then reveal themselves during a meeting. 
+
+The Mayor gains 3 total votes, in addition to changing their appearance in meetings. Once revealed, the Mayor cannot be guessed in meetings, but their role will be visible to all during rounds.
