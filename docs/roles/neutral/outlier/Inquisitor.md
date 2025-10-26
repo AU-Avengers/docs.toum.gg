@@ -4,7 +4,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Inquisitor
 
-The Inquisitor is a Neutral Outlier role that wins if their targets (Heretics) die. The only information provided is their roles, and it's up to the Inquisitor to identify those players (marked with a dark pink-ish **$** to the dead) and get them killed by any means necessary.
+### _Vanquish the Heretics!_
+
+#### **Alignment:** Neutral Outlier
+
+The **Inquisitor** wins by eliminating Heretics (targets). The Inquisitor will have a list of roles and can use their **inquire** ability on a player to find out if they are a Heretic during a meeting. The Inquisitor must eliminate the Heretics by any means necessary; vote them out, wait for them to die, or **Vanquish** (kill) them!
+
+### Abilities
 
 |                                               Button                                               | Ability  |                                                                                                    Description                                                                                                     |        Type        |
 | :------------------------------------------------------------------------------------------------: | :------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------: |
