@@ -4,7 +4,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Oracle
 
-### _Reflect Attacks onto Others!_
+### _Get Crewmates To Confess Their Sins!_
 
 #### **Alignment:** Crewmate Protective
 
