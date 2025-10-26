@@ -14,8 +14,8 @@ The **Inquisitor** wins by eliminating Heretics (targets). The Inquisitor will h
 
 |                                               Button                                               | Ability  |                                                                                                    Description                                                                                                     |        Type        |
 | :------------------------------------------------------------------------------------------------: | :------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------: |
-|  <img src={useBaseUrl('/img/NeutButtons/InquireButton.png')} alt="Button" style={{width: 50}} />   | Inquire  |                                                             Inquire a player, which will tell you if they are one of your targets within the meeting.                                                              | Player Interaction |
-| <img src={useBaseUrl('/img/NeutButtons/InquisKillButton.png')} alt="Button" style={{width: 50}} /> | Vanquish | Vanquish a player to kill them. If they are a heretic, you will be told, and you can continue vanquishing. However, if the victim isn't a heretic, you will lose the ability to vanquish for the rest of the game. | Player Interaction |
+|  <img src={useBaseUrl('/img/NeutButtons/InquireButton.png')} alt="Button" style={{width: 50}} />   | **Inquire**  |                                                             Inquire a player, which will tell you if they are one of your targets within the meeting.                                                              | Player Interaction |
+| <img src={useBaseUrl('/img/NeutButtons/InquisKillButton.png')} alt="Button" style={{width: 50}} /> | **Vanquish** | Vanquish a player to kill them. If they are a heretic, you will be told, and you can continue vanquishing. However, if the victim isn't a heretic, you will lose the ability to vanquish for the rest of the game. | Player Interaction |
 
 ### Options
 
@@ -25,6 +25,6 @@ The **Inquisitor** wins by eliminating Heretics (targets). The Inquisitor will h
 | Allow Vanquish in First Round        |              Determines if Inquisitor can Vanquish round one.              | Toggle  |  False  | True / False |
 | Inquisitor Continues Game in Final 3 | Determines if the game will continue if the Inquisitor is in the final 3. | Toggle  |  True   | True / False |
 | Inquisitor Can't Inquire             |      Determines whether the Inquisitor can use the Inquire ability.       | Toggle  |  False  | True / False |
-| Inquire Cooldown                     |                       Cooldown for Inquire ability.                       | Seconds |   25s   |   10 - 60s   |
+| Inquire Cooldown                     |                       Cooldown for the Inquire ability.                       | Seconds |   25s   |   10 - 60s   |
 | Max Number of Inquiries              |          Determines how many times Inquire ability can be used.           |  Uses   |    5    |    1 - 15    |
 | Amount of Heretics Needed            |      Determines how many Heretic targets must be vanquished to win.       |  Count  |    3    |    3 - 5     |
