@@ -8,9 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 #### **Alignment:** Neutral Benign
 
-The **Amnesiac** must **remember** who they are by finding a dead body and taking the role of the dead player.
-
-Remember the role of a dead body. If the dead body's role is a unique role, you will remember the base faction's role instead.
+The **Amnesiac** must **remember** who they are by finding a dead body and taking the role of the dead player. If the dead body's role is a unique role, they will remember the base faction's role instead.
 
 ### Abilities
 
