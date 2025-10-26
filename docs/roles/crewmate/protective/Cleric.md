@@ -4,7 +4,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Cleric
 
-### _Revive Dead Crewmates!_
+### _Save the Crewmates!_
 
 #### **Alignment:** Crewmate Protective
 
