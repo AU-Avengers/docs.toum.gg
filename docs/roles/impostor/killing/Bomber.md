@@ -10,7 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 The **Bomber** can **place** a bomb on the map, which detonates after a set amount of time. Anybody within the bomb radius when it detonates will be killed!
 
-The bomb cooldown is linked to the kill cooldown.
+<sub>**Note:** The bomb cooldown is linked to the kill cooldown.</sub>
 
 ### Abilities
 
