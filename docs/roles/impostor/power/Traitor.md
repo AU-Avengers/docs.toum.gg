@@ -16,12 +16,12 @@ Similar to the Imitator and Ambassador, the Traitor can **change roles** to beco
 
 |                                             Button                                             |     Ability     |                                                                          Description                                                                          |     Type      |
 | :--------------------------------------------------------------------------------------------: | :-------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------: |
-| <img src={useBaseUrl('/img/ImpButtons/TraitorSelect.png')} alt="Button" style={{width: 50}} /> | **Change Role** | The Traitor can change their role to one of the provided role cards, or gamble on the random. Once they select a role, they stay as that role until they die. | Basic Ability |
+| <img src={useBaseUrl('/img/ImpButtons/TraitorSelect.png')} alt="Button" style={{width: 50}} /> | **Change Role** | The Traitor can change their role to one of the provided role cards, or gamble on the random. Once they select a role, they stay as that role until they die. | Basic Ability, Menu |
 
 ### Options
 
 | Option                                         |                                       Description                                        |  Type  | Default |    Range     |
 | ---------------------------------------------- | :--------------------------------------------------------------------------------------: | :----: | :-----: | :----------: |
-| Minimum People Alive When Traitor Can Spawn    |          Minimum amount of players that must be alive before Traitor can spawn.          | Amount |    5    |    3 - 15    |
+| Minimum People Alive When Traitor Can Spawn    |          Minimum number of players that must be alive before Traitor can spawn.          | Amount |    5    |    3 - 15    |
 | Traitor Won't Spawn if Neutral Killer is Alive |      Determines if a Neutral Killer's existence prevents the Traitor from spawning.      | Toggle |  False  | True / False |
 | Disable Existing Impostor Roles                | Determines if the roles from the previous Impostors aren't possible for Traitor to pick. | Toggle |  False  | True / False |
