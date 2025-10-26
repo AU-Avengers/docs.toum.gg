@@ -10,16 +10,16 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 The **Arsonist** must **douse** and **ignite** players within their radius and wins by being the last killer alive.
 
-If Legacy Arsonist is active, they must douse players individually but can ignite one target to kill all doused players on the map at once.
+If Legacy Arsonist is active, they must douse players individually, but can ignite one target to kill all doused players on the map at once.
 
 ### Abilities
 
-|                                              Button                                              |      Ability       |               Description               |        Type        |
-| :----------------------------------------------------------------------------------------------: | :----------------: | :-------------------------------------: | :----------------: |
-|  <img src={useBaseUrl('/img/NeutButtons/DouseButton.png')} alt="Button" style={{width: 50}} />   |     **Douse**      |       Douse a player in gasoline.       | Player Interaction |
-|  <img src={useBaseUrl('/img/NeutButtons/IgniteButton.png')} alt="Button" style={{width: 50}} />  |     **Ignite**     |               Kill doused               |
-|                                             players.                                             | Player Interaction |
-| <img src={useBaseUrl('/img/NeutButtons/ArsoVentButton.png')} alt="Button" style={{width: 50}} /> |      **Vent**      | If enabled, the Arsonist can use vents. | Player Interaction |
+|                                              Button                                              |  Ability   |               Description               |        Type        |
+| :----------------------------------------------------------------------------------------------: | :--------: | :-------------------------------------: | :----------------: |
+|  <img src={useBaseUrl('/img/NeutButtons/DouseButton.png')} alt="Button" style={{width: 50}} />   | **Douse**  |       Douse a player in gasoline.       | Player Interaction |
+|  <img src={useBaseUrl('/img/NeutButtons/IgniteButton.png')} alt="Button" style={{width: 50}} />  | **Ignite** |          Kill doused players.           | Player Interaction |
+| <img src={useBaseUrl('/img/NeutButtons/ArsoVentButton.png')} alt="Button" style={{width: 50}} /> |  **Vent**  | If enabled, the Arsonist can use vents. | Player Interaction |
+
 
 ### Options
 
