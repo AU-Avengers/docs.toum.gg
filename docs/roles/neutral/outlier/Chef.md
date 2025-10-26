@@ -4,7 +4,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Chef
 
-The **Chef** must discover dead bodies and **cook** them to **serve** them as meals to other players. Once the Chef meets their quota, they will win alongside any other faction.
+### _Fresh and Ready to Serve!_
+
+#### **Alignment:** Neutral Outlier
+
+The **Chef** must discover dead bodies and **cook** them in order to **serve** them as meals to other players. Once the Chef meets their quota, they will win alongside any other faction.
 
 ### Abilities
 
