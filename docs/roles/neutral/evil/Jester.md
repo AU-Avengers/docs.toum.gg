@@ -10,6 +10,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 The **Jester** wins by getting themselves ejected in a meeting.
 
+If enabled, when the Jester wins, they may leave the game in victory and **haunt** another player, choosing to kill someone from the players who voted for them.
+
 ### Abilities
 
 |                                               Button                                                |  Ability  |                                                            Description                                                             |        Type        |
