@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 #### **Alignment:** Neutral Evil
 
-The **Doomsayer** wins by guessing a set amount of players' roles. If specified, they may **observe** players and will receive a list of potential roles of the observed player in the next meeting.
+The **Doomsayer** wins by guessing a set number of players' roles. If enab;ed, they may **observe** players and will receive a list of potential roles of the observed player in the next meeting.
 
 The Doomsayer will not die if they **guess** incorrectly. They will receive a notification of an incorrect guess(es), though it will not confirm which was wrong specifically.
 
@@ -24,7 +24,7 @@ The Doomsayer will not die if they **guess** incorrectly. They will receive a no
 | Option                                       | Description                                                            |  Type   |      Default      |                  Range                  |
 | -------------------------------------------- | ---------------------------------------------------------------------- | :-----: | :---------------: | :-------------------------------------: |
 | Observe Cooldown                             | Cooldown for using the Observe ability.                                | Seconds |        20s        |                 1 - 30s                 |
-| Number of Guesses Needed to Win                | How many correct guesses required to win.                              |  Count  |         3         |                  2 - 5                  |
+| Number of Guesses Needed to Win                | How many correct guesses are required to win.                              |  Count  |         3         |                  2 - 5                  |
 | Doomsayer Can Guess Crew Investigative Roles | Determines whether the Doomsayer can guess CI roles.                   | Toggle  |       False       |              True / False               |
 | Doomsayer Guesses All Roles at Once          | Determines if the Doomsayer must make all guesses in one round to win. | Toggle  |       False       |              True / False               |
 | Doomsayer Can't Observe                      | Determines whether the Doomsayer cannot use the Observe ability.       | Toggle  |       False       |              True / False               |
