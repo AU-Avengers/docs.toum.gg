@@ -10,7 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 If all Impostors die, one Crewmate may become the **Traitor** after a meeting, depending on set conditions. The Traitor sets out to win the game for the fallen Impostors and kill off the Crew. Only Crewmates can become the Traitor, with the exception of the Mayor.
 
-Similar to the Imitator and Ambassador, the Traitor can **change roles** to become become another Impostor role from a menu selection. They can still be guessed by the Vigilante or Neutral Assassins as Traitor.
+Similar to the Imitator and Ambassador, the Traitor can **change roles** to become another Impostor role from a menu selection. They can still be guessed by the Vigilante or Neutral Assassins as Traitor.
 
 ### Abilities
 
