@@ -19,8 +19,8 @@ The **Altruist** can **revive** dead players in groups. However, during revives,
 ### Options
 
 | Option                             |                                  Description                                   |    Type    | Default |    Range     |
-| ---------------------------------- | :----------------------------------------------------------------------------: | :--------: | :-----: | :----------: |
+| ---------------------------------- | :----------------------------------------------------------------------------: | :--------: | :-----: |:------------:|
 | Revive Duration                    |                   How long it takes to revive dead players.                    |  Seconds   |   10s   |   1 - 15s    |
-| Revive Range                       |                        The radius for reviving players.                        | Multiplier |  0.25x  |    1 - 5     |
+| Revive Range                       |                        The radius for reviving players.                        | Multiplier |  0.25x  |  0.05x - 1x  |
 | Revive Uses                        |               How many times the Altruist can use their ability.               |   Count    |    2    |    1 - 5     |
 | Hide Bodies at Beginning of Revive | Determines whether bodies will disappear at the beginning of a revive attempt. |   Toggle   |  False  | True / False |
