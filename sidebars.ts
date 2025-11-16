@@ -450,21 +450,6 @@ const sidebars: SidebarsConfig = {
         'install/linux/Steam',
       ]
     },
-     {
-      type: 'category',
-      label: 'Mac',
-      collapsed: false,
-      link: {
-        type: 'generated-index',
-        title: 'Mac Installation',
-        description: 'This guide will help you install Town of Us: Mira on MacOS via Steam.',
-        image:"/img/Multitasker.png",
-      },
-      items:
-      [
-        'install/mac/Steam',
-      ]
-    },
   ],
 };
 
