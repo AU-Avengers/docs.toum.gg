@@ -320,8 +320,9 @@ const sidebars: SidebarsConfig = {
       },
       items:
       [
-        'modifiers/alliance/Egotist',
-        'modifiers/alliance/Lovers',
+       'modifiers/alliance/Crewposter', 
+       'modifiers/alliance/Egotist',
+       'modifiers/alliance/Lovers',
       ]
     },
     {
