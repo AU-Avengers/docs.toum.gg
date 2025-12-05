@@ -39,15 +39,15 @@ const sidebars: SidebarsConfig = {
           items:
           [
             'roles/crewmate/investigative/Aurial',
-            'roles/crewmate/investigative/Detective',
+            'roles/crewmate/investigative/Forensic',
             'roles/crewmate/investigative/Haunter',
             'roles/crewmate/investigative/Investigator',
             'roles/crewmate/investigative/Lookout',
             'roles/crewmate/investigative/Mystic',
             'roles/crewmate/investigative/Seer',
             'roles/crewmate/investigative/Snitch',
+             'roles/crewmate/investigative/Sonar',
             'roles/crewmate/investigative/Spy',
-            'roles/crewmate/investigative/Tracker',
             'roles/crewmate/investigative/Trapper'
           ]
         },
@@ -243,7 +243,7 @@ const sidebars: SidebarsConfig = {
           items:
           [
             'roles/neutral/benign/Amnesiac',
-            'roles/neutral/benign/Guardian Angel',
+            'roles/neutral/benign/Fairy',
             'roles/neutral/benign/Mercenary',
             'roles/neutral/benign/Survivor',
           ]
@@ -263,7 +263,7 @@ const sidebars: SidebarsConfig = {
             'roles/neutral/evil/Doomsayer',
             'roles/neutral/evil/Executioner',
             'roles/neutral/evil/Jester',
-            'roles/neutral/evil/Phantom',
+            'roles/neutral/evil/Spectre',
           ]
         },
         {
