@@ -27,15 +27,20 @@ The **Imitator** can use the roles of dead players. During meetings, the Imitato
 
 ### Imitated Counterparts
 
-| Neutral Role            | Imitated Counterpart |     | Impostor Role | Imitated Counterpart |
-| ----------------------- | -------------------- | :-: | ------------- | -------------------- |
-| Amnesiac                | Medic                |     | Bomber        | Trapper              |
-| Glitch                  | Sheriff              |     | Hypnotist     | Lookout              |
-| Executioner             | Snitch               |     | Janitor       | Detective            |
-| Guardian Angel          | Cleric               |     | Miner         | Engineer             |
-| Inquisitor              | Oracle               |     | Scavenger     | Tracker              |
-| Jester                  | Plumber              |     | Undertaker    | Altruist             |
-| Mercenary               | Warden               |     | Warlock       | Veteran              |
-| Plaguebearer/Pestilence | Aurial               |     |               |                      |
-| Soul Collector          | Medium               |     |               |                      |
-| Werewolf                | Hunter               |     |               |                      |
+| Neutral Role | Imitated Counterpart |     |  Impostor Role  | Imitated Counterpart |
+|:------------:|:--------------------:| :-: |:---------------:|:--------------------:|
+|  Amnesiac   |      Mystic      |     | Ambassador |     Vigilante      |
+|   Arsonist    |      Cleric      |     | Ambusher |     Sonar      |
+| Chef   |      Forensic      |     | Blackmailer |     Spy      |
+|  Doomsayer   |      Vigilante      |     | Bomber |     Trapper      |
+|  Executioner   |      Snitch      |     | Escapist |     Transporter      |
+|  Fairy   |      Mirrorcaster      |     | Hypnotist |     Lookout      |
+|  Glitch   |      Lookout      |     | Janitor |     Forensic      |
+|  Inquisitor   |      Sheriff      |     | Miner |     Plumber      |
+|  Jester   |      Engineer      |     | Scavenger |     Investigator      |
+|  Mercenary   |      Warden      |     | Spellslinger |     Cleric      |
+|  Pestilence   |      Veteran      |     | Undertaker |     Altruist      |
+|  Plaguebearer   |      Aurial      |     | Venerer |     Hunter      |
+|  Soul Collector  |      Medium      |     | Warlock |     Veteran      |
+|  Vampire   |      Seer      |     |  |           |
+|  Werewolf   |      Hunter      |     |  |           |
