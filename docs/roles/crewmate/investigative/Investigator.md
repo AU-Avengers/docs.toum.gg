@@ -21,3 +21,7 @@ The **Investigator** is able to see the footprints of other players during each 
 | Footprint Duration   |             Changes how long footprints are visible for.             |  Seconds   |   10s   |   1s - 15s   |
 | Anonymous Footprints |    Determines if footprints are color coded based off the player.    |   Toggle   |  False  | True / False |
 | Show Vent Footprints | Determines if footprints are visible from a player that's in a vent. |   Toggle   |  False  | True / False |
+
+### Strategy Guide
+
+Follow the footprints of anyone you deem suspicious and keep your distance. If you're careful enough, you might just find a pesky venter!

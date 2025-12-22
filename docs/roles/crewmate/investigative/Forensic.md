@@ -25,3 +25,7 @@ The **Forensic** can **inspect** crime scenes and **examine** players to see if 
 | Show Forensic Reports                   | Toggle for whether the Forensic gets reports about the bodies they report | Toggle  |  True   | True / False |
 | ┗ Time Where Forensic Will Have Faction |      How early should the Forensic report to get the body's faction       | Seconds |   30s   |   0s - 60s   |
 | ┗ Time Where Forensic Will Have Role    |        How early should the Forensic report to get the body's role        | Seconds |  7.5s   |   0s - 60s   |
+
+### Strategy Guide
+
+If you inspect a crime scene where players will pass by it very often, it may not be the most reliable source of information. However, if a crime scene is in an obscured or low-traffic area, then it will be more likely to provide information on the killer and not just anyone who passes by.

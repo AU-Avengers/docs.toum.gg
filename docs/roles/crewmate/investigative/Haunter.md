@@ -20,3 +20,7 @@ When a certain number of tasks remain, the Impostor(s) will be alerted and they 
 | Tasks Left Before Alerted   | How many tasks does the Haunter need to have left before Impostors are alerted to the existence and location of the Haunter | Count  |    1     |             0 - 15              |
 | Reveal Neutral Roles        |                            Toggles whether or not Neutrals are also revealed alongside Impostors                            | Toggle |  False   |           True/False            |
 | Can Be Clicked By           |                                      Controls who can click the Haunter to catch them                                       | String | Non-Crew | Everyone / Non-Crew / Imps Only |
+
+### Strategy Guide
+
+To avoid trouble heading your way, you should prioritize long tasks first, and then finish as many as you can that are close to one another to lessen the risk of being clicked.

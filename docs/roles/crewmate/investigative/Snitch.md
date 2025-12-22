@@ -21,3 +21,8 @@ Upon completing all tasks, the Impostors will be revealed to the Snitch with arr
 | Snitch Sees Impostors In Meetings   |                        Toggles whether or not they see reveal players during meetings.                         | Toggle |  True   | True / False |
 | Snitch Sees Revealed Players' Roles |                Toggles whether or not the Snitch can see the roles of the players they reveal.                 | Toggle |  False  | True / False |
 | Tasks Remaining When Revealed       | How many tasks does the Snitch need to have left before Impostors are alerted to their existence and location. | Count  |    1    |    1 - 3     |
+
+### Strategy Guide
+
+To avoid a dead-end from killers, long tasks should be prioritized over any other type of tasks. If you can, path your way to the emergency table in the shortest way possible.
+Timing your tasks is also crucial, as every second is another second where doors or sabotages can be called, so you should finish tasks when those have already been triggered!

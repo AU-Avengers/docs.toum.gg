@@ -26,3 +26,7 @@ The **Seer** is able to **Reveal** the alliance of other players, seeing player 
 | Neutral Evil Roles Are Red     |      Toggles whether Neutral Evil roles appear as evil to the seer       | Toggle  |  False  | True / False |
 | Neutral Killing Roles Are Red  |     Toggles whether Neutral Killing roles appear as evil to the seer     | Toggle  |  True   | True / False |
 | Traitor Swaps Colors           | Toggles whether a turned Traitor appears to change alliances to the Seer | Toggle  |  True   | True / False |
+
+### Strategy Guide
+
+When comparing two players to check if they are friendly or enemies, you should compare players who tend to be more distant from the rest of the group. You can use this information to narrow down players who are independent or are in a team (like Vampires or Impostors)

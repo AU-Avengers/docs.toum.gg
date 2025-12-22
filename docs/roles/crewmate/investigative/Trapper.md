@@ -27,3 +27,9 @@ The **Trapper** can place **traps** around the map to learn the roles of other p
 | Traps Removed After Each Round                   |                    Toggles whether trap positions reset at the end of every meeting                     |   Toggle   |  True   | True / False |
 | ┗ Get More Uses From Completing Tasks            |               Toggles whether the maximum number of traps increases upon task completion                |   Toggle   |  False  | True / False |
 | Minimum Number Of Roles Required To Trigger Trap | The minimum threshold of roles the traps much have gathered before the info is presented to the Trapper |   Count    |    3    |    1 - 15    |
+
+### Strategy Guide
+
+Place your traps in high-traffic areas, such as the meeting area, Dropship, Decontamination, Medbay, Security, Admin, and any area where players most often stay still. This will yield you the most information overall, but won't narrow down players.
+
+Alternatively, you can place traps below players while they're doing tasks or when they are standing still to narrow down what role they truly are.

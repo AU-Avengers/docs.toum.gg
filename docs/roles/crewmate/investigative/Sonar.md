@@ -26,3 +26,7 @@ The **Sonar** can place markers on other players to **track** their general loca
 | Sonar Arrows Make Sound On Death    |   Toggles whether or not a sound effect plays if the tracked target dies    | Toggle  |  True   | True / False |
 | Sonar Arrows Reset After Each Round |      Toggles whether tracking arrows reset at the end of every meeting      | Toggle  |  True   | True / False |
 | ┗ Get More Uses From Completing Tasks | Toggles whether the maximum number of tracks increases upon task completion | Toggle  |  False  | True / False |
+
+### Strategy Guide
+
+While it might seem like a good idea to track every player, it will get very overwhelming fast. Instead, you should track players that you believe are suspicious or are likely to die.

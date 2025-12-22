@@ -17,3 +17,7 @@ The **Aurial** can sense when someone nearby uses an ability of any kind, and wi
 | Radiate Colour Range |      Range where arrows will be colored.      | Multiplier |  0.5x   | 0x - 1x  |
 | Max Radiate Range    |         Range where arrows will show.         | Multiplier |  1.5x   | 1x - 5x  |
 | Sense Duration       | How long the sense arrow stays on screen for. |  Seconds   |   10s   | 1s - 15s |
+
+### Strategy Guide
+
+As the Aurial, you benefit from being in a group of players to identify who is using their abilities frequently. Since this also applies to kills, you can distinguish between different types of murder as well.

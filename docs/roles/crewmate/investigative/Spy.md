@@ -33,3 +33,7 @@ Depending on settings, the Spy may also have access to a **Portable Admin** tabl
 | ┣ Task Charge              |                   Amount of charge given after a task is completed.                    | Seconds |   10s   |                  0s - 30s                  |
 | ┣ Display Cooldown         |                        Cooldown for the Portable Admin Button.                         | Seconds |   15s   |                  0s - 30s                  |
 | ┗ Display Duration         |   Maximum duration for the Portable Admin Button, given that there's enough charge.    | Seconds |   15s   |                  ∞ - 30s                   |
+
+### Strategy Guide
+
+Use the Admin table to hyper-focus on a group of players if possible. If you have access to the portable table, you can use it and charge it up by doing tasks.

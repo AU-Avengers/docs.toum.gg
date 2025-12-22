@@ -15,3 +15,7 @@ The **Mystic** is alerted whenever someone dies, seeing a blue flash and a brief
 | Option         |               Description                |  Type   | Default |  Range  |
 | -------------- | :--------------------------------------: | :-----: | :-----: | :-----: |
 | Arrow Duration | How long a dead body arrow is shown for. | Seconds |  0.05s  | 0s - 1s |
+
+### Strategy Guide
+
+As the Mystic, you can just relax and wait for the deaths to happen.

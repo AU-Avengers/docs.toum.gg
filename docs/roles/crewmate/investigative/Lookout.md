@@ -24,3 +24,7 @@ The **Lookout** can **watch** other players during rounds, and will discover whi
 | Max Watches      |      Maximum players that can be watched.       |  Count  |    5    |    1 - 15    |
 | Reset Each Round | Determines if uses are reset each round or not. | Toggle  |  True   | True / False |
 | ┗ Task Uses      |   Determines if doing tasks gives more uses.    | Toggle  |  False  | True / False |
+
+### Strategy Guide
+
+If you believe someone is being highly targeted (like a Mayor) you can watch them, and possibly clear a protective role or even identify a killer.
