@@ -26,13 +26,13 @@ The **Seer** can compare the alignments of other players, learning if players ar
 | Reveal / Compare Cooldown                      | Cooldown for using the Reveal ability                             | Seconds | 10 - 60s |     20s      |
 | Max Uses of Reveal / Compare                   | Maximum number of times the Reveal / Compare ability can be used. |  Count  |    5     |  1 - 15 / ∞  |
 
-### If set to Compare Alignments
+### If Set to Compare Alignments
 
 | Option                                | Description                                   |  Type  |   Default    | Range |
 | ------------------------------------- | --------------------------------------------- | :----: | :----------: | :---: |
-| Neutral Benigns Shows Friends to All  | Determines if NB roles will show as friendly. | Toggle | True / False | False |
-| Neutral Evils Shows Friends to All    | Determines if NE roles will show as friendly. | Toggle | True / False | False |
-| Neutral Outliers Shows Friends to All | Determines if NO roles will show as friendly. | Toggle | True / False | False |
+| ┣ Neutral Benigns Shows Friends to All  | Determines if Neutral Benign roles will show as friendly. | Toggle | True / False | False |
+| ┣ Neutral Evils Shows Friends to All    | Determines if Neutral Evil roles will show as friendly. | Toggle | True / False | False |
+| ┗ Neutral Outliers Shows Friends to All | Determines if Neutral Outlier roles will show as friendly. | Toggle | True / False | False |
 
 ### If Set to Check (Reveal) Alignments
 
