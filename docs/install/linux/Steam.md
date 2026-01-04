@@ -6,9 +6,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Guide to install Town of Us: Mira via Steam on Linux / Steam Deck.
 
-This guide requires that you own _Among Us_ on [Steam](https://store.steampowered.com/app/945360). You will also need Protontricks from your preferred Flatpak manager.
-
-**Required base game version:** v.17.0.1 (latest version)
+This guide requires that you own _Among Us_ on [Steam](https://store.steampowered.com/app/945360).
 
 ---
 
@@ -24,20 +22,13 @@ This guide requires that you own _Among Us_ on [Steam](https://store.steampowere
 
 <img src={useBaseUrl('/img/Install/mirasteam.png')} />
 
-**5.** On Steam, click **Add a Game** in the bottom left corner, select **Add a non-Steam game...**. In the pop-up, locate the AmongUs.exe from your new folder.
+**5.** Right-click Among Us on Steam and click `Properties`. In the Launch Options, enter the following:
+```WINEDLLOVERRIDES="winhttp=n,b" %command%```
 
-**6.** Select your preferred Proton version from the drop-down options (e.g., 90-4). After this, launch the shortcut (it will not launch the mod yet, but this step is required).
-
-### DLL Override
-
-- Open Protontricks, then scroll down to the entry for your **Non-steam shortcut: [name of shortcut]** and select it.
-- Select **Edit the default wine prefix**, then **Run winecfg**.
-- In **winecfg**, click **Libraries**. Enter `winhttp` into the text box, click **Add > OK**.
-
-If installed correctly, launching via the Steam shortcut will open the mod with the **Town of Us: Mira** logo displayed in the top left corner.
+**6.** Launch from the game exe in your TOU Mira folder. If successful, it will display the **Town of Us: Mira** logo in the top left corner.
 
 ---
-### Downgrading
+### Downgrading (when required)
 
 - Right-click _Among Us_ on Steam, then click **Properties**.
 - Click **Betas** and select `public previous` on the drop-down.
@@ -51,5 +42,3 @@ Steam should automatically update the game to the compatible version, then you c
 ---
 
 If your game crashes, doesn't load mods, or another issue occurs, please join the Town of Us [Discord](https://discord.gg/ugyc4EVUYZ) server and make a **Mira Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel for assistance.
-
-<sub>Original guide written by [Chloe](https://totallychloe.carrd.co/).</sub>
