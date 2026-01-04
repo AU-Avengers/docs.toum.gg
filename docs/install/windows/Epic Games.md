@@ -8,8 +8,6 @@ Guide to install Town of Us: Mira via Epic Games on Windows.
 
 This guide requires that you own <i>Among Us</i> on [Epic Games](https://store.epicgames.com/en-US/p/among-us).
 
-**Required base game version:** v17.0.1 (latest version)
-
 ***
 
 ### Mod Installation
@@ -20,13 +18,11 @@ This guide requires that you own <i>Among Us</i> on [Epic Games](https://store.e
 
 <b>3.</b> Extract the contents of the .zip folder you downloaded and open it. Copy all of the contents and paste them into the new TOU Mira folder. It should look like this example:
 
-<img src={useBaseUrl('/img/Install/miraepicNDG.png')} />
+<img src={useBaseUrl('/img/Install/miraepic.png')} />
 
-<b>4.</b> Launch the game using the <b>EpicGamesStarter.exe.</b> **Note:** You may have to launch as Administrator. 
+<b>4.</b> Launch the game using the <i>EpicGamesStarter.exe.</i> (**Note:** You may have to launch as Administrator. )
 
 If installed correctly, the game will launch with <b>Town of Us: Mira</b> logo displayed in the top-left corner.
 
 ***
 If you encounter any issues installing or with the downgrade process, please join the [TOU Discord](https://discord.com/invite/town-of-us-reactivated) server and open a **Mira Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel. Please provide a screenshot of the full terminal window displaying any downgrade errors.
-
-<sub>Original guide written by [Chloe](https://totallychloe.carrd.co/).</sub>
