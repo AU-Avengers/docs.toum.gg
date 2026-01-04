@@ -9,7 +9,7 @@ Guide to install Town of Us: Mira via Microsoft Store/Xbox App.
 
 This guide requires that you own *Among Us* on [Microsoft Store / Xbox App](https://apps.microsoft.com/detail/9NG07QJNK38J). 
 
-**Note:** This platform <b>cannot</b> be downgraded. 
+**Note:** This platform <u>cannot</u> be downgraded. 
 
 ***
 ### Mod Installation
