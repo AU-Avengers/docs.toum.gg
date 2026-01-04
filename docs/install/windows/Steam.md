@@ -8,8 +8,6 @@ Guide to install Town of Us: Mira via Steam on Windows.
 
 This guide requires that you own _Among Us_ on [Steam](https://store.steampowered.com/app/945360).
 
-**Required game version:** v17.0.1 (latest version)
-
 ---
 
 ### Mod Installation
@@ -22,13 +20,13 @@ This guide requires that you own _Among Us_ on [Steam](https://store.steampowere
 
 **4.** Extract the contents of the .zip folder you downloaded and open it. Copy all the contents (two folders and five files) and paste them into the new TOU Mira folder. It should look like this example:
 
-<img src={useBaseUrl('/img/Install/mirasteam.png')} />
+<img src={useBaseUrl('/img/Install/steammira.png')} />
 
 **5.** Launch the _Among Us.exe_ from that folder. If successful, it will launch with the **Town of Us: Mira** logo displayed in the top left corner.
 
 ---
 
-### Downgrading
+### Downgrading (when required)
 
 - Right-click _Among Us_ on Steam, then click **Properties**.
 - Click **Betas** and select `public previous` on the drop-down.
