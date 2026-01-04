@@ -23,7 +23,9 @@ This guide requires that you own _Among Us_ on [Steam](https://store.steampowere
 <img src={useBaseUrl('/img/Install/mirasteam.png')} />
 
 **5.** Right-click Among Us on Steam and click `Properties`. In the Launch Options, enter the following:
-```WINEDLLOVERRIDES="winhttp=n,b" %command%```
+```md
+WINEDLLOVERRIDES="winhttp=n,b" %command%
+```
 
 **6.** Launch from the game exe in your TOU Mira folder. If successful, it will display the **Town of Us: Mira** logo in the top left corner.
 
