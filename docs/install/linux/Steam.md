@@ -20,7 +20,7 @@ This guide requires that you own _Among Us_ on [Steam](https://store.steampowere
 
 **4.** Extract the contents of the .zip folder you downloaded and open it. Copy all the contents (two folders and five files) and paste them into the new TOU Mira folder. It should look like this example:
 
-<img src={useBaseUrl('/img/Install/mirasteam.png')} />
+<img src={useBaseUrl('/img/Install/steammira.png')} />
 
 **5.** Right-click Among Us on Steam and click `Properties`. In the Launch Options, enter the following:
 ```md
