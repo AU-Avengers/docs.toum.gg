@@ -1,6 +1,7 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/Icons/Lover.png')} alt="Icon" align="left" style={{height: 60}} />
+
 # Lovers
 
 #### Universal Alliance
@@ -9,10 +10,10 @@ As a lover, you can chat with your other lover (signified with a pink **♥**) d
 
 ### Options
 
-| Option | Description | Type | Default | Range |
-|----------|:-----------------:|:------:|:------:|:------:|
-| Lifelink | Determines if lovers die and revive together. | Toggle | True | N/A |
-| Loving Imp Percent | Chance that one of the lovers is a killer. | Percent | 20% | 0% - 100% |
-| Impostor Lovers | If impostors can be lovers with one another. | Toggle | False | N/A |
-| Neutral Lovers | If Neutrals can be lovers. | Toggle | True | N/A |
-| Kill Teammates | If a lover can kill their Vampire/Impostor teammates. | Toggle | False | N/A |
+| Option                              |                                     Description                                     |    Type    | Default |    Range     |
+| ----------------------------------- | :---------------------------------------------------------------------------------: | :--------: | :-----: | :----------: |
+| Both Lovers Die and Revive Together | Determines if both Lovers will die if one is killed, and if both will be revived if one is. |   Toggle   |  True   | True / False |
+| Loving Another Killing Probability   |     Determines whether a Killing role can be Lovers with another Killing role.      | Percentage |   20%   |   0 - 100%   |
+| Neutral Roles Can Be Lovers         |                   Determines if two Neutral roles can be Lovers.                    |   Toggle   |  True   | True / False |
+| Lover Can Kill Faction Teammates    |               Determines if a Lover can kill their faction teammates.               |   Toggle   |  False  | True / False |
+| Lovers Can Kill One Another         |                      Determines if Lovers can kill each other.                      |   Toggle   |  False  | True / False |
