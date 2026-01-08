@@ -1,8 +1,8 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Crew.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Crewpostor.png')} alt="Icon" align="left" style={{height: 60}} />
 
-# Crewposter
+# Crewpostor
 
 #### Crewmate Alliance
 
@@ -11,8 +11,8 @@ The Crewposter is a Crewmate Alliance modifier, which forces a Crewmate to work 
 ### Options
 
 | Option                              |  Type  | Default |
-| ----------------------------------- | :----: | :-----: |
-| Crewposter Reaplces a Real Impostor | Toggle |  True   |
+|-------------------------------------| :----: | :-----: |
+| Crewpostor Replaces a Real Impostor | Toggle |  True   |
 | Crewpostor Can Always Sabotage      | Toggle |  False  |
 | Crewpostor Gets Impostor Vision     | Toggle |  True   |
 | Crewpostor Appears Like a Traitor   | Toggle |  False  |

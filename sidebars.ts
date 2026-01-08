@@ -320,7 +320,7 @@ const sidebars: SidebarsConfig = {
       },
       items:
       [
-       'modifiers/alliance/Crewposter', 
+       'modifiers/alliance/Crewpostor', 
        'modifiers/alliance/Egotist',
        'modifiers/alliance/Lovers',
       ]

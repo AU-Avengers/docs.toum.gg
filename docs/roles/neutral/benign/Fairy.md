@@ -1,6 +1,6 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/GuardianAngel.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Fairy.png')} alt="Icon" align="left" style={{height: 60}} />
 
 # Fairy
 ##### Aliases: Guardian Angel (TOUR)

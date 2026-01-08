@@ -12,11 +12,11 @@ The **Seer** can compare the alignments of other players, learning if players ar
 
 ### Abilities
 
-| Button                                                                                       |  Ability   |                                             Description                                              |        Type        |
-| -------------------------------------------------------------------------------------------- | :--------: | :--------------------------------------------------------------------------------------------------: | :----------------: |
-| <img src={useBaseUrl('/img/CrewButtons/SeerButton.png')} alt="Button" style={{width: 50}} /> | **Intuit** | Chooses a player to compare alliances of others to. The target can be changed within the same round. | Player Interaction |
-| <img src={useBaseUrl('/img/CrewButtons/SeerButton.png')} alt="Button" style={{width: 50}} /> |  **Gaze**  |              Reveals the alliance between the target players when comparing alignments.              | Player Interaction |
-| <img src={useBaseUrl('/img/CrewButtons/SeerButton.png')} alt="Button" style={{width: 50}} /> | **Reveal** |                Reveals the alliance of target players when revealing alignments only.                | Player Interaction |
+| Button                                                                                         |  Ability   |                                             Description                                              |        Type        |
+|------------------------------------------------------------------------------------------------| :--------: | :--------------------------------------------------------------------------------------------------: | :----------------: |
+| <img src={useBaseUrl('/img/CrewButtons/IntuitButton.png')} alt="Button" style={{width: 50}} /> | **Intuit** | Chooses a player to compare alliances of others to. The target can be changed within the same round. | Player Interaction |
+| <img src={useBaseUrl('/img/CrewButtons/GazeButton.png')} alt="Button" style={{width: 50}} />   |  **Gaze**  |              Reveals the alliance between the target players when comparing alignments.              | Player Interaction |
+| <img src={useBaseUrl('/img/CrewButtons/SeerButton.png')} alt="Button" style={{width: 50}} />   | **Reveal** |                Reveals the alliance of target players when revealing alignments only.                | Player Interaction |
 
 ### Role Settings
 
