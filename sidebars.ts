@@ -126,7 +126,7 @@ const sidebars: SidebarsConfig = {
             'roles/crewmate/support/Imitator',
             'roles/crewmate/support/Medium',
             'roles/crewmate/support/Plumber',
-            'role/crewmates/support/Semtry',
+            'role/crewmates/support/Sentry',
             'roles/crewmate/support/Transporter'
           ]
         },
@@ -180,7 +180,7 @@ const sidebars: SidebarsConfig = {
             'roles/impostor/killing/Bomber',
             'roles/impostor/killing/Parasite',
             'roles/impostor/killing/Scavenger',
-            'roles/impostor/killing/Warlock'
+            'roles/impostor/killing/Warlock',
           ]
         },
           {
