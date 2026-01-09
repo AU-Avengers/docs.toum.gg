@@ -126,7 +126,7 @@ const sidebars: SidebarsConfig = {
             'roles/crewmate/support/Imitator',
             'roles/crewmate/support/Medium',
             'roles/crewmate/support/Plumber',
-            'roles/crewmates/support/Sentry',
+            'roles/crewmate/support/Sentry',
             'roles/crewmate/support/Transporter'
           ]
         },
