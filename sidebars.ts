@@ -86,7 +86,8 @@ const sidebars: SidebarsConfig = {
             'roles/crewmate/power/Mayor',
             'roles/crewmate/power/Politician',
             'roles/crewmate/power/Prosecutor',
-            'roles/crewmate/power/Swapper'
+            'roles/crewmate/power/Swapper',
+            'roles/crewmate/power/Time Lord'
           ]
         },
         {
@@ -125,6 +126,7 @@ const sidebars: SidebarsConfig = {
             'roles/crewmate/support/Imitator',
             'roles/crewmate/support/Medium',
             'roles/crewmate/support/Plumber',
+            'role/crewmates/support/Semtry',
             'roles/crewmate/support/Transporter'
           ]
         },
@@ -174,8 +176,9 @@ const sidebars: SidebarsConfig = {
           },
           items:
           [
-              'roles/impostor/killing/Ambusher',
+            'roles/impostor/killing/Ambusher',
             'roles/impostor/killing/Bomber',
+            'roles/impostor/killing/Parasite',
             'roles/impostor/killing/Scavenger',
             'roles/impostor/killing/Warlock'
           ]
@@ -193,6 +196,7 @@ const sidebars: SidebarsConfig = {
               items:
                   [
                       'roles/impostor/power/Ambassador',
+                      'roles/impostor/power/Puppeteer',
                       'roles/impostor/power/Spellslinger',
                       'roles/impostor/power/Traitor',
                   ]
@@ -366,6 +370,8 @@ const sidebars: SidebarsConfig = {
       },
       items:
       [
+        'modifiers/impostor/Circumvent',
+        'modifiers/impostor/Deadly Quota',
         'modifiers/impostor/Disperser',
         'modifiers/impostor/Double Shot',
         'modifiers/impostor/Saboteur',
