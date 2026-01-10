@@ -84,6 +84,7 @@ const sidebars: SidebarsConfig = {
           [
             'roles/crewmate/power/Jailor',
             'roles/crewmate/power/Mayor',
+            'roles/crewmate/power/Monarch',
             'roles/crewmate/power/Politician',
             'roles/crewmate/power/Prosecutor',
             'roles/crewmate/power/Swapper',
