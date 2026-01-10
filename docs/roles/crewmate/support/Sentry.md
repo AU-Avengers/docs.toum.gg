@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 #### **Alignment:** Crewmate Support
 
-The **Sentry** can place additional cameras across the map, which can then be viewed from Security or players with portable cameras.
+The **Sentry** can place additional cameras across the map, which can then be viewed from Security or by players with portable cameras.
 
 ### Abilities
 
@@ -23,7 +23,7 @@ The **Sentry** can place additional cameras across the map, which can then be vi
 | :------------------------------- | ---------------------------------------------------------------------------------------------------- | :-----: | :---------: | :-------------------------------------------------: |
 | Placement Cooldown               | Cooldown for using the Deploy ability.                                                               | Seconds |     30s     |                      5 - 120s                       |
 | Deployed Cameras Visibility       | Determines when placed cameras will become visible.                                                  | String  | Immediately |             Immediately / After Meeting             |
-| ┗ Can Move While Placing Cameras | If Cameras are set to become visible After Meeting.                                                  | Toggle  |    False    |                    True / False                     |
+| ┗ Can Move While Placing Cameras | If Cameras are set to become visible After Meeting, determines whether the Sentry can move while placing cameras.                                                  | Toggle  |    False    |                    True / False                     |
 | Portable Cameras                 | Determines when the Sentry can use Portable Cameras.                                                 | String  | After Tasks | After Tasks / Immediately / On Maps Without Cameras |
 | Initial Cameras                  | Determines how many cameras the Sentry will have to start with.                                      |  Count  |      2      |                     1 - 15 / ∞                      |
 | Amount Of Rounds Cameras Last    | How many rounds placed cameras will last.                                                            |  Count  |      2      |                     1 - 15 / ∞                      |
