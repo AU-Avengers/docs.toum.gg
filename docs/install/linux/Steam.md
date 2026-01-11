@@ -14,20 +14,18 @@ This guide requires that you own _Among Us_ on [Steam](https://store.steampowere
 
 **1.** Download the [latest](https://github.com/AU-Avengers/TOU-Mira/releases/latest) Town of Us: Mira version (look for the **.steam-itch.zip** folder).
 
-**2.** Go to your Steam library, right-click _Among Us_ and click **Manage** > **Browse Local Files**
+**2.** Go to your Steam library, right-click _Among Us_ and click **Manage** > **Browse Local Files**.  This should open the main Among Us game folder.
 
-**3.** In the File Explorer, navigate to the common folder and duplicate your _Among Us_ folder. Rename it to something like **Among Us - TOU Mira**.
-
-**4.** Extract the contents of the .zip folder you downloaded and open it. Copy all the contents (two folders and five files) and paste them into the new TOU Mira folder. It should look like this example:
+**3.** Extract the contents of the .zip folder you downloaded and open it. Copy all the contents (two folders and five files) and paste them into the main Among Us game folder. It should look like the image below.
 
 <img src={useBaseUrl('/img/Install/steammira.png')} />
 
-**5.** Right-click Among Us on Steam and click `Properties`. In the Launch Options, enter the following:
+**4.** Right-click Among Us on Steam and click `Properties`. In the Launch Options, enter the following:
 ```md
 WINEDLLOVERRIDES="winhttp=n,b" %command%
 ```
 
-**6.** Launch from the game exe in your TOU Mira folder. If successful, it will display the **Town of Us: Mira** logo in the top left corner.
+**5.** Launch from the game exe in your TOU Mira folder. If successful, it will display the **Town of Us: Mira** logo in the top left corner.
 
 ---
 ### Downgrading (when required)
