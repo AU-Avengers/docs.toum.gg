@@ -1,6 +1,6 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/ButtonBarry.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/SixthSense.png')} alt="Icon" align="left" style={{height: 60}} />
 # Sixth Sense
 
 #### Universal Passive
