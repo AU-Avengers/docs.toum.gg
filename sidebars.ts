@@ -43,6 +43,7 @@ const sidebars: SidebarsConfig = {
             'roles/crewmate/investigative/Haunter',
             'roles/crewmate/investigative/Investigator',
             'roles/crewmate/investigative/Lookout',
+            'roles/crewmate/investigative/Medium',
             'roles/crewmate/investigative/Mystic',
             'roles/crewmate/investigative/Seer',
             'roles/crewmate/investigative/Snitch',
@@ -125,7 +126,6 @@ const sidebars: SidebarsConfig = {
           [
             'roles/crewmate/support/Engineer',
             'roles/crewmate/support/Imitator',
-            'roles/crewmate/support/Medium',
             'roles/crewmate/support/Plumber',
             'roles/crewmate/support/Sentry',
             'roles/crewmate/support/Transporter'

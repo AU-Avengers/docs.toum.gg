@@ -6,7 +6,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### _Communicate with the dead!_
 
-#### **Alignment:** Crewmate Support
+#### **Alignment:** Crewmate Investigative
 
 The **Medium** can see ghosts of players who died during the round by using their **Mediate** ability. The Medium and the ghost will be alerted with a purple flash and see an arrow showing their locations to each other at all times.
 
