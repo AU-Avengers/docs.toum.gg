@@ -19,7 +19,7 @@ Campaigned players will be visible to the Politician with cyan coloured names.
 
 ### Options
 
-| Option                               |                                                        Description                                                        |  Type   | Default |    Range     |
-| ------------------------------------ | :-----------------------------------------------------------------------------------------------------------------------: | :-----: | :-----: | :----------: |
-| Campaign Cooldown                    |                                         Cooldown for being able to jail someone.                                          | Seconds |   25s   |   10 - 60s   |
-| Prevent Campaigning on Failed Reveal | If the Politician attempts to reveal without enough crew campaigned, they will not be able to Campaign in the next round. | Toggle  |  True   | True / False |
+| Option                               |                                                          Description                                                          |  Type   | Default |    Range     |
+| ------------------------------------ |:-----------------------------------------------------------------------------------------------------------------------------:| :-----: | :-----: | :----------: |
+| Campaign Cooldown                    |                                         Cooldown for being able to campaign someone.                                          | Seconds |   25s   |   10 - 60s   |
+| Prevent Campaigning on Failed Reveal |   If the Politician attempts to reveal without enough crew campaigned, they will not be able to Campaign in the next round.   | Toggle  |  True   | True / False |

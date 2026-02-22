@@ -1,6 +1,6 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Traitor.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Spellslinger.png')} alt="Icon" align="left" style={{height: 60}} />
 
 # Spellslinger
 
@@ -13,9 +13,9 @@ The **Spellslinger** can **hex** a player, priming them for detonation. Once all
 ### Abilities
 
 |                                             Button                                              | Ability  |                                            Description                                            |      Type       |
-| :---------------------------------------------------------------------------------------------: | :------: | :-----------------------------------------------------------------------------------------------: | :-------------: |
-| <img src={useBaseUrl('/img/ImpButtons/TraitorSelect.png')} alt="Button" style={{width: 50}} />  |   **Hex**    |                            Hex a player, priming them for detonation.                             |  Basic Ability  |
-| <img src={useBaseUrl('/img/CrewButtons/ExamineButton.png')} alt="Button" style={{width: 50}} /> | **Hex Bomb** | Begin the countdown for the hex bomb. If you are alive when the hex bomb triggers, impostors win! | Delayed Ability |
+|:-----------------------------------------------------------------------------------------------:| :------: | :-----------------------------------------------------------------------------------------------: | :-------------: |
+|   <img src={useBaseUrl('/img/ImpButtons/HexButton.png')} alt="Button" style={{width: 50}} />    |   **Hex**    |                            Hex a player, priming them for detonation.                             |  Basic Ability  |
+| <img src={useBaseUrl('/img/ImpButtons/HexBombButton.png')} alt="Button" style={{width: 50}} /> | **Hex Bomb** | Begin the countdown for the hex bomb. If you are alive when the hex bomb triggers, impostors win! | Delayed Ability |
 
 ### Options
 
