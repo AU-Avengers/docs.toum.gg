@@ -72,15 +72,21 @@ const config: Config = {
           label: 'Modifiers',
         },
         {
-          to: '/blog',
-          label: 'Changelog',
-          position: 'left',
+        type: 'docSidebar',
+        sidebarId: 'settingsSidebar',
+        position: 'left',
+        label: 'Settings'
         },
         {
           type: 'docSidebar',
           sidebarId: 'installSidebar',
           position: 'left',
           label: 'Installation',
+        },
+        {
+          to: '/blog',
+          label: 'Changelog',
+          position: 'left',
         },
         {
           href: 'https://discord.gg/ugyc4EVUYZ',
@@ -108,14 +114,18 @@ const config: Config = {
                label: 'Modifiers',
                to: '/docs/category/alliances',
              },
+              {
+              label: 'Settings',
+              to: '/docs/category/settings/game settings',
+             },
+            {
+               label: 'Installation',
+               to: '/docs/install/intro',
+             },
             {
               label: 'Changelog',
               to: '/blog',
             },
-             {
-               label: 'Installation',
-               to: '/docs/install/intro',
-             },
           ],
         },
         {
