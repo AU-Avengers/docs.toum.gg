@@ -22,7 +22,7 @@ If enabled, when overtaken, the victim will look like the Parasite (to themselve
 
 |                                             Button                                              |   Ability    |                                         Description                                          |        Type        |
 | :---------------------------------------------------------------------------------------------: | :----------: | :------------------------------------------------------------------------------------------: | :----------------: |
-| <img src={useBaseUrl('/img/ImpButtons/OvertakeButton.png')} alt="Button" style={{width: 50}} /> | **Overtake** | Place a bomb, showing the radius in which it'll kill, killing up to a set amount of players. | Player Interaction |
+| <img src={useBaseUrl('/img/ImpButtons/OvertakeButton.png')} alt="Button" style={{width: 50}} /> | **Overtake** | Overtake a victim to control their movement.Press the same button again to kill them, or wait for the timer. | Player Interaction |
 
 ### Options
 
