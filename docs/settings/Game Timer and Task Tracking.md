@@ -4,6 +4,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # End Game Timer
 
+### Settings for End Game Timer and Task Tracking
+
 | Option                    |                                                 Description                                                  |  Type  |  Default   |          Range           |
 | ------------------------- | :----------------------------------------------------------------------------------------------------------: | :----: | :--------: | :----------------------: |
 | Game Timer                |                             Determines whether a timer is enabled for the game.                              | Toggle |   False    |       True / False       |
