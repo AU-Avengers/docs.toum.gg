@@ -4,6 +4,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Game Mechanics
 
+#### Settings for Game Mechanics. 
+
 | Option                                                       |                                 Description                                 |  Type  |    Default     |                   Range                   |
 | ------------------------------------------------------------ | :-------------------------------------------------------------------------: | :----: | :------------: | :---------------------------------------: |
 | Ghostwalkers Can Fix Sabotages                               |   Determines whether the Haunter and/or Phantom is able to fix sabotages.   | Toggle |     False      |               True / False                |
