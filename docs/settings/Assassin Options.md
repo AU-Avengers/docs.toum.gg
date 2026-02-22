@@ -1,10 +1,10 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/OtherButtons/Guess.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/DoubleShot.png')} alt="Icon" align="left" style={{height: 60}} />
 
 # Assassin Options
 
-#### Settings for the Assassin (guessing) ability.
+Settings for the Assassin (guessing) ability.
 
 | Option                                       |                                                     Description                                                      |    Type    | Default |    Range     |
 | -------------------------------------------- | :------------------------------------------------------------------------------------------------------------------: | :--------: | :-----: | :----------: |

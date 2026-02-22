@@ -1,8 +1,10 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Engineer.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Traitor.png')} alt="Icon" align="left" style={{height: 60}} />
 
 # Role Settings
+
+Settings for game modes as well as role spawns.
 
 | Option                  |                          Description                          |    Type    |  Default  |               Range                |
 | ----------------------- | :-----------------------------------------------------------: | :--------: | :-------: | :--------------------------------: |

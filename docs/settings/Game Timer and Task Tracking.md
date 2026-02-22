@@ -1,8 +1,10 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Engineer.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/DeadlyQuota.png')} alt="Icon" align="left" style={{height: 60}} />
 
 # End Game Timer
+
+Settings for the End Game Timer, which has a countdown for the duration of the game.
 
 | Option                    |                                                 Description                                                  |  Type  |  Default   |          Range           |
 | ------------------------- | :----------------------------------------------------------------------------------------------------------: | :----: | :--------: | :----------------------: |

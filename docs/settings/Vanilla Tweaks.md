@@ -4,6 +4,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Vanilla Tweaks
 
+Settings for altering the vanilla experience.
+
 | Option                                |                                                             Description                                                              |  Type  | Default |           Range            |
 | ------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------: | :----: | :-----: | :------------------------: |
 | Max Players Alive When Vents Disable  |              Determines how many players must be alive when vents become disabled. 2 is the default for 1v1 situations.              | Count  |    2    |           1 - 15           |
