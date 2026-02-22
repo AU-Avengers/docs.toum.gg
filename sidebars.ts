@@ -472,14 +472,14 @@ const sidebars: SidebarsConfig = {
       },
       items:
     [
-      'settings/game settings/Host Specific',
-      'settings/game settings/Vanilla Tweaks',
-      'settings/game settings/Game Mechanics',
-      'settings/game settings/General',
-      'settings/game settings/Role Settings',
-      'settings/game settings/Postmortem Options',
-      'settings/game settings/Game Timer and Task Tracking',
-      'settings/game settings/Assassin Options',
+      'settings/Host Specific',
+      'settings/Vanilla Tweaks',
+      'settings/Game Mechanics',
+      'settings/General',
+      'settings/Role Settings',
+      'settings/Postmortem Options',
+      'settings/Game Timer and Task Tracking',
+      'settings/Assassin Options',
     ]
     },
   ],
