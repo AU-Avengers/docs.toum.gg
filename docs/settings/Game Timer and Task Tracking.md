@@ -4,7 +4,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # End Game Timer
 
-Settings for the End Game Timer, which has a countdown for the duration of the game.
+Settings for the End Game Timer, which has a countdown for the duration of the game, and task tracking, which is displayed on player names.
 
 | Option                    |                                                 Description                                                  |  Type  |  Default   |          Range           |
 | ------------------------- | :----------------------------------------------------------------------------------------------------------: | :----: | :--------: | :----------------------: |
