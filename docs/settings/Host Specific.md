@@ -4,6 +4,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Host Specific Options
 
+#### Host Specific settings.
+
 | Option                        |                                                   Description                                                    |  Type  | Default |    Range     |
 | ----------------------------- | :--------------------------------------------------------------------------------------------------------------: | :----: | :-----: | :----------: |
 | Enable Anti Cheat Warnings    |              This will enable messages for the host to see which mods/add-ons players join the lobby with.               | Toggle |  True   | True / False |
