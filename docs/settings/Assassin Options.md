@@ -4,6 +4,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Assassin Options
 
+#### Settings for the Assassin (guessing) ability.
+
 | Option                                       |                                                     Description                                                      |    Type    | Default |    Range     |
 | -------------------------------------------- | :------------------------------------------------------------------------------------------------------------------: | :--------: | :-----: | :----------: |
 | Number of Impostor Assassins                 |                            Determines how many Impostors will have the Assassin ability.                             |   Count    |    1    |    0 - 4     |
