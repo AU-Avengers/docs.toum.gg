@@ -459,6 +459,30 @@ const sidebars: SidebarsConfig = {
       ]
     },
   ],
+  settingsSidebar: [
+    { 
+      type: 'category',
+      label: 'Settings',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+        title: 'Settings',
+        description: 'These guides will explain the various settings when hosting a lobby.',
+        image: 'img/Crewmate',
+      },
+      items:
+    [
+      'settings/game settings/Host Specific',
+      'settings/game settings/Vanilla Tweaks',
+      'settings/game settings/Game Mechanics',
+      'settings/game settings/General',
+      'settings/game settings/Role Settings',
+      'settings/game settings/Postmortem Options',
+      'settings/game settings/Game Timer and Task Tracking',
+      'settings/game settings/Assassin Options',
+    ]
+    },
+  ],
 };
 
 export default sidebars;
