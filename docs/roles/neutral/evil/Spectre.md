@@ -1,6 +1,6 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Phantom.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Spectre.png')} alt="Icon" align="left" style={{height: 60}} />
 
 # Spectre
 ##### Aliases: Phantom (TOUR)

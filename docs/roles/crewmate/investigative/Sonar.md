@@ -1,6 +1,6 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Tracker.png')} alt="Icon" align="left" style={{height: '60px', margin: '00px 10px 00px -10px'}} />
+<img src={useBaseUrl('/img/Icons/Sonar.png')} alt="Icon" align="left" style={{height: '60px', margin: '00px 10px 00px -10px'}} />
 
 # Sonar
 ##### Aliases: Tracker (TOUR)

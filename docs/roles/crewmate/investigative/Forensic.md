@@ -1,6 +1,6 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Detective.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Forensic.png')} alt="Icon" align="left" style={{height: 60}} />
 
 # Forensic
 ##### Aliases: Detective (TOUR)

@@ -10,9 +10,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 The Time Lord can **rewind** time for a set duration, forcing players to retrace their steps and potentially reviving dead players!
 
-|                                             Button                                              |  Ability   |           Description            | Type          |
-| :---------------------------------------------------------------------------------------------: | :--------: | :------------------------------: | ------------- |
-| <img src={useBaseUrl('/img/OtherButtons/RewindButton.png')} alt="Button" style={{width: 50}} /> | **Rewind** | Rewinds time for a set duration. | Basic Ability |
+|                                             Button                                             |  Ability   |           Description            | Type          |
+|:----------------------------------------------------------------------------------------------:| :--------: | :------------------------------: | ------------- |
+| <img src={useBaseUrl('/img/CrewButtons/RewindButton.png')} alt="Button" style={{width: 50}} /> | **Rewind** | Rewinds time for a set duration. | Basic Ability |
 
 ### Options
 
