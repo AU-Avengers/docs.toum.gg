@@ -6,7 +6,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### _Complete all your tasks without getting caught to reveal impostors!_
 
-#### Alignment: Crewmate Investigative, Ghost Role
+#### Alignment: Crewmate Afterlife
 
 The **Haunter** is the ghost of a crewmate who must complete their tasks without being caught to reveal the Impostors to the living.
 

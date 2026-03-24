@@ -6,7 +6,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ##### Aliases: Phantom (TOUR)
 ### _Complete Your Tasks Without Being Caught!_
 
-#### **Alignment:** Neutral Evil, Ghost Role
+#### **Alignment:** Neutral Afterlife
 
 When a Neutral role dies, they have a chance to respawn as the **Spectre**, who must complete their tasks without being clicked on to win. 
 

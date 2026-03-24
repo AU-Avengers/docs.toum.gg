@@ -26,6 +26,21 @@ const sidebars: SidebarsConfig = {
       },
       items:
       [
+          {
+              type: 'category',
+              label: 'Crew Afterlife',
+              collapsed: false,
+              link: {
+                  type: 'generated-index',
+                  title: 'Crewmate Afterlife',
+                  description: 'Crewmate Afterlife roles are assigned after a player dies, gaining the ability to help the Crewmates even in death.',
+                  image: '/img/Icons/GuardianAngel.png',
+              },
+              items:
+                  [
+                      'roles/crewmate/afterlife/Haunter'
+                  ]
+          },
         {
           type: 'category',
           label: 'Crew Investigative',
@@ -40,7 +55,6 @@ const sidebars: SidebarsConfig = {
           [
             'roles/crewmate/investigative/Aurial',
             'roles/crewmate/investigative/Forensic',
-            'roles/crewmate/investigative/Haunter',
             'roles/crewmate/investigative/Investigator',
             'roles/crewmate/investigative/Lookout',
             'roles/crewmate/investigative/Medium',
@@ -236,6 +250,21 @@ const sidebars: SidebarsConfig = {
       },
       items:
       [
+          {
+              type: 'category',
+              label: 'Neut Afterlife',
+              collapsed: false,
+              link: {
+                  type: 'generated-index',
+                  title: 'Neutral Afterlife',
+                  description: 'Neutral Afterlife roles are assigned after a player dies, granting Neutrals a second chance to win or to cause chaos.',
+                  image: '/img/Icons/Spectre.png',
+              },
+              items:
+                  [
+                      'roles/neutral/afterlife/Spectre'
+                  ]
+          },
         {
           type: 'category',
           label: 'Neut Benign',
@@ -269,7 +298,6 @@ const sidebars: SidebarsConfig = {
             'roles/neutral/evil/Doomsayer',
             'roles/neutral/evil/Executioner',
             'roles/neutral/evil/Jester',
-            'roles/neutral/evil/Spectre',
           ]
         },
         {
