@@ -80,6 +80,7 @@ const sidebars: SidebarsConfig = {
           [
             'roles/crewmate/killing/Deputy',
             'roles/crewmate/killing/Hunter',
+            'roles/crewmate/killing/Officer',
             'roles/crewmate/killing/Sheriff',
             'roles/crewmate/killing/Veteran',
             'roles/crewmate/killing/Vigilante'
