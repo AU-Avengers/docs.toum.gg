@@ -14,7 +14,9 @@ These guides require that you own <i>Among Us</i> on [Epic Games](https://store.
 
 <b>1.</b> Download the [latest](https://github.com/AU-Avengers/TOU-Mira/releases/latest) mod version (look for the **epic.msstore.zip** file).
 
-<b>2.</b> Navigate to the Epic Games installation location (e.g., `C:\Program Files\Epic Games`). Duplicate the _Among Us_ folder and rename it to something like <b>'Among Us - TOU Mira'.</b>
+<b>2.</b> Download the [latest](https://github.com/whichtwix/EpicGamesStarter/releases/latest) version of the EpicGamesStarter.exe.
+
+<b>2.</b> Navigate to the Epic Games installation location (e.g., `C:\Program Files\Epic Games`). Duplicate the _Among Us_ folder and rename it to something like <b>'Among Us - TOU Mira'.</b> Move this folder to another location, such as your desktop or `C:\Users\YOURNAME\Games` (EpicGamesStarter cannot launch within the Program Files location).
 
 <b>3.</b> Extract the contents of the .zip folder you downloaded and open it. Copy all of the contents and paste them into the new TOU Mira folder. It should look like this example:
 
