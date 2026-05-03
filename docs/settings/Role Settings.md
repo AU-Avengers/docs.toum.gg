@@ -10,8 +10,8 @@ Settings for game modes and role assignment.
 | --------------------- | :-----------------------------------------------------------: | :--------: | :-------: | :------------------------------------: |
 | Current Game Mode     |               Determines the active game mode.                |   String   |  Normal   | Normal / Hide and Seek / Cultist (N/A) |
 | Role Assignment Type  |              Determines how roles are assigned.               |   String   | Role List |   Role List / Min/Max List / Vanilla   |
-| Reduce Impostor Steak | Reduces the chance of being Impostor multiple times in a row. | Percentage |    15%    |                0 - 100%                |
-| ┗ Reduction Chance    |          The percentage by which your chances are reduced.          | Percentage |    15%    |                0 - 100%                |
+| Reduce Impostor Steak | Reduces the chance of being Impostor multiple times in a row. |   Toggle   |   True    |              True / False              |
+| ┗ Reduction Chance    |          The percentage your chances are reduced by.          | Percentage |    15%    |                0 - 100%                |
 
 ## Role List
 
