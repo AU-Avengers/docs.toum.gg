@@ -360,6 +360,31 @@ const sidebars: SidebarsConfig = {
        'modifiers/alliance/Lovers',
       ]
     },
+       {
+      type: 'category',
+      label: 'Universal',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+        title: 'Universal',
+        description: 'These modifiers are Universal and can apply to anyone, which can be stacked with an Alliance and Faction modifier.',
+        image: '/img/Shy.png',
+      },
+      items:
+      [
+        'modifiers/universal/Button Barry',
+        'modifiers/universal/Flash',
+        'modifiers/universal/Giant',
+        'modifiers/universal/Immovable',
+        'modifiers/universal/Mini',
+        'modifiers/universal/Radar',
+        'modifiers/universal/Satellite',
+        'modifiers/universal/Shy',
+        'modifiers/universal/Sixth Sense',
+        'modifiers/universal/Sleuth',
+        'modifiers/universal/Tiebreaker',
+      ]
+    },
     {
       type: 'category',
       label: 'Crewmate',
@@ -410,29 +435,34 @@ const sidebars: SidebarsConfig = {
         'modifiers/impostor/Underdog',
       ]
     },
-    {
+        {
       type: 'category',
-      label: 'Universal',
+      label: 'Neutral',
       collapsed: false,
       link: {
         type: 'generated-index',
-        title: 'Universal',
-        description: 'These modifiers are Universal and can apply to anyone, which can be stacked with an Alliance and Faction modifier.',
-        image: '/img/Shy.png',
+        title: 'Neutral',
+        description: 'These modifiers are Neutral specific, and can be stacked with an Alliance and Universal modifier.',
+        image: '/img/Bait.png',
       },
       items:
       [
-        'modifiers/universal/Button Barry',
-        'modifiers/universal/Flash',
-        'modifiers/universal/Giant',
-        'modifiers/universal/Immovable',
-        'modifiers/universal/Mini',
-        'modifiers/universal/Radar',
-        'modifiers/universal/Satellite',
-        'modifiers/universal/Shy',
-        'modifiers/universal/Sixth Sense',
-        'modifiers/universal/Sleuth',
-        'modifiers/universal/Tiebreaker',
+        'modifiers/neutral/Double Shot',
+      ]
+    },
+         {
+      type: 'category',
+      label: 'Assassin',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+        title: 'Assassin',
+        description: 'The options for the Assassin (guess) modifier.',
+        image: '/img/OtherButtons/Guess.png',
+      },
+      items:
+      [
+       'modifiers/assassin/Assassin Options', 
       ]
     },
   ],
@@ -506,10 +536,10 @@ const sidebars: SidebarsConfig = {
       'settings/Vanilla Tweaks',
       'settings/Game Mechanics',
       'settings/General',
+      'settings/Round Start Options',
       'settings/Role Settings',
       'settings/Postmortem Options',
       'settings/Game Timer and Task Tracking',
-      'settings/Assassin Options',
     ]
     },
   ],
