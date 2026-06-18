@@ -21,10 +21,10 @@ The **Monarch** can **knight** other players to give them additional votes.
 | Option                           | Description                                                             |  Type   | Default |    Range     |
 | -------------------------------- | ----------------------------------------------------------------------- | :-----: | :-----: | :----------: |
 | Knight Cooldown                  | Cooldown for being able to knight someone.                              | Seconds |   20s   |   5 - 30s    |
-| Maximum Knights                  | The maximum number of Knighted players.                                 |  Count  |    2    |  1 - 15 / ∞  |
+| Maximum Knights                  | The maximum number of Knighted players.                                 |  Count  |    3   |  1 - 15 / ∞  |
 | Votes Per Knight                 | The number of votes given to knighted players.                          |  Count  |    1    |    1 - 5     |
-| Extra Votes Apply on Self        | Determines if the Monarch will also gain extra votes.                   | Toggle  |  False  | True / False |
-| Knight Delay                     | The time it takes to knight a player after.                             | Seconds |   3s    |   1 - 10s    |
+| Knight Delay (Cancellable)                    | The time it takes to knight a player after.                             | Seconds |   3s    |   1 - 10s    |
+| Show Knighted Votes  | Determines if the additional Knighted votes will be shown.           | Toggle  |  True   | True / False |
 | Allow Round One Knighting        | Determines if the Monarch can knight during round one.                  | Toggle  |  False  | True / False |
 | Inform Monarch if a Knight Dies  | Determines if the Monarch will be alerted when a Knight dies.           | Toggle  |  True   | True / False |
 | Crew Knights Grant Kill Immunity | Determines whether the Monarch is given kill immunity if they have successfully knighted a Crewmate (and the Knighted player is still alive). | Toggle  |  True   | True / False |
