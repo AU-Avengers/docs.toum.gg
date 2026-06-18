@@ -4,7 +4,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Mystic
 
-### _Know where and when kills happen!_
+### Understand where and when kills happen!_
 
 #### Alignment: Crewmate Investigative
 
@@ -15,6 +15,7 @@ The **Mystic** is alerted whenever someone dies, seeing a blue flash and a brief
 | Option         |               Description                |  Type   | Default |  Range  |
 | -------------- | :--------------------------------------: | :-----: | :-----: | :-----: |
 | Arrow Duration | How long a dead body arrow is shown for. | Seconds |  0.05s  | 0s - 1s |
+| Show Death Pop-Up | Determines if the Mystic will see a pop-up of which player has died. | Toggle  |  True   | True / False |
 
 ### Strategy Guide
 
