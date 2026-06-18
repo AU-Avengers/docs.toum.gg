@@ -20,12 +20,13 @@ The **Hunter** can **Stalk** players and will be alerted by a brief green flash 
 
 ### Options
 
-| Option         |                                      Description                                       |  Type   | Default |    Range     |
-| -------------- | :------------------------------------------------------------------------------------: | :-----: | :-----: | :----------: |
-| Kill Cooldown  |                             Cooldown for killing a player.                             | Seconds |   25s   |  10s - 60s   |
-| Stalk Cooldown |                            Cooldown for stalking a player.                             | Seconds |   20s   |  10s - 30s   |
-| Stalk Duration |                            Duration for stalking a player.                             | Seconds |   25s   |   5s - 60s   |
-| Max Stalks     |                     Maximum players that can be stalked per game.                      |  Uses   |    5    |    1 - 15    |
-| Task Gains     |                  Determines if uses are gained from completing tasks.                  | Toggle  |  True   | True / False |
-| Retribution    | Determines if the Hunter gets revenge on the last player to vote them by killing them. | Toggle  |  True   | True / False |
-| Report Body    |             Determines if the Hunter can report players they have killed.              | Toggle  |  False  | True / False |
+| Option                                  |                                      Description                                       |  Type   |    Default    |            Range             |
+| --------------------------------------- | :------------------------------------------------------------------------------------: | :-----: | :-----------: | :--------------------------: |
+| Kill Cooldown                           |                             Cooldown for killing a player.                             | Seconds |      25s      |          10s - 60s           |
+| Stalk Cooldown                          |                            Cooldown for stalking a player.                             | Seconds |      20s      |          10s - 30s           |
+| Stalk Duration                          |                            Duration for stalking a player.                             | Seconds |      25s      |           5s - 60s           |
+| Initial Stalk Uses                     |                  How many Stalk abilities the Hunter will start with.                  |  Count  |       5       |          1 - 30 / ∞          |
+| Tasks Required for Additional Stalk Use |            How many tasks must be completed to earn additional Stalk uses.             |  Count  |       1       |         1 - 15 / Off         |
+| Stalk Triggered By                      |                    Determines what will trigger the Hunter's alert.                    | String  | All Abilities | All Abilities / Interactions |
+| Hunter Kills Last Voter if Voted Out    | Determines if the Hunter will kill the last player to vote them if they are voted out. | Toggle  |     True      |         True / False         |
+| Hunter Can Report Who They've Killed    |          Determines if the Hunter can report bodies they have killed.           | Toggle  |     False     |         True / False         |
