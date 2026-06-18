@@ -25,7 +25,8 @@ Depending on settings, an incorrect shot (misfire) may kill the Sheriff or take 
 | Kill Cooldown                   | Cooldown for killing a player.                                          | Seconds |   25s   |                  10s - 60s                   |
 | Can Self Report                 | Determines if the Sheriff can report players they have killed.          | Toggle  |  False  |                 True / False                 |
 | Allow Shooting in First Round   | Determines if the Sheriff can shoot in round one.                       | Toggle  |  False  |                 True / False                 |
+| Can Shot Neutral Benign Roles     | Determines if the Sheriff can successfully shoot Neutral Benign roles.    | Toggle  |  False   |                 True / False                 |
 | Can Shot Neutral Evil Roles     | Determines if the Sheriff can successfully shoot Neutral Evil roles.    | Toggle  |  True   |                 True / False                 |
 | Can Shoot Neutral Killer Roles  | Determines if the Sheriff can successfully shoot Neutral Killing roles. | Toggle  |  True   |                 True / False                 |
 | Can Shoot Neutral Outlier Roles | Determines if the Sheriff can successfully shoot Neutral Outlier roles. | Toggle  |  True   |                 True / False                 |
-| Misfire Kills                   | Who dies from a misfire.                                                | String  | Sheriff | Sheriff / Target / Sheriff & Target / No One |
+| Misfire Kills                   | Determines who dies from a misfire.                                                | String  | Self (Sheriff) | Self / Target / Self + Target / Nobody |
