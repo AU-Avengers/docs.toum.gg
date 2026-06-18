@@ -22,6 +22,7 @@ The **Veteran** can go on **alert** and will kill anyone who interacts with them
 | ----------------------------------- | -------------------------------------------- | :-----: | :-----: | :----------: |
 | Alert Cooldown                      | Cooldown for using the Alert ability.            | Seconds |   25s   |  10s - 60s   |
 | Alert Duration                      | How long the Alert will last when active.    | Seconds |   25s   |  10s - 60s   |
-| Max Number of Alerts                | Maximum Alerts that can be used each game.   |  Uses   |    5    |    1 - 15    |
+| Initial Number of Alerts                | How many Alert uses the Veteran will start the game with.   |  Uses   |    5    |    1 - 15    |
 | Can Be Killed On Alert              | Determines if the Veteran can die on Alert.  | Toggle  |  False  | True / False |
+| Knows When Attacked In Meeting | Determines if the Veteran will be alerted that they were attacked during a meeting. | Toggle  |  True   | True / False |
 | Get More Uses From Completing Tasks | Determines if doing tasks earns more Alerts. | Toggle  |  True   | True / False |
