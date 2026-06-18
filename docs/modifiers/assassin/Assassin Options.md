@@ -1,6 +1,6 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/OtherButtons/Guess.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Assassin.png')} alt="Icon" align="left" style={{height: 60}} />
 
 # Assassin Options
 
