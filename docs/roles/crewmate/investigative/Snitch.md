@@ -4,7 +4,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Snitch
 
-### _Complete your tasks to find the Impostors!_
+### _Complete your tasks to discover the Impostors!_
 
 #### Alignment: Crewmate Investigative
 
@@ -19,8 +19,7 @@ Upon completing all tasks, the Impostors will be revealed to the Snitch with arr
 | Snitch Reveals Neutral Killers      |                      Toggles whether Neutral Killers are revealed to the Snitch as well.                       | Toggle |  True   | True / False |
 | Snitch Sees Traitor                 |                          Toggles whether a turned Traitor is revealed to the Snitch.                           | Toggle |  True   | True / False |
 | Snitch Sees Impostors In Meetings   |                        Toggles whether or not they see reveal players during meetings.                         | Toggle |  True   | True / False |
-| Snitch Sees Revealed Players' Roles |                Toggles whether or not the Snitch can see the roles of the players they reveal.                 | Toggle |  False  | True / False |
-| Tasks Remaining When Revealed       | How many tasks does the Snitch need to have left before Impostors are alerted to their existence and location. | Count  |    1    |    1 - 3     |
+| Tasks Remaining When Revealed       | How many tasks the Snitch will have left before Impostors are alerted to their existence and location. | Count  |    1    |    1 - 3     |
 
 ### Strategy Guide
 
