@@ -21,7 +21,7 @@ const sidebars: SidebarsConfig = {
       link: {
         type: 'generated-index',
         title: 'Crewmates',
-        description: 'Crewmates are the main faction of the game. They win when they have either completed all tasks, or have managed to eliminate all impostors and neutral killers. This faction has the following alignments: Investigative, Protective, Killing, Power and Support.',
+        description: 'Crewmates are the main faction of the game. They win when they have either completed all tasks, or have managed to eliminate all impostors and neutral killers. This faction has the following alignments: Afterlife, Investigative, Protective, Killing, Power and Support.',
         image: '/img/Crew.png',
       },
       items:
@@ -155,7 +155,7 @@ const sidebars: SidebarsConfig = {
       link: {
         type: 'generated-index',
         title: 'Impostors',
-        description: 'Impostors are the main antagonists of the game. They win by eliminating all Crewmates or with a sabotage ending the game. This faction has the following alignments: Concealing, Killing, and Support.',
+        description: 'Impostors are the main antagonists of the game. They win by eliminating all Crewmates or with a sabotage ending the game. This faction has the following alignments: Concealing, Killing, Power and Support.',
         image: '/img/Imp.png',
       },
       items:
@@ -246,7 +246,7 @@ const sidebars: SidebarsConfig = {
       link: {
         type: 'generated-index',
         title: 'Neutrals',
-        description: 'Neutrals have their own goals that may or may not impact others. This faction has the following alignments: Benign, Evil, and Killing.',
+        description: 'Neutrals have their own goals that may or may not impact others. This faction has the following alignments: Benign, Evil, Killing and Outlier.',
         image: '/img/Neutral.png',
       },
       items:
@@ -274,7 +274,7 @@ const sidebars: SidebarsConfig = {
             type: 'generated-index',
             title: 'Neutral Benign',
             description: 'Benign roles usually help out others or simply live to win the game.',
-            image: '/img/Icons/GuardianAngel.png',
+            image: '/img/Icons/Fairy.png',
           },
           items:
           [
@@ -360,29 +360,19 @@ const sidebars: SidebarsConfig = {
        'modifiers/alliance/Lovers',
       ]
     },
-       {
+   {
       type: 'category',
-      label: 'Universal',
+      label: 'Assassin',
       collapsed: false,
       link: {
         type: 'generated-index',
-        title: 'Universal',
-        description: 'These modifiers are Universal and can apply to anyone, which can be stacked with an Alliance and Faction modifier.',
-        image: '/img/Shy.png',
+        title: 'Assassin',
+        description: 'The options for the Assassin (guess) modifier.',
+        image: '/img/Icons/Assassin.png',
       },
       items:
       [
-        'modifiers/universal/Button Barry',
-        'modifiers/universal/Flash',
-        'modifiers/universal/Giant',
-        'modifiers/universal/Immovable',
-        'modifiers/universal/Mini',
-        'modifiers/universal/Radar',
-        'modifiers/universal/Satellite',
-        'modifiers/universal/Shy',
-        'modifiers/universal/Sixth Sense',
-        'modifiers/universal/Sleuth',
-        'modifiers/universal/Tiebreaker',
+       'modifiers/assassin/Assassin Options', 
       ]
     },
     {
@@ -450,19 +440,29 @@ const sidebars: SidebarsConfig = {
         'modifiers/neutral/Double Shot',
       ]
     },
-         {
+   {
       type: 'category',
-      label: 'Assassin',
+      label: 'Universal',
       collapsed: false,
       link: {
         type: 'generated-index',
-        title: 'Assassin',
-        description: 'The options for the Assassin (guess) modifier.',
-        image: '/img/OtherButtons/Guess.png',
+        title: 'Universal',
+        description: 'These modifiers are Universal and can apply to anyone, which can be stacked with an Alliance and Faction modifier.',
+        image: '/img/Shy.png',
       },
       items:
       [
-       'modifiers/assassin/Assassin Options', 
+        'modifiers/universal/Button Barry',
+        'modifiers/universal/Flash',
+        'modifiers/universal/Giant',
+        'modifiers/universal/Immovable',
+        'modifiers/universal/Mini',
+        'modifiers/universal/Radar',
+        'modifiers/universal/Satellite',
+        'modifiers/universal/Shy',
+        'modifiers/universal/Sixth Sense',
+        'modifiers/universal/Sleuth',
+        'modifiers/universal/Tiebreaker',
       ]
     },
   ],
