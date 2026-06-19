@@ -1,8 +1,13 @@
+---
+title: Postmortem Settings
+description: Settings for dead players specifically.
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Spectre.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Spectre.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
-# Postmortem Options
+# Postmodtem Options
 
 Settings for dead players specifically.
 
