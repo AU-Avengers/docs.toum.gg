@@ -119,3 +119,46 @@ hr {
   border-top: 2px solid var(--ifm-color-primary-lighter); 
   margin: 1.5em 0;
 }
+
+
+.role-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.role-banner {
+  border: 6px solid #000;
+  flex-shrink: 0;
+  max-width: 400px;
+}
+
+.role-info {
+  flex: 1;
+  margin-top:-10px;
+}
+
+.role-tagline {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: -1rem;
+}
+
+.role-alignment {
+  font-size:1.25rem;
+  margin-top:1rem;
+  margin-bottom: -0.5rem;
+}
+
+@media (max-width: 768px) {
+  .role-header {
+    flex-direction: column;
+  }
+
+  .role-banner {
+    max-width: 100%;
+  }
+}
