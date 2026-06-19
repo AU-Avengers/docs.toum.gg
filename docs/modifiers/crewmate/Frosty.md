@@ -1,5 +1,5 @@
 ---
-title: Frsoty
+title: Frosty
 description: Slow down your killer upon death.
 ---
 
