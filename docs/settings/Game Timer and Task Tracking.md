@@ -1,19 +1,30 @@
+---
+title: Game Timer & Task Tracking
+description: Settings for the End Game Timer & task tracking.
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/DeadlyQuota.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/TimeLord.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
-# End Game Timer
+# Game Timer & Task Tracking Settings
 
-Settings for the End Game Timer, which has a countdown for the duration of the game, and task tracking, which is displayed on player names.
+## Game Timer
+
+Settings for the End Game Timer, which has a countdown for the duration of the game.
 
 | Option                    |                                                 Description                                                  |  Type  |  Default   |          Range           |
 | ------------------------- | :----------------------------------------------------------------------------------------------------------: | :----: | :--------: | :----------------------: |
 | Game Timer                |                             Determines whether a timer is enabled for the game.                              | Toggle |   False    |       True / False       |
-| ┣ Pause Timer in Meetings | Determines how many meetings the timer will count down through before pausing in future meetings thereafter. | Count  |     5      |          1 - 10          |
+| ┣ Pause Timer in Meetings | Determines how many meetings the timer will continue to count down through before pausing in future meetings. | Count  |     5      |          1 - 10          |
 | ┣ On Timer End            |                                   Determines the outcome of the timer ending.                                    | String | Game Draw  | Game Draw / Impostor Win |
 | ┗ Game Time Limit         |                                             The set timer limit.                                             | Count  | 15 Minutes |      1 - 30 Minutes      |
 
-# Task Tracking
+---
+
+## Task Tracking
+
+Settings for task tracking, which is displayed on player names.
 
 | Option                    |                           Description                            |  Type  | Default |    Range     |
 | ------------------------- | :--------------------------------------------------------------: | :----: | :-----: | :----------: |
