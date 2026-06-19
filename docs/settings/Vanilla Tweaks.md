@@ -5,7 +5,7 @@ description: Settings to adjust the vanilla experience.
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Crew.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
+<img src={useBaseUrl('/img/Icons/Lawyer.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Vanilla Tweaks
 
@@ -13,7 +13,7 @@ Settings to adjust the vanilla experience.
 
 | Option                                |                                                             Description                                                              |  Type  |    Default     |                   Range                   |
 | ------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------: | :----: | :------------: | :---------------------------------------: |
-| Continue Cooldown in Tasks and Panels |               Allows ability/kill cooldowns to continue to reduce when in a task or panels (e.g. when fixing lights).                | Toggle |      True      |               True / False                |
+| Continue Cooldown in Tasks and Panels |               Allows ability/kill cooldowns to continue to reduce when in a task or panels (e.g., when fixing lights).                | Toggle |      True      |               True / False                |
 | Parallel Medbay Scans                 |                                       Allows multiple players to Medbay scan at the same time.                                       | Toggle |      True      |               True / False                |
 | Walk to Medscan                       | Allows players to complete Medscan without being forced to walk onto the task itself. This removes clears based on doing "the walk". | Toggle |      True      |               True / False                |
 | Disable Meeting Skip Button           |                                                Determines if/when the Skip button is                                                 | String |     Never      |        Never / Always / Emergency         |
