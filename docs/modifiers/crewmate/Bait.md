@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/Icons/Bait.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
-# Aftermath
+# Bait
 
 <div className="role-header">
   
