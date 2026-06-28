@@ -1,18 +1,39 @@
+---
+title: Noisemaker
+description: Alert all players to your body upon death.
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Noisemaker.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Noisemaker.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
+
 # Noisemaker
 
-#### Crewmate Postmortem
+<div className="role-header">
 
-After your death, you will show a red body indicator to everyone on the map.
+  <div className="role-info">
+    <div className="role-tagline">
+      Alert all players to your body upon death!
+    </div>
 
-### Options
+  <div className="role-alignment">
+      <strong>&#8226; Alignment:</strong> Crewmate Postmortem<br />
+    </div>
 
-| Option | Description | Type | Default | Range |
-|----------|:-----------------:|:------:|:------:|:------:|
-| Impostors Alerted | Determines if impostors see the alert or not. | Toggle | True | N/A |
-| Neutrals Alerted | Determines if neutral killers see the alert or not. | Toggle | True | N/A |
-| Comms Affected | Determines if Comms sabotage prevents the alert from triggering. | Toggle | False | N/A |
-| Body Check | Determines if a body must exist for the alert to trigger. | Toggle | True | N/A |
-| Alert Duration | Amount of time that the alert is visible for. | Seconds | 5s | 1s - 20s |
+ <p>
+If killed, you will show a red indicator and sound alert to everyone on the map.
+</p>
+  </div>
+</div>
+
+---
+
+## Options
+
+| Option            |                           Description                            |  Type   | Default |  Range   |
+| ----------------- | :--------------------------------------------------------------: | :-----: | :-----: | :------: |
+| Impostors Get Alert |          Determines if Impostors see the alert or not.           | Toggle  |  True   |   True / False    |
+| Neutral Killers Get Alert  |       Determines if Neutral Killers see the alert or not.        | Toggle  |  True   |   True / False    |
+| Comms Sabotage Prevents Aert    | Determines if Comms sabotage prevents the alert from triggering. | Toggle  |  False  |   N/A    |
+| Only Triggers if a Body Exists        |    Determines if a body must exist for the alert to trigger.     | Toggle  |  True   |   True / False    |
+| Alert Duration    |          Amount of time that the alert is visible for.           | Seconds |   5s    | 1s - 20s |
