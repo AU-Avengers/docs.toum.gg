@@ -1,8 +1,28 @@
+---
+title: "Sleuth"
+description: "Know the roles of bodies you report."
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Sleuth.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Sleuth.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
+
 # Sleuth
 
-#### Universal Passive
+<div className="role-header">
+  
+  <div className="role-info">
+    <div className="role-tagline">
+  Know the roles of bodies you report!
+    </div>
 
-You will see the roles of bodies you report.
+  <div className="role-alignment">
+      <strong>&#8226; Alignment:</strong> Universal Passive
+    </div>
+
+ <p>
+ When reporting bodies, you will see their role in the meeting.
+
+</p>
+  </div>
+</div>
