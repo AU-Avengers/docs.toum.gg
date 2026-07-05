@@ -1,14 +1,38 @@
+---
+title: "Rotting"
+description: "Your body rots away upon death."
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Rotting.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Rotting.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
+
 # Rotting
 
-#### Crewmate Postmortem
+<div className="role-header">
+   <img
+    className="role-banner"
+    src="https://github.com/AU-Avengers/docs.toum.gg/blob/main/static/img/Modifiers/Rotting.png?raw=true"  />
 
-After a set amount of time, your body will rot away, preventing you from being reported
+  <div className="role-info">
+    <div className="role-tagline">
+     Your body rots away upon death.
+    </div>
 
-### Options
+  <div className="role-alignment">
+      <strong>&#8226; Alignment:</strong> Crewmate Postmortem<br />
+    </div>
 
-| Option | Description | Type | Default | Range |
-|----------|:-----------------:|:------:|:------:|:------:|
-| Rot Delay | Time before the body rots away. | Seconds | 5s | 0s - 25s |
+ <p>
+ After a set amount of time, your body will rot away, preventing you from being reported.
+</p>
+  </div>
+</div>
+
+---
+
+## Options
+
+| Option                     |           Description           |  Type   | Default |  Range   |
+| -------------------------- | :-----------------------------: | :-----: | :-----: | :------: |
+| Time Before Body Rots Away | The time before a body rots away. | Seconds |   5s    | 0s - 25s |
