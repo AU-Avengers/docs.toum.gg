@@ -10,6 +10,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 # Noisemaker
 
 <div className="role-header">
+   <img
+    className="role-banner"
+    src="https://github.com/AU-Avengers/docs.toum.gg/blob/main/static/img/Modifiers/Noisemaker.png?raw=true"  />
 
   <div className="role-info">
     <div className="role-tagline">
