@@ -1,32 +1,83 @@
+---
+title: "Starlight (Android)"
+description: "Guide to install Town of Us: Mira on Android via Starlight."
+---
 
-# Starlight - UNRELEASED
-###### Guide Written by [Atony](https://github.com/AtonyGit)
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
-#### Most Compatible Release: Among Us v17.0.0 (**LATEST**) + TOU Mira v1.1.1
+<img src={useBaseUrl('/img/Install/StarlightLogo.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
-This method will work on Android.
+# Starlight (Android)
 
-### What you'll need
+This guide requires you to have [_Among Us_](https://play.google.com/store/apps/details?id=com.innersloth.spacemafia) and [_Starlight_](https://play.google.com/store/apps/details?id=dev.allofus.starlight) on **Google Play**.
 
-- Among Us on [Google Play](https://play.google.com/store/apps/details?id=com.innersloth.spacemafia) running on the most compatible version of Among Us:
-  - You may also use an alternative android app store like [F-Droid](https://www.f-droid.org/) or [Aurora Store](https://auroraoss.com/files)
-- Starlight on [Google Play](https://play.google.com/store/apps/details?id=dev.allofus.starlight)
+---
 
-### Setup + Downgrading (If Required)
+:::danger IMPORTANT
 
-If the release is not for the latest version of Among Us, you will need to downgrade Among Us itself to the most recent version that mira supports. If you are using a third party app store, this is made easier. We also recommend turning off Auto-Update if you don't intend to play Vanilla.
+**The latest version of Among Us (v.174) has caused instability with mods. <u>You must downgrade both Among Us and Starlight to be able to play.</u>**
 
-### Mod Installation
+**Refer to the downgrading steps below.**
+:::
 
-1. Download the latest version of TOU: Mira that supports Android from [here](https://github.com/AU-Avengers/TOU-Mira/releases/latest).
-2. Extract the zip file that contains TOU: Mira and its dependencies (should be MiraAPI.dll, Reactor.dll, and TownOfUs.dll) into a folder like your downloads folder.
-3. Make sure to run vanilla among us at least once prior to launching the mod, and then enter the Starlight app.
-4. Import all the mods that you extracted into the Mods tab of the application.
+---
 
-### You're Done!
+### Installing Starlight & Account Linking
 
-If everything was set up correctly, you should see Town of Us loaded up, replacing the among us logo on the main menu.
+**If you have previously linked Starlight with Itch.io before, you can log in as normal using Itch.io.**
 
-If that is not the case, make sure you're running on a supported release of Among Us and that Starlight is up-to-date.
+> **1.** Download Starlight from the Google Play Store [here](https://play.google.com/store/apps/details?id=dev.allofus.starlight).
+>
+> **2.** Log in using **Google Play Login**. This will open a browser with the Innersloth Account Management page.
+>
+> **3.** In the browser, select `Merge Google Play` and log in with the Google account you want connected to your Among Us.
+>
+> **4.** Tap the **share** button (usually in the top right) and share to Starlight.
+>
+> **5.** Starlight should now be logged in and will display `Google Play login saved`.
 
-**Note:** If you are able to get in, but the game complains about having to use a Guest Account, make sure you have signed in with Itch.io in the Settings tab of Starlight. You do **not** need to own Among Us on Itch.io for this to work.
+**Note:** These steps may need to be repeated after an hour. Follow the instructions as shown in the app.
+
+- Watch a video tutorial on how to install [here](https://discord.com/channels/1333104345906020402/1333105001362620487/1504771254706765845) if needed.
+
+---
+
+### Installing Town of Us: Mira
+
+> **1.** In Starlight, go to Servers and enable the **Miniduikboot servers** (MEU, MNA & MAS). These are required for Town of Us.
+>
+> **2.** Go to **Explore** and choose the **Town of Us: Mira** mod by _AU Avengers_. Click **Install to a profile** and create a profile.
+>
+> **3.** Go to **Home**, select your profile, and click launch.
+
+**Note:** It can take several attempts to open the mod at times. Keep trying if it crashes.
+
+---
+
+### Downgrading
+
+> **1.** Uninstall both Among Us and Starlight.
+>
+> **2.** Download the Among Us APK file [here](https://www.apkmirror.com/apk/innersloth-llc/among-us/among-us-2026-4-7-release/among-us-2026-4-7-android-apk-download/).
+>
+> **3.** Click on the bundle variant of Among Us (it should be the only option).
+>
+> **4.** Scroll down until you see the red `DOWNLOAD APK BUNDLE` button.
+>
+> **5.** Once downloaded, go to the Google Play Store and download the [**APK Mirror Installer**](https://play.google.com/store/apps/details?id=com.apkmirror.helper.prod&hl=en_US).
+>
+> **6.** Once installed, use the APK Mirror Installer to select and install your **Among Us.apkm** file from your downloads folder using the **Install Package** button. (You may be required to watch an ad in order to install—this is unavoidable.)
+>
+> **7.** Once Among Us is installed, launch it to make sure that **v17.3.1a** is displayed on the lower left corner. This is the required version for Starlight.
+>
+> **8.** Go to the Starlight GitHub and download the [**starlight-1540.apk**](https://github.com/All-Of-Us-Mods/starlight-releases/releases/tag/1540) to install v1.5.4.
+>
+> **9.** Install this Starlight APK using Android's Package Manager.
+>
+> **10.** Once you have logged in, you should be able to install the mods and play as normal!
+
+**Note:** If logging in using Google Play, you may be required to log back in occasionally. Refer to the login steps above if required.
+
+---
+
+If you encounter issues with Starlight, please join their support server, [All Of Us](https://discord.gg/8wavukBn).
