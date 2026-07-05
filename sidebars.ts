@@ -542,6 +542,27 @@ const sidebars: SidebarsConfig = {
       'settings/Game Timer and Task Tracking',
     ]
     },
+              {
+      type: 'category',
+      label: 'Better Maps / Sabotages',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+        title: 'Better Maps & Sabotages',
+        description: 'These settings allow you to make adjustments to the maps and sabotage mechanics.',
+        image: '/img/Bait.png',
+      },
+      items:
+      [
+        'settings/BetterMaps/Better Maps',
+        'settings/BetterMaps/Utilities and Sabotages',
+        'settings/BetterMaps/Better Skeld',
+        'settings/BetterMaps/Better Mira HQ',
+        'settings/BetterMaps/Better Polus',
+        'settings/BetterMaps/Better Airship',
+        'settings/BetterMaps/Better Fungle',
+      ]
+    },
   ],
 };
 
