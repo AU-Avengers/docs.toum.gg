@@ -1,8 +1,28 @@
+---
+title: "Tiebreaker"
+description: "Your vote breaks ties."
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Tiebreaker.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Tiebreaker.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
+
 # Tiebreaker
 
-#### Universal Passive
+<div className="role-header">
+  
+  <div className="role-info">
+    <div className="role-tagline">
+  Your vote breaks ties!
+    </div>
 
-Your vote allows you to break ties.
+  <div className="role-alignment">
+      <strong>&#8226; Alignment:</strong> Universal Passive
+    </div>
+
+ <p>
+ When voting during meetings, your vote will break any ties.
+
+</p>
+  </div>
+</div>
