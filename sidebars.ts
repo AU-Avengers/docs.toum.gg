@@ -493,12 +493,12 @@ const sidebars: SidebarsConfig = {
       link: {
         type: 'generated-index',
         title: 'Android',
-        description: 'Android installation guide for Town of Us: Mira. This guide will help you install the mod on Android using Starlight.',
+        description: 'This guide will help you install the mod on Android using the Starlight mod launcher.',
         image: '/img/Scientist.png',
       },
       items:
       [
-        // 'install/android/Starlight',
+         'install/android/Starlight',
       ]
     },
     {
