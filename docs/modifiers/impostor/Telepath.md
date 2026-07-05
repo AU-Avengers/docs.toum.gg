@@ -1,19 +1,41 @@
+---
+title: "Telepath"
+description: "Know when your teammate kills."
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Telepath.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Telepath.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
+
 # Telepath
 
-#### Impostor Postmortem
+<div className="role-header">
+  
+  <div className="role-info">
+    <div className="role-tagline">
+     Know when your teammate kills!
+    </div>
 
-Know when your teammate kills (maybe where depending on settings), and depending on other settings, know when and/or where they die.
+  <div className="role-alignment">
+      <strong>&#8226; Alignment:</strong> Impostor Postmortem
+    </div>
 
-### Options
+ <p>
+You will be alerted whenever your teammate kills, guesses, or dies!
 
-| Option | Description | Type | Default | Range |
-|----------|:-----------------:|:------:|:------:|:------:|
-| Know Kill Location | Determines if you know **where** your teammate **kills**. | Toggle | True | N/A |
-| Know Death Time | Determines if you know **when** your teammate **dies**. | Toggle | True | N/A |
-| Know Death Location | Determines if you know **where** your teammate **dies**. | Toggle | True | N/A |
-| Arrow Duration | How long Telepath arrows are visible. | Seconds | 2.5s | 0s - 5s |
-| Know About Correct Guess | Determines if you know **when** your teammate **guesses** successfully. | Toggle | True | N/A |
-| Know About Failed Guess | Determines if you know **when** your teammate fails to **guess**. | Toggle | True | N/A |
+</p>
+  </div>
+</div>
+
+---
+
+## Options
+
+| Option                                  | Description                                                                        |  Type   | Default |  Range  |
+| --------------------------------------- | ---------------------------------------------------------------------------------- | :-----: | :-----: | :-----: |
+| Know Where Teammate Kills               | Determines if you know **where** your teammate **kills**.                          | Toggle  |  True   |   N/A   |
+| When When Teammate Dies                 | Determines if you know **when** your teammate **dies**.                            | Toggle  |  True   |   N/A   |
+| Know Where Teammate Dies                | Determines if you know **where** your teammate **dies**.                           | Toggle  |  True   |   N/A   |
+| Dead Body Arrow Duration                | Determines how long the Telepath arrows are visible.                                              | Seconds |  2.50s  | 0s - 5s |
+| Know When Teammate Guesses Successfully | Determines if you know when your teammate guesses successfully during a meeting.   | Toggle  |  True   |   N/A   |
+| Know When Teammate Fails To Guess       | Determines if you know when your teammate guesses unsuccessfully during a meeting. | Toggle  |  True   |   N/A   |
