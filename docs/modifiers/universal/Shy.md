@@ -1,16 +1,37 @@
+---
+title: "Shy"
+description: "Blend in with the environment!"
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Shy.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Shy.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
+
 # Shy
 
-#### Universal Visibility
+<div className="role-header">
+  
+  <div className="role-info">
+    <div className="role-tagline">
+   Blend in with the environment!
+    </div>
 
-You blend in with the environment, becoming transparent over time when staying still.
+  <div className="role-alignment">
+      <strong>&#8226; Alignment:</strong> Universal Visibility
+    </div>
 
-### Options
+ <p>
+ When standing still, you become transparent.
+</p>
+  </div>
+</div>
 
-| Option | Description | Type | Default | Range |
-|----------|:-----------------:|:------:|:------:|:------:|
-| Transparency Delay | How long it takes to start becoming invisible. | Seconds | 5s | 1s - 15s |
-| Transparency Duration | How long it takes to go from fully visible to transpacent. | Seconds | 5s | 1s - 15s |
-| Final Opacity | The final transparency value for when Shy stays still. | Percent | 20% | 0% - 80% |
+---
+
+## Options
+
+| Option                     | Description                                                |  Type   | Default |  Range   |
+| -------------------------- | ---------------------------------------------------------- | :-----: | :-----: | :------: |
+| Transparency Delay         | How long it takes to start becoming transparent.             | Seconds |   5s    | 1s - 15s |
+| Turn Transparency Duration | How long it takes to go from fully visible to transpacent. | Seconds |   5s    | 1s - 15s |
+| Final Opacity              | The final transparency value for when Shy stays still.     | Percent |   20%   | 0% - 80% |
