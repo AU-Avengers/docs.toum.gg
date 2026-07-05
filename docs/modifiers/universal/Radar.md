@@ -1,8 +1,27 @@
+---
+title: "Radar"
+description: "Get an arrow to the closest player!"
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Radar.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Radar.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
+
 # Radar
 
-#### Universal Utility
+<div className="role-header">
+  
+  <div className="role-info">
+    <div className="role-tagline">
+   Get an arrow to the closest player!
+    </div>
 
-Get an arrow pointing to the closest player.
+  <div className="role-alignment">
+      <strong>&#8226; Alignment:</strong> Universal Utility
+    </div>
+
+ <p>
+You will have a pink arrow indicating the nearest player to you at all times.
+</p>
+  </div>
+</div>
