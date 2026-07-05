@@ -44,7 +44,7 @@ Launch _Among Us_ to verify that **v17.3** is installed, then follow the steps b
 >
 > <img src={useBaseUrl('/img/Install/miraitch.png')} />
 >
-> **5.** Launch the _Among Us_ exe from the TOU Mira folder. If successful, it will launch with the \*\*Town of Us: Mira\*\* logo displayed in the top left corner.
+> **5.** Launch the _Among Us_.exe from the TOU Mira folder. If successful, it will launch with the **Town of Us: Mira** logo displayed in the top left corner.
 
 ---
 
