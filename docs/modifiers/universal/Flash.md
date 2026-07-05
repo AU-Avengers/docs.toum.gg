@@ -1,14 +1,35 @@
+---
+title: "Flash"
+description: Gotta go fast!
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Flash.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Flash.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
+
 # Flash
 
-#### Universal Visibility
+<div className="role-header">
+  
+  <div className="role-info">
+    <div className="role-tagline">
+     Gotta go fast!
+    </div>
 
-You move a set amount faster than regular players.
+  <div className="role-alignment">
+      <strong>&#8226; Alignment:</strong> Universal Visibility
+    </div>
 
-### Options
+ <p>
+You move faster than regular players by a set amount.
+</p>
+  </div>
+</div>
 
-| Option | Description | Type | Default | Range |
-|----------|:-----------------:|:------:|:------:|:------:|
-| Flash Speed | The speed multiplier applied to the Flash. | Multiplier | 1.75x | 1.05x - 2.5x |
+---
+
+## Options
+
+| Option      |                Description                 |    Type    | Default |    Range     |
+| ----------- | :----------------------------------------: | :--------: | :-----: | :----------: |
+| Flash Speed | The speed multiplier applied to the Flash. | Multiplier |  1.75x  | 1.05x - 2.5x |
