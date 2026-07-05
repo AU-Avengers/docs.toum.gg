@@ -1,41 +1,47 @@
-# docstoum.com
+<h1 align="center">The Town of Us: Mira Wiki</h1>
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+<p align="center">
+  Official documentation and installation guides for Town of Us: Mira.
+</p>
 
-### Installation
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AU-Avengers/TOU-Mira/main/Images/Logo.png" alt="Town of Us Mira"/>
+<a href="https://au-avengers.github.io/docs.toum.gg/"><img src="https://img.shields.io/badge/Wiki-Live-blue?style=flat-square&logo=readthedocs"></a>
+  <a href="https://github.com/AU-Avengers/docs.toum.gg"><img src="https://img.shields.io/github/last-commit/AU-Avengers/docs.toum.gg"></a>
+<a href="https://docusaurus.io/"><img src="https://img.shields.io/badge/Built%20with-Docusaurus-3ECC5F?style=flat-square&logo=docusaurus"></a>
+<a href="https://discord.gg/ugyc4EVUYZ"> <img alt="Mod Discord" src="https://img.shields.io/discord/890249154402586734.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2"></a>
+</div>
+<br/>
+<p align="center">
+  <a href="https://au-avengers.github.io/docs.toum.gg/">
+    <img src="https://img.shields.io/badge/📖_Visit_the_Wiki-4285F4?style=for-the-badge">
+  </a>
+</p>
 
-```
-$ yarn
-```
+-----------------------
 
-### Local Development
+This repository contains the source for the **Town of Us: Mira Wiki**, built with Docusaurus and hosted with GitHub Pages.
 
-```
-$ yarn start
-```
+Whether you're a new player looking to learn roles or a host configuring your lobby, the Town of Us: Mira Wiki is the place for guides and explanations!
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+-----------------------
 
-### Build
+# 📖 Wiki Contents
+- [**Roles**](https://au-avengers.github.io/docs.toum.gg/docs/category/crewmates)
+- [**Modifiers**](https://au-avengers.github.io/docs.toum.gg/docs/category/alliances)
+- [**Settings**](https://au-avengers.github.io/docs.toum.gg/docs/category/settings)
+- [**Installation**](https://au-avengers.github.io/docs.toum.gg/docs/install/intro)
+  - [Windows Guides (Epic, Itch, MS Store, Steam)](https://au-avengers.github.io/docs.toum.gg/docs/category/windows-install)
+  - [Linux Guides (Epic, Itch, Steam)](https://au-avengers.github.io/docs.toum.gg/docs/category/linux--steam-deck-install)
+  - [MacOS Guides (Epic, Steam)](https://au-avengers.github.io/docs.toum.gg/docs/category/mac-install)
+  - [Android Guide](https://au-avengers.github.io/docs.toum.gg/docs/category/android-install)
+- [**Mod Updates & Changelogs**](https://au-avengers.github.io/docs.toum.gg/blog)
 
-```
-$ yarn build
-```
+-----------------------
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+# License
+This repositry is distributed under the GNU GPLv3 License. 
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+# Copyright
+<p align="center">This wiki is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC.</p>
+<p align="center">© Innersloth LLC.</p>
