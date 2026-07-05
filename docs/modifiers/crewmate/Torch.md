@@ -1,8 +1,27 @@
+---
+title: "Torch"
+description: "See without the lights on."
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Torch.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Torch.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
+
 # Torch
 
-#### Crewmate Visibility
+<div className="role-header">
+  
+  <div className="role-info">
+    <div className="role-tagline">
+     See without the lights on!
+    </div>
 
-The lights being off do not affect your vision in any way.
+  <div className="role-alignment">
+      <strong>&#8226; Alignment:</strong> Crewmate Visibility
+    </div>
+
+ <p>
+Your vision is not affected when lights are sabotaged.
+</p>
+  </div>
+</div>
