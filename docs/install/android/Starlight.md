@@ -1,5 +1,5 @@
 ---
-title: "Starlight (Android)"
+title: "Starlight"
 description: "Guide to install Town of Us: Mira on Android via Starlight."
 ---
 
@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/Install/StarlightLogo.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
-# Starlight (Android)
+# Starlight
 
 This guide requires you to have [_Among Us_](https://play.google.com/store/apps/details?id=com.innersloth.spacemafia) and [_Starlight_](https://play.google.com/store/apps/details?id=dev.allofus.starlight) on **Google Play**.
 
