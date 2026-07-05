@@ -514,7 +514,7 @@ const sidebars: SidebarsConfig = {
       items:
       [
         'install/linux/Heroic',
-        'install/linux/Itch.io',
+        // 'install/linux/Itch.io',
         'install/linux/Steam',
       ]
     },
