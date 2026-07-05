@@ -1,14 +1,35 @@
+---
+title: "Giant"
+description: "Bigger than average."
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Giant.png')} alt="Icon" align="left" style={{height: 60}} />
-# Giant
+<img src={useBaseUrl('/img/Icons/Giant.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
-#### Universal Visibility
+# Flash
 
-You are bigger than regular players, and you also move a set amount slower than regular players.
+<div className="role-header">
+  
+  <div className="role-info">
+    <div className="role-tagline">
+     Bigger than average!
+    </div>
 
-### Options
+  <div className="role-alignment">
+      <strong>&#8226; Alignment:</strong> Universal Visibility
+    </div>
 
-| Option | Description | Type | Default | Range |
-|----------|:-----------------:|:------:|:------:|:------:|
-| Giant Speed | The speed multiplier applied to the Giant, if any. | Multiplier | 0.75x | 0.25x - 1x |
+ <p>
+You are bigger than regular players and move slower than regular players by a set amount.
+</p>
+  </div>
+</div>
+
+---
+
+## Options
+
+| Option      |                    Description                     |    Type    | Default |   Range    |
+| ----------- | :------------------------------------------------: | :--------: | :-----: | :--------: |
+| Giant Speed | The speed multiplier applied to the Giant, if any. | Multiplier |  0.75x  | 0.25x - 1x |
