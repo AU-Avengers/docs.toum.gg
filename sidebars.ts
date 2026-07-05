@@ -554,7 +554,7 @@ const sidebars: SidebarsConfig = {
       },
       items:
       [
-        'settings/BetterMaps/Better Maps',
+        'settings/BetterMaps/BetterMaps',
         'settings/BetterMaps/Utilities and Sabotages',
         'settings/BetterMaps/Better Skeld',
         'settings/BetterMaps/Better Mira HQ',
