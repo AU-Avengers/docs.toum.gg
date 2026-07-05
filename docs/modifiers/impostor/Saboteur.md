@@ -1,14 +1,35 @@
+---
+title: "Saboteur"
+description: "Your sabotage cooldowns are reduced."
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Saboteur.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Saboteur.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
+
 # Saboteur
 
-#### Impostor Passive
+<div className="role-header">
+  
+  <div className="role-info">
+    <div className="role-tagline">
+     Your sabotage cooldowns are reduced!
+    </div>
 
-You have a reduced cooldown when sabotaging.
+   <div className="role-alignment">
+      <strong>&#8226; Alignment:</strong> Impostor Passive
+    </div>
 
-### Options
+ <p>
+Your cooldown for calling sabotages is shorter than the set time.
+</p>
+  </div>
+</div>
 
-| Option | Description | Type | Default | Range |
-|----------|:-----------------:|:------:|:------:|:------:|
-| Reduced Sabo Cooldown | Amount of time trimmed off your sabotage cooldown. | Seconds | 10s | 5s - 15s |
+---
+
+## Options
+
+| Option                |                    Description                     |  Type   | Default |  Range   |
+| --------------------- | :------------------------------------------------: | :-----: | :-----: | :------: |
+| Reduced Sabotage Cooldown | The amount of time reduced from your sabotage cooldown. | Seconds |   10s   | 5s - 15s |
