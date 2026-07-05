@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/Icons/Giant.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
-# Flash
+# Giant
 
 <div className="role-header">
   
