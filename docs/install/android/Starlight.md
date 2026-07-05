@@ -15,7 +15,7 @@ This guide requires you to have [_Among Us_](https://play.google.com/store/apps/
 
 :::danger IMPORTANT
 
-**The latest version of Among Us (v.174) has caused instability with mods. <u>You must downgrade both Among Us and Starlight to be able to play.</u>**
+**<u>You must downgrade both Among Us and Starlight to be able to play.</u> This is due to the latest version of Among Us (v.174) causing instability with mods.**
 
 **Refer to the downgrading steps below.**
 :::
