@@ -21,7 +21,15 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
     </div>
 
  <p>
-You lose the ability to vent around the map.
+Your ability to vent is limited, or lost altogether!
 </p>
   </div>
 </div>
+---
+
+## Options
+
+| Option                              |                                      Description                                      |  Type  | Default |    Range     |
+| ----------------------------------- | :-----------------------------------------------------------------------------------: | :----: | :-----: | :----------: |
+| Minimum Vents Allowed | The minimum number of vent uses that the player has. | Count | 3 | 0 - 10 |
+| Maximum Vents Allowed | The maximum number of vent uses that the player has. | Count | 10 | 0 - 10 | 
