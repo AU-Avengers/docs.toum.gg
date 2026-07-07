@@ -32,14 +32,15 @@ The Doomsayer will not die if they **guess** incorrectly. They will receive a no
 
 ### Doomsayer Hints
 
-| Hint                                                                    | Role List                                                                                                                         |
-| ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| You observe that (player) has an altered perception of reality.         | Aurial, Eclipsal, Glitch, Imitator, Morphling, Mystic, Spy.                                                                       |
-| You observe that (player) is capable of performing relentless attacks.  | Bomber, Deputy, Jailor, Juggernaut, Sheriff, Vigilante, Warlock.                                                                  |
-| You observe that (player) has an unusual obsession with dead bodies. | Altruist, Amnesiac, Chef, Janitor, Medium, Soul Collector, Undertaker, Vampire.                                                   |
-| You observe that (player) hides to guard themself or others.            | Cleric, Engineer, Escapist, Grenadier, Guardian Angel, Medic, Mirrorcaster, Survivor, Warden.                                     |
-| You observe that (player) has an insight for private information.          | Ambassador, Blackmailer, Detective, Doomsayer, Mercenary, Oracle, Snitch, Trapper.                                              |
-| You observe that (player) is well trained in hunting down prey.         | Hunter, Inquisitor, Investigator, Lookout, Scavenger, Swooper, Tracker, Werewolf.                                                 |
-| You observe that (player) spreads fear amongst the group.               | Ambusher, Arsonist, Hypnotist, Miner, Plaguebearer, Prosecutor, Seer, Spellslinger, Transporter.                                  |
-| You observe that (player) has a trick up their sleeve.                  | Executioner, Jester, Mayor, Plumber, Politician, Swapper, Traitor, Venerer, Veteran.                                                       |
-| You observe that (player) is not from this town.                        | Vanilla roles (Detective, Engineer, Tracker, Scientist, Viper, Phantom, Crewmate, Impostor), roles from other mods (addons, etc). |
+| Hint                                                                   | Role List                                                                                                                         |
+| ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| You observe that (player) has an altered perception of reality.        | Aurial, Eclipsal, Glitch, Imitator, Morphling, Mystic, Parasite, Spy, Time Lord.                                                  |
+| You observe that (player) is capable of performing relentless attacks. | Bomber, Deputy, Jailor, Juggernaut, Sheriff, Vigilante, Warlock.                                                                  |
+| You observe that (player) has an unusual obsession with dead bodies.   | Altruist, Amnesiac, Chef, Janitor, Medium, Soul Collector, Undertaker, Vampire.                                                   |
+| You observe that (player) hides to guard themself or others.           | Cleric, Engineer, Escapist, Fairy, Grenadier, Medic, Mirrorcaster, Survivor, Warden.                                              |
+| You observe that (player) has an insight for private information.      | Ambassador, Blackmailer, Doomsayer, Forensic, Herbalist, Mercenary, Oracle, Sentry, Snitch, Trapper.                              |
+| You observe that (player) is well trained in hunting down prey.        | Hunter, Inquisitor, Investigator, Lookout, Scavenger, Sonar, Swooper, Werewolf.                                                   |
+| You observe that (player) spreads fear amongst the group.              | Ambusher, Arsonist, Hypnotist, Miner, Monarch, Officer, Plaguebearer, Prosecutor, Seer, Spellslinger, Transporter.                |
+| You observe that (player) has a trick up their sleeve.                 | Executioner, Jester, Plumber, Politician, Puppeteer, Swapper, Traitor, Venerer, Veteran.                                          |
+| You observe that (player) is not from this town.                       | Vanilla roles (Detective, Engineer, Tracker, Scientist, Viper, Phantom, Crewmate, Impostor), roles from other mods (addons, etc). |
+
