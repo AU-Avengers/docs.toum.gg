@@ -32,7 +32,7 @@ Whether you're a new player looking to learn roles or a host configuring your lo
 - [**Settings**](https://au-avengers.github.io/docs.toum.gg/docs/category/settings)
 - [**Installation**](https://au-avengers.github.io/docs.toum.gg/docs/install/intro)
   - [Windows Guides (Epic, Itch, MS Store, Steam)](https://au-avengers.github.io/docs.toum.gg/docs/category/windows-install)
-  - [Linux Guides (Epic, Itch, Steam)](https://au-avengers.github.io/docs.toum.gg/docs/category/linux--steam-deck-install)
+  - [Linux Guides (Epic, Steam & Steam Deck)](https://au-avengers.github.io/docs.toum.gg/docs/category/linux--steam-deck-install)
   - [MacOS Guides (Epic, Steam)](https://au-avengers.github.io/docs.toum.gg/docs/category/mac-install)
   - [Android Guide](https://au-avengers.github.io/docs.toum.gg/docs/category/android-install)
 - [**Mod Updates & Changelogs**](https://au-avengers.github.io/docs.toum.gg/blog)
@@ -40,8 +40,8 @@ Whether you're a new player looking to learn roles or a host configuring your lo
 -----------------------
 
 # License
-This repositry is distributed under the GNU GPLv3 License. 
+This repository is distributed under the GNU GPLv3 License. 
 
 # Copyright
-<p align="center">This wiki is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC.</p>
+<p align="center">This wiki is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are the property of Innersloth LLC.</p>
 <p align="center">© Innersloth LLC.</p>
