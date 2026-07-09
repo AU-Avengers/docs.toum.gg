@@ -1,3 +1,8 @@
+---
+title: Bomber
+description: Plant bombs to kill multiple crewmates at once!
+custom_edit_url: null
+---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/Icons/Bomber.png')} alt="Icon" align="left" style={{height: 60}} />
@@ -26,5 +31,5 @@ The **Bomber** can **place** a bomb on the map, which detonates after a set amou
 | Detonate Delay    |               Delay for Bomb Detonation.               |  Seconds   |   5s    |  1s - 15s  |
 | Detonate Radius   |              Radius for Bomb Detonation.               | Multiplier |  0.25x  | 0.05x - 1x |
 | Max Kills         |     Maximum kills possible from a Bomb detonating.     |   Amount   |    5    |   1 - 15   |
-| All Imps See Bomb | Determines if all impostors can see the bomb's radius. |   Toggle   |  True   |    N/A     |
-| Can Vent          |           Determines if the Bomber can vent.           |   Toggle   |  True   |    N/A     |
+| All Imps See Bomb | Determines if all impostors can see the bomb's radius. |   Toggle   |  True   |    True / False     |
+| Can Vent          |           Determines if the Bomber can vent.           |   Toggle   |  True   |    True / False     |
