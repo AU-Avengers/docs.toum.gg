@@ -1,22 +1,27 @@
+---
+title: "Spectre"
+description: "Complete your tasks without being caught!"
+custom_edit_url: null
+---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/Icons/Spectre.png')} alt="Icon" align="left" style={{height: 60}} />
 
 # Spectre
-##### Aliases: Phantom (TOUR)
+##### Aliases: Phantom (TOU:R)
 ### _Complete Your Tasks Without Being Caught!_
 
 #### **Alignment:** Neutral Afterlife
 
 When a Neutral role dies, they have a chance to respawn as the **Spectre**, who must complete their tasks without being clicked on to win. 
 
-If successful and the setting is enabled, the Phantom can **Spook** a chosen player to kill them.
+If successful and the setting is enabled, the Spectre can **Spook** a chosen player to kill them.
 
 ### Abilities
 
 |                                               Button                                                |  Ability  |                              Description                               |        Type        |
 | :-------------------------------------------------------------------------------------------------: | :-------: | :--------------------------------------------------------------------: | :----------------: |
-| <img src={useBaseUrl('/img/NeutButtons/PhantomSpookButton.png')} alt="Button" style={{width: 50}} /> | **Spook** | If enabled, after winning, the Phantom can Spook a player to kill them. | Player Interaction |
+| <img src={useBaseUrl('/img/NeutButtons/PhantomSpookButton.png')} alt="Button" style={{width: 50}} /> | **Spook** | If enabled, after winning, the Spectre can Spook a player to kill them. | Player Interaction |
 
 ### Options
 
