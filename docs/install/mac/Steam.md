@@ -5,11 +5,11 @@ description: "Guide to install Town of Us: Mira via Steam on MacOS."
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/install/steamlogo.png')} alt="Icon" align="left" style={{ height: '40px', margin: '10px 10px 10px 00px'}} />
+<img src={useBaseUrl('/img/Install/steamlogo.png')} alt="Icon" align="left" style={{ height: '40px', margin: '10px 10px 10px 10px'}} />
 
 # Steam
 
-This guide requires that you own _Among Us_ on [**Steam**](https://store.steampowered.com/app/945360).and have **[PortingKit](https://www.portingkit.com/)** installed.
+This guide requires that you own _Among Us_ on [**Steam**](https://store.steampowered.com/app/945360) and have **[PortingKit](https://www.portingkit.com/)** installed.
 
 <sub>**Note:** It is also possible to install via Crossover, but that software must be purchased.</sub>
 
