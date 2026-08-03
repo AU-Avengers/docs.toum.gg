@@ -488,7 +488,39 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Android Install',
+      label: 'Linux / Steam Deck Install',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+        title: 'Linux',
+        description: 'These guides will help you install Town of Us: Mira on Linux for the following platforms: Epic Games (Heroic Launcher) and Steam.',
+        image: '/img/Operative.png',
+      },
+      items:
+      [
+        'install/linux/Heroic',
+        'install/linux/Steam',
+      ]
+    },
+    {
+      type: 'category',
+      label: 'MacOS',
+      collapsed: false,
+      link: {
+        type: 'generated-index',
+        title: 'MacOS',
+        description: 'These guides will help you install Town of Us Mira on MacOS.',
+        image: '/img/Scientist.png',
+      },
+      items:
+      [
+          'install/mac/Heroic',
+          'install/mac/Steam',      
+      ]
+    },
+   {
+      type: 'category',
+      label: 'Android',
       collapsed: false,
       link: {
         type: 'generated-index',
@@ -498,24 +530,7 @@ const sidebars: SidebarsConfig = {
       },
       items:
       [
-         'install/android/Starlight',
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Linux / Steam Deck Install',
-      collapsed: false,
-      link: {
-        type: 'generated-index',
-        title: 'Linux',
-        description: 'These guides will help you install Town of Us: Mira on Linux for the following platforms: Epic Games (Heroic Launcher), Itch.io and Steam.',
-        image: '/img/Operative.png',
-      },
-      items:
-      [
-        'install/linux/Heroic',
-        // 'install/linux/Itch.io',
-        'install/linux/Steam',
+        'install/android/Starlight',
       ]
     },
   ],
