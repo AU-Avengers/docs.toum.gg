@@ -15,15 +15,6 @@ There are two options for installation; simply choose the preferred method for y
 
 ---
 
-:::danger IMPORTANT
-
-**<u>You must downgrade Among Us to be able to play at this time.</u>** This is due to the latest version of Among Us (v.174) causing instability with mods. It is recommended to install **v1.6.2** or **v1.6.3 Beta 2** of Town of Us: Mira.
-
-**Please join the [Town of Us Discord server](https://discord.gg/town-of-us) for downgrade support.**
-:::
-
----
-
 ### Mod Installation
 
 > **1.** Download the [latest](https://github.com/AU-Avengers/TOU-Mira/releases/latest) mod version (look for the **epic.msstore.zip** file).
