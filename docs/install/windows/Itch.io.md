@@ -13,25 +13,6 @@ This guide requires that you own _Among Us_ on [Itch.io](https://innersloth.itch
 
 ---
 
-:::danger IMPORTANT
-
-**<u>You must downgrade Among Us to be able to play at this time.</u>** This is due to the latest version of Among Us (v.174) causing instability with mods. It is recommended to install **v1.6.2** or **v1.6.3 Beta 2** of Town of Us: Mira.
-
-**Follow the downgrade steps below.**
-:::
-
----
-
-### Downgrading
-
-> **1.** Right-click _Among Us_ and go to **Manage > Switch to another version...**
->
-> **2.** Select `version 113` and let Itch update the game version.
-
-Launch _Among Us_ to verify that **v17.3** is installed, then follow the steps below to install the mod.
-
----
-
 ### Mod Installation
 
 > **1.** Download the [latest](https://github.com/AU-Avengers/TOU-Mira/releases/latest) **Town of Us: Mira** version (download the **steam-itch.zip** file.)
