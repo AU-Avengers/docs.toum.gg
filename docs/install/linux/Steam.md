@@ -11,24 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 This guide requires that you own _Among Us_ on [Steam](https://store.steampowered.com/app/945360).
 
-> **Note**: This guide works as-is on Steam Deck, but controller support is imperfect. You will need to use a mouse and keyboard to play, or do a lot of controller configuration.
-
-:::danger IMPORTANT
-
-**<u>You must downgrade Among Us to be able to play at this time.</u>** This is due to the latest version of Among Us (v.174) causing instability with mods. It is recommended to install **v1.6.2** or **v1.6.3 Beta 2** of Town of Us: Mira.
-
-**Follow the downgrade steps below.**
-:::
-
----
-
-### Downgrading
-
-> **1.** Right-click _Among Us_ on Steam, then click **Properties**.
->
-> **2.** Click **Betas** and select `public previous` on the drop-down.
-
-Steam should automatically update the game to **v17.3**, then you can follow the installation steps below.
+**Note**: This guide works as-is on Steam Deck, but controller support is imperfect. You will need to use a mouse and keyboard to play, or do a lot of controller configuration.
 
 ---
 
@@ -54,4 +37,4 @@ Steam should automatically update the game to **v17.3**, then you can follow the
 
 ---
 
-If you encounter issues installing, please join the Town of Us [Discord](https://discord.gg/town-of-us) server and make a **Town of Us Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel.
+If you encounter any issues installing, please join the [Town of Us Discord](https://discord.com/invite/town-of-us) server and open a **Town of Us Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel.
