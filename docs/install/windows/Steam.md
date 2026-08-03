@@ -13,25 +13,6 @@ This guide requires that you own _Among Us_ on [Steam](https://store.steampowere
 
 ---
 
-:::danger IMPORTANT
-
-**<u>You must downgrade Among Us to be able to play at this time.</u>** This is due to the latest version of Among Us (v.174) causing instability with mods. It is recommended to install **v1.6.2** or **v1.6.3 Beta 2** of Town of Us: Mira.
-
-**Follow the downgrade steps below.**
-:::
-
----
-
-### Downgrading
-
-> **1.** Right-click _Among Us_ on Steam, then click **Properties**.
->
-> **2.** Click **Betas** and select `public previous` on the drop-down.
-
-Steam should automatically update the game to **v17.3**, and you can then follow the installation steps below.
-
----
-
 ### Mod Installation
 
 > **1.** Download the latest [**steam-itch.zip**](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder for Town of Us: Mira.
@@ -48,4 +29,4 @@ Steam should automatically update the game to **v17.3**, and you can then follow
 
 ---
 
-If you encounter any issues installing,please join the Town of Us [Discord](https://discord.gg/ugyc4EVUYZ) server and make a **Town of US Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel.
+If you encounter any issues installing, please join the Town of Us [Discord](https://discord.gg/mVUjsqGC9n) server and make a **Town of Us Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel.
