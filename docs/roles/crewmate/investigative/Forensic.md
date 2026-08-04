@@ -1,12 +1,17 @@
+---
+title: "Forensic"
+description: "Inspect crime scenes to catch the killer!"
+custom_edit_url: null
+---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/Icons/Forensic.png')} alt="Icon" align="left" style={{height: 60}} />
 
 # Forensic
-##### Aliases: Detective (TOUR)
 ### _Inspect crime scenes to catch the killer!_
 
 #### **Alignment:** Crewmate Investigative
+##### Aliases: Detective (TOUR)
 
 The **Forensic** can **inspect** crime scenes and **examine** players to see if they were at the scene. When examining a player, the screen will flash red if the player was near the crime scene.
 
