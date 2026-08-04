@@ -139,7 +139,7 @@ const sidebars: SidebarsConfig = {
           },
           items:
           [
-            'roles/crewnate/support/Barkeeper',
+            'roles/crewmate/support/Barkeeper',
             'roles/crewmate/support/Engineer',
             'roles/crewmate/support/Imitator',
             'roles/crewmate/support/Plumber',
