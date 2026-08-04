@@ -31,7 +31,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 As the Seer, compare players who have given each other alibis to build a reliable network of information. Multiple comparisons over several rounds can quickly expose contradictions and hidden alliances.
 :::

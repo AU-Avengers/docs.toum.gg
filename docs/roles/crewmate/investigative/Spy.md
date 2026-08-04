@@ -33,7 +33,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 As the Spy, information is your greatest weapon. Use what you learn from the Admin table to verify location claims and catch false alibis.
 If you have access to the portable table, charge it up by doing tasks to use it.

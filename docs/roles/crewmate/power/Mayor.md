@@ -33,7 +33,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 Revealing too early may make you a bigger target to evildoers, as you pose a significant threat to them in meetings. Avoid unnecessary risks too early so your voting power can have the greatest impact when the player count is low.
 

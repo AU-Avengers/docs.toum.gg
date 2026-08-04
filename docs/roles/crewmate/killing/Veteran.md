@@ -32,7 +32,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 Saving your alerts for moments when you are more vulnerable, or during sabotages like Comms or Lights, is generally a good idea to protect yourself from evildoers. Bear in mind that there are many Crewmate interactive roles who may also try to interact with you too!
 

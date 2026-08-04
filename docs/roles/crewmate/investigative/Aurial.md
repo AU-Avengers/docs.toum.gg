@@ -35,7 +35,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 As the Aurial, you benefit most from being near groups of players to identify when abilities are being used frequently. Since this also applies to kills, it can also help distinguish between different types of murders. Repeatedly sensing abilities from the same players can help identify powerful roles, or catch killers using abilities at suspicious times!
 

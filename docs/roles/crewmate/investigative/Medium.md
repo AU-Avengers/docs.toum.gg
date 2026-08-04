@@ -33,7 +33,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 While Mediating, pay close attention to how ghosts move and who they seem interested in. While ghosts can't communicate directly, they may follow or circle around a specific player, pointing you toward their killer.
 
 :::

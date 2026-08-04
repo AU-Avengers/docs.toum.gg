@@ -31,7 +31,7 @@ The <strong>Lookout</strong> can <strong>watch</strong> other players during rou
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 Watch players who are likely to attract attention, such as confirmed Crew, important/powerful claims, or frequent targets. Learning which roles interact with a player can help identify protective roles and even potential killers.
 

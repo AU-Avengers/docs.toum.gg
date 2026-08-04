@@ -31,7 +31,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 As the Mystic, every death is a clue. Pay attention to the direction and timing of death alerts, then compare them with player claims and locations to narrow down who could have committed the kill.
 

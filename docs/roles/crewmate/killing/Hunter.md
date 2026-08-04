@@ -31,7 +31,7 @@ The **Hunter** can **Stalk** players and will be alerted by a brief green flash 
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 It can be tempting to want to immediately kill anybody that triggers your alert, but bear in mind that there are _many_ interactive Crewmate roles. Only shoot if you suspect the interaction was suspicious, or run the risk of killing a fellow Crewmate!
 

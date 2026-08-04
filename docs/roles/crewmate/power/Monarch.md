@@ -31,7 +31,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 Choose your knights carefully! Try to **Knight** players you think are definitely Crew, as giving extra votes to evildoers is dangerous.
 

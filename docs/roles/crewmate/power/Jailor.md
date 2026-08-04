@@ -31,7 +31,7 @@ The **Jailor** can **jail** other players. During a meeting, everyone will see w
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 While the aim is to execute evildoers, sometimes it's a good idea to jail fellow Crewmates in order to learn more information or to protect them in meetings!
 

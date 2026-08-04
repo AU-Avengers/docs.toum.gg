@@ -30,7 +30,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 As the Sheriff, you need to be on the lookout for suspicious behaviour. Watch out for players moving strangely or those who have been accused of being suspicious. If you misfire, you run the risk of dying yourself or losing your ability to shoot altogether!
 

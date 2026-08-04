@@ -34,7 +34,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 Completing tasks quickly is important, but staying alive is even more vital. Prioritise long or isolated tasks first, and try to path your way to the Emergency Button in the shortest way possible. Every second counts!
 

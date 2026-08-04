@@ -35,7 +35,7 @@ The <strong>Investigator</strong> is able to see the footprints of other players
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 Follow the footprints of anyone you deem suspicious, but keep your distance. Following a trail too aggressively may reveal your intentions, but a well-timed observation can expose pesky venters or place a player at a crime scene!
 :::

@@ -30,7 +30,7 @@ The **Officer** can **shoot** players by **loading** limited ammo.
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 At the end of a round, any unused bullets will be discarded (unless loaded within 10 seconds of a meeting bieng called), so be sure to load them strategically. It's better to load bullets when there are fewer players to ensure a higher chance of shooting correctly.
 

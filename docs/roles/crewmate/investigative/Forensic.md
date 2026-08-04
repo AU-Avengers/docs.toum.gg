@@ -39,7 +39,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 Try to visit crime scenes quickly before information becomes stale. If a body is found in a low-traffic area, the evidence is often far more reliable than information gathered from a crowded location.
 

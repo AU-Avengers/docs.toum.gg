@@ -37,7 +37,7 @@ By placing a tracker, the Sonar will see an indication of the tracked player's p
 
 <b>Note:</b> Players can choose to see arrows or heartbeat pings at their own preference in the Settings > Gameplay tab!
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 Tracking every player can quickly become overwhelming—prioritise tracking players you believe are suspicious or may be targeted. Following movement patterns over multiple rounds is often more valuable than focusing on one suspicious movement.
 

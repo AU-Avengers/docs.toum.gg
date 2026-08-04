@@ -31,7 +31,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 Information is your best friend! The more you know, the better chance you have at shooting evildoers correctly. Sometimes, patience is key over gambling with a risky shot.
 

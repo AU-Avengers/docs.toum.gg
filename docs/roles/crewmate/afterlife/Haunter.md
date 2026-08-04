@@ -34,7 +34,7 @@ When a certain number of tasks remain, the Impostor(s) will be alerted, and they
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 To avoid trouble heading your way, you should prioritize long tasks first, and then finish as many as you can that are close to one another to lessen the risk of being clicked.
 :::

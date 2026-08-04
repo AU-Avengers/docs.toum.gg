@@ -33,7 +33,7 @@ Once a camped player dies, the Deputy is alerted to their death with a red flash
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 Try to **camp** players that you believe are likely to be targeted, such as confirmed Crewmates. This way, you have a higher chance of correctly shooting an evildoer in the meeting.
 
