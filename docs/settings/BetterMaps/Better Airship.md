@@ -1,11 +1,12 @@
 ---
 title: "Better Airship"
 description: "Settings for Airship map adjustments."
+custom_edit_url: null
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/CrewButtons/FixButton.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
+<img src={useBaseUrl('/img/SettingIcons/Airship.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Better Airship
 
