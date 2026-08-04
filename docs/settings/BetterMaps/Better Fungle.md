@@ -1,11 +1,12 @@
 ---
 title: "Better Fungle"
 description: "Settings for Fungle map adjustments."
+custom_edit_url: null
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/CrewButtons/FixButton.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
+<img src={useBaseUrl('/img/SettingIcons/Fungle.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Better Fungle
 
