@@ -1,13 +1,14 @@
 ---
-title: Game Timer & Task Tracking
-description: Settings for the End Game Timer & task tracking.
+title: Game Timer
+description: Settings for the End Game Timer.
+custom_edit_url: null
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/Icons/TimeLord.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
-# Game Timer & Task Tracking Settings
+# Game Timer Settings
 
 ## Game Timer
 
@@ -20,14 +21,3 @@ Settings for the End Game Timer, which has a countdown for the duration of the g
 | ┣ On Timer End            |                                   Determines the outcome of the timer ending.                                    | String | Game Draw  | Game Draw / Impostor Win |
 | ┗ Game Time Limit         |                                             The set timer limit.                                             | Count  | 15 Minutes |      1 - 30 Minutes      |
 
----
-
-## Task Tracking
-
-Settings for task tracking, which is displayed on player names.
-
-| Option                    |                           Description                            |  Type  | Default |    Range     |
-| ------------------------- | :--------------------------------------------------------------: | :----: | :-----: | :----------: |
-| See Tasks During Round    |   Determines if players can see the task count during rounds.    | Toggle |  False  | True / False |
-| See Tasks During Meetings |  Determines if players can see the task count during meetings.   | Toggle |  False  | True / False |
-| See Tasks When Dead       | Determines if players can see the task count when they are dead. | Toggle |  False  | True / False |
