@@ -33,9 +33,8 @@ The <b>Trapper</b> can place traps around the map to learn the roles of other pl
 
 :::important Strategy Guide
 
-Place your traps in high-traffic areas, such as the meeting area, Dropship, Decontamination, Medbay, Security, Admin, and any area where players most often stay still. This will yield you the most information overall, but won't narrow down players.
+Place your traps in high-traffic areas, such as the meeting area, Dropship, Decontamination, Medbay, Security, Admin, and any area where players most often stay still. This will yield you the most information overall, but won't necessarily narrow down players.
 
-Alternatively, you can place traps below players while they're doing tasks or when they are standing still to narrow down what role they truly are.
 :::
 
 ---
