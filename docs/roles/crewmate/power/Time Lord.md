@@ -1,17 +1,47 @@
+---
+title: Time Lord
+description: Rewind time!
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/TimeLord.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/TimeLord.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Time Lord
 
-### _Rewind time!_
+<div className="role-header">
+  <img
+    className="role-banner"
+    src="https://raw.githubusercontent.com/AU-Avengers/TownOfUs-Mira-Unity/master/Assets/TOU-Mira/Sprites/RoleBanners/CrewmateBanner.png" />
 
-#### **Alignment:** Crewmate Power
+  <div className="role-info">
+    <div className="role-tagline">
+      Rewind Time!
+    </div>
 
-The Time Lord can **rewind** time for a set duration, forcing players to retrace their steps and potentially reviving dead players!
+  <div className="role-alignment">
+      <b>&#8226; Alignment:</b> Crewmate Power
+    </div>
+
+<p>
+  The **Time Lord** can rewind time for a set duration, forcing players to retrace their steps and potentially reviving dead players!
+</p>
+
+  </div>
+</div>
+
+:::important Strategy Guide
+
+Once killers know a Time Lord is in play, they may be reluctant to kill on cooldown, so rewinding at the right moment is crucial. Sabotages are often a distraction — rewinding time around when they're called may revive dead players!
+
+:::
+
+---
+
+### Abilities
 
 |                                             Button                                             |  Ability   |           Description            | Type          |
-|:----------------------------------------------------------------------------------------------:| :--------: | :------------------------------: | ------------- |
+| :--------------------------------------------------------------------------------------------: | :--------: | :------------------------------: | ------------- |
 | <img src={useBaseUrl('/img/CrewButtons/RewindButton.png')} alt="Button" style={{width: 50}} /> | **Rewind** | Rewinds time for a set duration. | Basic Ability |
 
 ### Options
