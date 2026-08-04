@@ -24,7 +24,14 @@ const config: Config = {
 
   future: {
     faster: true,
-    v4: true,
+    v4: {
+      removeLegacyPostBuildHeadAttribute: true,
+      // FIXME with this option turned on, all links become red
+      useCssCascadeLayers: false,
+      siteStorageNamespacing: true,
+      fasterByDefault: true,
+      mdx1CompatDisabledByDefault: true,
+    },
   },
 
   markdown: {
