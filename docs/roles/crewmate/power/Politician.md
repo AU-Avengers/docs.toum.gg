@@ -31,7 +31,7 @@ Campaigned players will be visible to the Politician with cyan coloured names.
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 Try to campaign those you know/think are definitely fellow Crewmates. Without their votes, you'll never be elected as the Mayor!
 
