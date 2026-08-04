@@ -1,13 +1,14 @@
 ---
 title: Postmortem Settings
 description: Settings for dead players specifically.
+custom_edit_url: null
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/Icons/Spectre.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
-# Postmortem Options
+# Postmodtem Options
 
 Settings for dead players specifically.
 
@@ -18,3 +19,4 @@ Settings for dead players specifically.
 | The Dead See Private Chat        |                                          Dead players can see private chats, e.g., Lovers/Team chats.                                           | String | Disabled Upon Death (cannot see chats in the same round the player dies) | Disabled Upon Death / In Meetings / Always / Disabled |
 | Haunt (Follow) Mode              |                                      Determines if/when dead players can use the Haunt (follow) function.                                      | String |                           Disabled Upon Death                            |        Disabled Upon Death / Always / Disabled        |
 | Temporarily Hide Chat Upon Death |                                                Hides chat for a short time after a player dies.                                                | Toggle |                                   True                                   |                     True / False                      |
+| See Task Trackers When Dead      |                                    Determines whether dead players can see the task count of other players.                                    | Toggle |                                   True                                   |                     True / False                      |
