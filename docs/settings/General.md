@@ -1,5 +1,5 @@
 ---
-title: Game Mechanics
+title: General Settings
 description: Overall settings for the mod.
 ---
 
