@@ -34,7 +34,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 The Prosecutor may also die if they incorrectly prosecute a fellow Crewmate, so be certain about who you want to exile!
 
