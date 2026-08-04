@@ -1,11 +1,12 @@
 ---
 title: Better Mira HQ
 description: Settings for Mira HQ map adjustments.
+custom_edit_url: null
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/CrewButtons/FixButton.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
+<img src={useBaseUrl('/img/SettingIcons/Mira.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Better Mira HQ
 
