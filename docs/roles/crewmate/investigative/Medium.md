@@ -1,15 +1,44 @@
+---
+title: Medium
+description: Become one with the ghosts!
+custom_edit_url: null
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Medium.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Medium.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Medium
 
-### _Become one with the ghosts!_
+<div className="role-header">
+  <img
+    className="role-banner"
+    src="https://raw.githubusercontent.com/AU-Avengers/TownOfUs-Mira-Unity/master/Assets/TOU-Mira/Sprites/RoleBanners/MediumBanner.png" />
 
-#### **Alignment:** Crewmate Investigative
+  <div className="role-info">
+    <div className="role-tagline">
+      Become one with the ghosts!
+    </div>
 
-The **Medium** can become a ghost temporarily by using their **Mediate** ability, projecting their spirit outside of their body to investigate and discover clues. While Mediating, the Medium's body is left behind, still and unprotected, but their spirit can pass through walls and see other ghosts. Once time is up, their spirit will return to their body, and they can no longer see ghosts of other players.
+  <div className="role-alignment">
+      <strong>&#8226; Alignment:</strong> Crewmate Investigative<br />
+    </div>
 
+<p>
+  The <b>Medium</b> can become a ghost temporarily by using their <b>Mediate</b> ability, projecting their spirit outside of their body to investigate and discover clues. 
+</p>
+<p>
+ While Mediating, the Medium's body is left behind, still and unprotected, but their spirit can pass through walls and see other ghosts. Once time is up, their spirit will return to their body, and they can no longer see ghosts of other players.
+</p>
+  </div>
+</div>
+
+:::important Strategy Guide
+While Mediating, pay close attention to how ghosts move and who they seem interested in. While ghosts can't communicate directly, they may follow or circle around a specific player, pointing you toward their killer.
+
+:::
+
+---
 ### Abilities
 
 |                                             Button                                              |   Ability   |                          Description                          |     Type      |
