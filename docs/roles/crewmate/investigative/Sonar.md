@@ -26,11 +26,16 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
     </div>
 
 <p>
-The <b>Sonar</b> can place markers on other players to track their general location. By placing a marker, the Sonar will see a ping indicating the tracked player's position across the map. The pings match the tracked player's colour, and will update at set intervals, allowing the Sonar to follow suspicious players and identify unusual movement.
+The <b>Sonar</b> can place trackers on others to track their general location.
+
+By placing a tracker, the Sonar will see an indication of the tracked player's position across the map. The pings match the tracked player's colour, and will update at set intervals, allowing the Sonar to follow suspicious players and identify unusual movement.
+
 </p>
 
   </div>
 </div>
+
+<b>Note:</b> Players can choose to see arrows or heartbeat pings at their own preference in the Settings > Gameplay tab!
 
 :::important Strategy Guide
 
@@ -48,11 +53,11 @@ Tracking every player can quickly become overwhelming—prioritise tracking play
 
 ### Options
 
-| Option                                |                                 Description                                 |  Type   | Default |    Range     |
-| ------------------------------------- | :-------------------------------------------------------------------------: | :-----: | :-----: | :----------: |
-| Track Cooldown                        |                        Cooldown for tracking players                        | Seconds |   20s   |   1s - 30s   |
-| Max Number Of Tracks                  |          The maximum number of tracking bugs the Tracker can place          |  Count  |    5    |    1 - 15    |
-| Arrow Update Interval                 |   The interval at which the tracking arrows update their target location    | Seconds |   5s    |  0.5s - 15s  |
-| Sonar Arrows Make Sound On Death      |   Toggles whether or not a sound effect plays if the tracked target dies    | Toggle  |  True   | True / False |
-| Sonar Arrows Reset After Each Round   |      Toggles whether tracking arrows reset at the end of every meeting      | Toggle  |  True   | True / False |
-| ┗ Get More Uses From Completing Tasks | Toggles whether the maximum number of tracks increases upon task completion | Toggle  |  False  | True / False |
+| Option                                |                                 Description                                  |  Type   | Default |    Range     |
+| ------------------------------------- | :--------------------------------------------------------------------------: | :-----: | :-----: | :----------: |
+| Track Cooldown                        |                        Cooldown for tracking players.                        | Seconds |   20s   |   1s - 30s   |
+| Initial Number Of Tracks              |            The initial number of trackers the Tracker can place.             |  Count  |    5    |    1 - 15    |
+| Arrow Update Interval                 |       The interval at which the trackers update their target location.       | Seconds |   5s    |  0.5s - 15s  |
+| Trackers Make Sound On Death          |   Toggles whether or not a sound effect plays if the tracked target dies.    | Toggle  |  True   | True / False |
+| Trackers Reset After Each Round       |         Toggles whether trackers reset at the end of every meeting.          | Toggle  |  True   | True / False |
+| ┗ Get More Uses From Completing Tasks | Toggles whether the maximum number of tracks increases upon task completion. | Toggle  |  False  | True / False |
