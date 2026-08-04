@@ -429,21 +429,6 @@ const sidebars: SidebarsConfig = {
         'modifiers/impostor/Underdog',
       ]
     },
-        {
-      type: 'category',
-      label: 'Neutral',
-      collapsed: false,
-      link: {
-        type: 'generated-index',
-        title: 'Neutral',
-        description: 'These modifiers are Neutral specific, and can be stacked with an Alliance and Universal modifier.',
-        image: '/img/Bait.png',
-      },
-      items:
-      [
-        'modifiers/neutral/Double Shot',
-      ]
-    },
    {
       type: 'category',
       label: 'Universal',
