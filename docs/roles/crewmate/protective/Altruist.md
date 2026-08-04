@@ -31,7 +31,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 All Killers are alerted to a revive attempt — watch out for players that move towards the Altruist/revived, as it may indicate that they're an evildoer!
 
