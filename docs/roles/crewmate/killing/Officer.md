@@ -6,15 +6,37 @@ custom_edit_url: null
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Officer.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Officer.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Officer
 
-### _Reload and shoot the killers!_
+<div className="role-header">
+  <img
+    className="role-banner"
+    src="https://raw.githubusercontent.com/AU-Avengers/TownOfUs-Mira-Unity/master/Assets/TOU-Mira/Sprites/RoleBanners/CrewmateBanner.png" />
 
-#### **Alignment:** Crewmate Killing
+  <div className="role-info">
+    <div className="role-tagline">
+      Reload and Shoot the Killers!
+    </div>
 
-The **Officer** can **shoot** players with limited ammo. They must **load** bullets, which only last one round, unless they are added within 10 seconds.
+  <div className="role-alignment">
+      <b>&#8226; Alignment:</b> Crewmate Killing<br />
+    </div>
+
+<p>
+The **Officer** can **shoot** players by **loading** limited ammo.
+</p>
+  </div>
+</div>
+
+:::important Strategy Guide
+
+At the end of a round, any unused bullets will be discarded (unless loaded within 10 seconds of a meeting bieng called), so be sure to load them strategically. It's better to load bullets when there are fewer players to ensure a higher chance of shooting correctly.
+
+:::
+
+---
 
 ### Abilities
 
