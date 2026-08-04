@@ -33,7 +33,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 Pay close attention to voting patterns and interactions throughout each meeting. Spotting false alibis or accusations can help you swap a fellow Crewmate to safety and send an evildoer to their doom!
 
