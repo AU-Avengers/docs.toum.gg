@@ -1,16 +1,46 @@
+---
+title: Prosecutor
+description: Exile players of your choosing!
+custom_edit_url: null
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Prosecutor.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Prosecutor.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Prosecutor
 
-### _Exile players of your choosing!_
+<div className="role-header">
+  <img
+    className="role-banner"
+    src="https://raw.githubusercontent.com/AU-Avengers/TownOfUs-Mira-Unity/master/Assets/TOU-Mira/Sprites/RoleBanners/ProsecutorBanner.png" />
 
-#### **Alignment:** Crewmate Power
+  <div className="role-info">
+    <div className="role-tagline">
+      Exile Players of Your Choosing!
+    </div>
 
-The **Prosecutor** can exile a player during a meeting, casting their vote to overpower all others. They can also see who voted for who, even if voting is anonymous.
+  <div className="role-alignment">
+      <b>&#8226; Alignment:</b> Crewmate Power <br />
+        </div>
 
-**Note:** An **Imitator** Prosecutor cannot use the Prosecute ability, but can see votes.
+<p>
+      The **Prosecutor** can choose to exile a player during a meeting, casting their vote to overpower all others. They can also see who voted for who, even if voting is anonymous.
+</p>
+<p>
+      **Note:** An **Imitator** Prosecutor cannot use the Prosecute ability, but can still see votes.
+</p>
+
+  </div>
+</div>
+
+:::important Strategy Guide
+
+The Prosecutor may also die if they incorrectly prosecute a fellow Crewmate, so be certain about who you want to exile!
+
+:::
+
+---
 
 |    Ability    |                                         Description                                          |           Type           |
 | :-----------: | :------------------------------------------------------------------------------------------: | :----------------------: |
