@@ -139,6 +139,7 @@ const sidebars: SidebarsConfig = {
           },
           items:
           [
+            'roles/crewnate/support/Barkeeper',
             'roles/crewmate/support/Engineer',
             'roles/crewmate/support/Imitator',
             'roles/crewmate/support/Plumber',
@@ -231,6 +232,7 @@ const sidebars: SidebarsConfig = {
           items:
           [
             'roles/impostor/support/Blackmailer',
+            'roles/impostor/support/Bootlegger',
             'roles/impostor/support/Hypnotist',
             'roles/impostor/support/Janitor',
             'roles/impostor/support/Miner',
@@ -316,9 +318,9 @@ const sidebars: SidebarsConfig = {
             'roles/neutral/killing/Arsonist',
             'roles/neutral/killing/Glitch',
             'roles/neutral/killing/Juggernaut',
+            'roles/neutral/killing/Medusa',
             'roles/neutral/killing/Plaguebearer',
             'roles/neutral/killing/Pestilence',
-            'roles/neutral/killing/Soul Collector',
             'roles/neutral/killing/Vampire',
             'roles/neutral/killing/Werewolf',
           ]
@@ -360,19 +362,21 @@ const sidebars: SidebarsConfig = {
        'modifiers/alliance/Lovers',
       ]
     },
-   {
+    {
       type: 'category',
-      label: 'Assassin',
+      label: 'Assailant',
       collapsed: false,
       link: {
         type: 'generated-index',
-        title: 'Assassin',
-        description: 'The options for the Assassin (guess) modifier.',
-        image: '/img/Icons/Assassin.png',
+        title: 'Neutral',
+        description: 'These modifiers are Assailant nodifiers, and can be stacked with an Alliance and Universal modifier.',
+        image: '/img/Bait.png',
       },
       items:
       [
-       'modifiers/assassin/Assassin Options', 
+        'modifiers/assailant/Assassin',
+        'modifiers/assailant/Double Shot',
+        'modifiers/assailant/Overclocker',
       ]
     },
     {
@@ -547,17 +551,18 @@ const sidebars: SidebarsConfig = {
       },
       items:
     [
-      'settings/Host Specific',
-      'settings/Vanilla Tweaks',
-      'settings/Game Mechanics',
-      'settings/General',
-      'settings/Round Start Options',
-      'settings/Role Settings',
-      'settings/Postmortem Options',
+     'settings/Game Mechanics',
       'settings/Game Timer and Task Tracking',
+      'settings/General',
+      'settings/Host Specific',     
+      'settings/Postmortem Options',
+      'settings/Roleblock Mechanics',
+      'settings/Role Settings',
+      'settings/Round Start Options',
+      'settings/Vanilla Tweaks',
     ]
     },
-              {
+    {
       type: 'category',
       label: 'Better Maps / Sabotages',
       collapsed: false,
