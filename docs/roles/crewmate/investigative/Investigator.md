@@ -1,27 +1,55 @@
+---
+title: Investigator
+description: Find evildoers by examining footprints!
+custom_edit_url: null
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Investigator.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Investigator.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Investigator
 
-### _Find all evildoers by examining footprints!_
+<div className="role-header">
+  <img
+    className="role-banner"
+    src="https://raw.githubusercontent.com/AU-Avengers/TownOfUs-Mira-Unity/master/Assets/TOU-Mira/Sprites/RoleBanners/InvestigatorBanner.png" />
 
-#### Alignment: Crewmate Investigative
+  <div className="role-info">
+    <div className="role-tagline">
+      Find all evildoers by examining footprints!
+    </div>
 
-The **Investigator** is able to see the footprints of other players during each round, helping them investigate whereabouts and alibis.
+  <div className="role-alignment">
+      <strong>&#8226; Alignment:</strong> Crewmate Investigative<br />
+    </div>
+    <p>
 
-<sub>**Note:** Swooper footprints are concealed.</sub>
+The <strong>Investigator</strong> is able to see the footprints of other players during each round, helping them investigate whereabouts and alibis.
 
-### Options
+</p>
+<p>
+      <strong>Note:</strong> Swooper footprints are concealed!
+</p>
 
-| Option               |                             Description                              |    Type    | Default |    Range     |
-| -------------------- | :------------------------------------------------------------------: | :--------: | :-----: | :----------: |
-| Footprint Size       |                   Changes how big footprints are.                    | Multiplier |   4x    |   1x - 10x   |
-| Footprint Interval   |              Changes how often footprints are created.               |  Seconds   |   1s    |  0.5s - 6s   |
-| Footprint Duration   |             Changes how long footprints are visible for.             |  Seconds   |   10s   |   1s - 15s   |
-| Anonymous Footprints |    Determines if footprints are color coded based off the player.    |   Toggle   |  False  | True / False |
-| Show Vent Footprints | Determines if footprints are visible from a player that's in a vent. |   Toggle   |  False  | True / False |
+  </div>
+</div>
 
-### Strategy Guide
+:::important Strategy Guide
 
-Follow the footprints of anyone you deem suspicious and keep your distance. If you're careful enough, you might just find a pesky venter!
+Follow the footprints of anyone you deem suspicious, but keep your distance. Following a trail too aggressively may reveal your intentions, but a well-timed observation can expose pesky venters or place a player at a crime scene!
+:::
+
+---
+
+## Options
+
+| Option                             |                             Description                              |    Type    | Default  |      Range      |
+| ---------------------------------- | :------------------------------------------------------------------: | :--------: | :------: | :-------------: |
+| Footprint Added Based On           |           Changes how the footprint interval is measured.            |   String   | Distance | Distance / Time |
+| ┗ Footprint Interval: **Distance** |              Changes how often footprints are created.               | Multiplier |   0.5    |     0.5 - 3     |
+| ┗ Footprint Interval: **Time**     |              Changes how often footprints are created.               |  Seconds   |    1s    |    0.5s - 6s    |
+| Footprint Size                     |                   Changes how big footprints are.                    | Multiplier |    4x    |    1x - 10x     |
+| Footprint Duration                 |             Changes how long footprints are visible for.             |  Seconds   |   10s    |    1s - 15s     |
+| Anonymous Footprints               |    Determines if footprints are color-coded based on the player.    |   Toggle   |  False   |  True / False   |
+| Footprint Vent Visible               | Determines if footprints are visible from a player that is in a vent. |   Toggle   |  False   |  True / False   |
