@@ -116,7 +116,7 @@ const config: Config = {
              },
               {
               label: 'Settings',
-              to: '/docs/category/settings/game settings',
+              to: '/docs/category/settings',
              },
             {
                label: 'Installation',
