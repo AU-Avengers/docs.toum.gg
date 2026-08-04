@@ -1,39 +1,61 @@
+---
+title: Spy
+description: Snoop around and find stuff out!
+custom_edit_url: null
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Spy.png')} alt="Icon" align="left" style={{height: '60px', margin: '00px 10px 00px -10px'}} />
+<img src={useBaseUrl('/img/Icons/Spy.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Spy
 
-### _Snoop around and find stuff out!_
+<div className="role-header">
+  <img
+    className="role-banner"
+    src="https://raw.githubusercontent.com/AU-Avengers/TownOfUs-Mira-Unity/master/Assets/TOU-Mira/Sprites/RoleBanners/SpyBanner.png" />
 
-#### Alignment: Crewmate Investigative
+  <div className="role-info">
+    <div className="role-tagline">
+      Snoop around and find stuff out!
+    </div>
 
-<img src={useBaseUrl('/img/RoleScreenshots/Spy.gif')} align="right" style={{margin: '00px 10px 00px 10px'}} />
-The **Spy** gains extra information by using the Admin table.
+  <div className="role-alignment">
+      <b>&#8226; Alignment:</b> Crewmate Investigative <br />
+    </div>
 
-When viewing **Admin**, the Spy sees the locations of all living players across the map, identified by their colours, making it easier to track and verify locations when giving alibis. The map will update whenever a player moves from one area to another, including through vent systems, as long as they are in a named location (they will not be visible outside or in hallways).
+<p>
+ The <b>Spy</b> gains extra information when using the Admin table, seeing the locations of all living players across the map, identified by their colours, making it easier to track and verify locations when giving alibis. 
+ </p>
+ <p>
+ The map will update whenever a player moves from one area to another, including through vent systems, as long as they are in a named location (they will not be visible outside or in hallways).
+</p>
+  </div>
+</div>
 
-Depending on settings, the Spy may also have access to a **Portable Admin** table, which they can activate remotely and recharge by completing tasks.
+:::important Strategy Guide
+
+As the Spy, information is your greatest weapon. Use what you learn from the Admin table to verify location claims and catch false alibis.
+If you have access to the portable table, charge it up by doing tasks to use it.
+:::
+
+---
 
 ### Abilities
 
-| Button                                                                                         | Ability |                          Description                           | Type |
-| ---------------------------------------------------------------------------------------------- | :-------: | :------------------------------------------------------------: | :--: |
+| Button                                                                                         |  Ability  |                           Description                           | Type |
+| ---------------------------------------------------------------------------------------------- | :-------: | :-------------------------------------------------------------: | :--: |
 | <img src={useBaseUrl('/img/OtherButtons/AdminButton.png')} alt="Button" style={{width: 50}} /> | **Admin** | Opens up the admin table for a set total duration between uses. | Menu |
 
 ### Options
 
-| Option                     |                                      Description                                       |  Type   | Default |                   Range                    |
-| -------------------------- | :------------------------------------------------------------------------------------: | :-----: | :-----: | :----------------------------------------: |
-| Who Sees Bodies On Admin   |                           Changes who sees bodies on admin.                            | String  | Nobody  | Nobody / Spy / Everyone But Spy / Everyone |
-| Portable Admin             | Determines if the Spy (Role and/or/nor the Modifier) has access to the portable Admin. | String  |  Both   |      Role / Modifier / Both / Neither      |
-| ┣ Move With Portable Admin |              Determines if you can move around with Portable Admin open.               | Toggle  |  True   |                True / False                |
-| ┣ Starting Charge          |                       Amount of charge given right off the bat.                        | Seconds |   20s   |                  0s - 30s                  |
-| ┣ Round Charge             |                      Amount of charge given after every meeting.                       | Seconds |   15s   |                  0s - 30s                  |
-| ┣ Task Charge              |                   Amount of charge given after a task is completed.                    | Seconds |   10s   |                  0s - 30s                  |
-| ┣ Display Cooldown         |                        Cooldown for the Portable Admin Button.                         | Seconds |   15s   |                  0s - 30s                  |
-| ┗ Display Duration         |   Maximum duration for the Portable Admin Button, given that there's enough charge.    | Seconds |   15s   |                  ∞ - 30s                   |
-
-### Strategy Guide
-
-Use the Admin table to hyper-focus on a group of players if possible. If you have access to the portable table, you can use it and charge it up by doing tasks.
+| Option                            |                                      Description                                       |  Type   |     Default     |                   Range                    |
+| --------------------------------- | :------------------------------------------------------------------------------------: | :-----: | :-------------: | :----------------------------------------: |
+| Who Sees Bodies On Admin          |                          Determines who sees bodies on admin.                          | String  |     Nobody      | Nobody / Spy / Everyone But Spy / Everyone |
+| Allow Portable Admin Table For    | Determines if the Spy (Role and/or/nor the Modifier) has access to the portable Admin. | String  | Role + Modifier |      Role / Modifier / Both / Neither      |
+| ┣ Move With Portable Admin        |              Determines if you can move around with Portable Admin open.               | Toggle  |      True       |                True / False                |
+| ┣ Starting Charge                 |                     The amount of charge given right off the bat.                      | Seconds |       20s       |                  0s - 30s                  |
+| ┣ Battery Charged Each Round      |                    The amount of charge given after every meeting.                     | Seconds |       15s       |                  0s - 30s                  |
+| ┣ Battery Charged Per Task        |                 The amount of charge given after a task is completed.                  | Seconds |       10s       |                  0s - 30s                  |
+| ┣ Portable Admin Display Cooldown |                      The cooldown for the Portable Admin Button.                       | Seconds |       15s       |                  0s - 30s                  |
+| ┗ Portable Admin Display Duration | The maximum duration for the Portable Admin Button, given that there's enough charge.  | Seconds |       15s       |                5 - 30s / ∞                 |
