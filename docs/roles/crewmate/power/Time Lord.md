@@ -30,7 +30,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </div>
 </div>
 
-:::important Strategy Guide
+:::important[Strategy Guide]
 
 Once killers know a Time Lord is in play, they may be reluctant to kill on cooldown, so rewinding at the right moment is crucial. Sabotages are often a distraction — rewinding time around when they're called may revive dead players!
 
