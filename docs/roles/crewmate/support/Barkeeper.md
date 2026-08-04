@@ -37,8 +37,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 |                                              Button                                              |    Ability    |                                                                           Description                                                                            |        Type        |
 | :----------------------------------------------------------------------------------------------: | :-----------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------: |
-|   <img src={useBaseUrl('/img/CrewButtons/FixButton.png')} alt="Button" style={{width: 50}} />    | **Roleblock** |                         Drink with a player, roleblocking them for 15s. After the roleblock is finished, they will be hungover for 30s.                          | Player Interaction |
-| <img src={useBaseUrl('/img/CrewButtons/EngiVentButton.png')} alt="Button" style={{width: 50}} /> |   **Spill**   | Spill one of your drinks, making anyone speed up if it's been recently spilled, or make them slow down if it's old. This will only trigger once for each player. |   Basic Ability    |
+|   <img src={useBaseUrl('/img/CrewButtons/BeerRoleblockButton.png')} alt="Button" style={{width: 50}} />    | **Roleblock** |                         Drink with a player, roleblocking them for 15s. After the roleblock is finished, they will be hungover for 30s.                          | Player Interaction |
+| <img src={useBaseUrl('/img/CrewButtons/BeerSpillButton.png')} alt="Button" style={{width: 50}} /> |   **Spill**   | Spill one of your drinks, making anyone speed up if it's been recently spilled, or make them slow down if it's old. This will only trigger once for each player. |   Basic Ability    |
 
 ### Options
 
