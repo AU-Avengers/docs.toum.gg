@@ -1,14 +1,43 @@
+---
+title: Lookout
+description: Keep your eyes wide open!
+custom_edit_url: null
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Lookout.png')} alt="Icon" align="left" style={{height: '60px', margin: '00px 10px 00px -10px'}} />
+<img src={useBaseUrl('/img/Icons/Lookout.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Lookout
 
-### _Keep your eyes wide open!_
+<div className="role-header">
+  <img
+    className="role-banner"
+    src="https://raw.githubusercontent.com/AU-Avengers/TownOfUs-Mira-Unity/master/Assets/TOU-Mira/Sprites/RoleBanners/LookoutBanner.png" />
 
-#### Alignment: Crewmate Investigative
+  <div className="role-info">
+    <div className="role-tagline">
+      Keep your eyes wide open!
+    </div>
 
-The **Lookout** can **watch** other players during rounds, and will discover which roles interacted with the watched players during meetings.
+  <div className="role-alignment">
+      <strong>&#8226; Alignment:</strong> Crewmate Investigative<br />
+  </div>
+
+<p>
+The <strong>Lookout</strong> can <strong>watch</strong> other players during rounds, and will discover which roles interacted with the watched players during meetings.
+</p>
+
+  </div>
+</div>
+
+:::important Strategy Guide
+
+Watch players who are likely to attract attention, such as confirmed Crew, important/powerful claims, or frequent targets. Learning which roles interact with a player can help identify protective roles and even potential killers.
+
+:::
+
+---
 
 ### Abilities
 
@@ -18,13 +47,11 @@ The **Lookout** can **watch** other players during rounds, and will discover whi
 
 ### Options
 
-| Option           |                   Description                   |  Type   | Default |    Range     |
-| ---------------- | :---------------------------------------------: | :-----: | :-----: | :----------: |
-| Watch Cooldown   |         Cooldown for watching a player.         | Seconds |   20s   |   1s - 30s   |
-| Max Watches      |      Maximum players that can be watched.       |  Count  |    5    |    1 - 15    |
-| Reset Each Round | Determines if uses are reset each round or not. | Toggle  |  True   | True / False |
-| ┗ Task Uses      |   Determines if doing tasks gives more uses.    | Toggle  |  False  | True / False |
-
-### Strategy Guide
-
-If you believe someone is being highly targeted (like a Mayor) you can watch them, and possibly clear a protective role or even identify a killer.
+| Option                                 |                                                 Description                                                  |  Type   | Default |      Range      |
+| -------------------------------------- | :----------------------------------------------------------------------------------------------------------: | :-----: | :-----: | :-------------: |
+| Watch Cooldown                         |                                       Cooldown for watching a player.                                        | Seconds |   20s   |    1s - 30s     |
+| Watched Player Feedback Reveals        | Determines whether the Lookout's feedback reveals the players or roles that have interacted with the target. | String  | Players | Players / Roles |
+| Initial Players That Can be Watched    |                                     Maximum players that can be watched.                                     |  Count  |    5    |     1 - 15      |
+| See Indirect Attacks                   |                         Determines if the Lookout will know about indirect attacks, e.g., bombs.                          | Toggle  |  False  |  True / False   |
+| Lookout Watches Reset After Each Round |                               Determines if uses are reset each round or not.                                | Toggle  |  True   |  True / False   |
+| ┗ Get More Uses From Completing Task   |                                  Determines if doing tasks gives more uses.                                  | Toggle  |  False  |  True / False   |
