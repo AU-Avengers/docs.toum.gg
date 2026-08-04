@@ -18,6 +18,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Restore cache
+        uses: actions/cache@v6
+        with:
+          path: node_modules/.cache
+          key: node-modules-cache
+
       - name: Build website
         run: npm run build
 

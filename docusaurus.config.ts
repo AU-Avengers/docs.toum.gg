@@ -22,6 +22,18 @@ const config: Config = {
     locales: ['en'],
   },
 
+  future: {
+    faster: true,
+    v4: true,
+  },
+
+  markdown: {
+    mdx1Compat: {
+      admonitions: true, // TODO figure out replacement
+      comments: true, // TODO replace <!-- truncate --> with {/* truncate */}
+    },
+  },
+
   presets: [
     [
       'classic',
