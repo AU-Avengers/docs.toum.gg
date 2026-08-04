@@ -10,6 +10,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Better Skeld
 
+Settings for Skeld map adjustments.
+
 | Option                            |                                       Description                                        |    Type    |  Default  |                                           Range                                           |
 | --------------------------------- | :--------------------------------------------------------------------------------------: | :--------: | :-------: | :---------------------------------------------------------------------------------------: |
 | Camouflage Comms                  |             If enabled, calling a Comms sabotage will turn all players grey.             |   Toggle   |   True    |                                       True / False                                        |
