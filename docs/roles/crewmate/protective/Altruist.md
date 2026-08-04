@@ -1,22 +1,51 @@
+---
+title: Altruist
+description: Revive dead Crewmates!
+custom_edit_url: null
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Altruist.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Altruist.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Altruist
 
-### _Revive Dead Crewmates!_
+<div className="role-header">
+  <img
+    className="role-banner"
+    src="https://raw.githubusercontent.com/AU-Avengers/TownOfUs-Mira-Unity/master/Assets/TOU-Mira/Sprites/RoleBanners/CrewmateBanner.png" />
 
-#### **Alignment:** Crewmate Protective
+  <div className="role-info">
+    <div className="role-tagline">
+      Revive Dead Crewmates!
+    </div>
 
-The **Altruist** can **revive** dead players in one of three possible ways. However, killers will be alerted and know the locations of revived players and the Altruist.
+  <div className="role-alignment">
+      <b>&#8226; Alignment:</b> Crewmate Protective
+    </div>
 
-### Abilities
+<p>
+      The **Altruist** can **revive** dead players in one of three possible ways. However, killers will be alerted and know the locations of revived players and the Altruist!
+</p>
+
+  </div>
+</div>
+
+:::important Strategy Guide
+
+All Killers are alerted to a revive attempt — watch out for players that move towards the Altruist/revived, as it may indicate that they're an evildoer!
+
+:::
+
+---
+
+## Abilities
 
 |                                             Button                                             |  Ability   |               Description               |        Type        |
 | :--------------------------------------------------------------------------------------------: | :--------: | :-------------------------------------: | :----------------: |
 | <img src={useBaseUrl('/img/CrewButtons/ReviveButton.png')} alt="Button" style={{width: 50}} /> | **Revive** | Revive a group of dead bodies near you. | Player Interaction |
 
-### Options
+## Options
 
 |   Option    |                           Description                           |  Type  |     Default     |                   Range                    |
 | :---------: | :-------------------------------------------------------------: | :----: | :-------------: | :----------------------------------------: |
@@ -35,7 +64,7 @@ The **Altruist** can **revive** dead players in one of three possible ways. Howe
 | Freeze Altruist During Revive      | Determines whether the Altruist will be frozen when attempting to revive.      |   Toggle   |          True          |                      True / False                      |
 | Hide Bodies at Beginning of Revive | Determines whether bodies will disappear at the beginning of a revive attempt. |   Toggle   |         False          |                      True / False                      |
 | Killers Alerted Before Revive      | Determines whether killers will be alerted that a revive is happening.         |   String   |         Nobody         | Nobody / Neutrals / Impostors / Neutrals and Impostors |
-| Kilers Alerted After Revive        | Determines whether killers will be alerted after a successful revive.          |   String   | Neutrals and Impsotors | Nobody / Neutrals / Impostors / Neutrals and Impostors |
+| Kilers Alerted After Revive        | Determines whether killers will be alerted after a successful revive.          |   String   | Neutrals and Impostors | Nobody / Neutrals / Impostors / Neutrals and Impostors |
 
 ### Sacrifice Options
 
