@@ -1,14 +1,43 @@
+---
+title: Jailor
+description: Jail and execute the evildoers!
+custom_edit_url: null
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Jailor.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Jailor.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Jailor
 
-### _Jail and execute the evils!_
+<div className="role-header">
+  <img
+    className="role-banner"
+    src="https://raw.githubusercontent.com/AU-Avengers/TownOfUs-Mira-Unity/master/Assets/TOU-Mira/Sprites/RoleBanners/CrewmateBanner.png" />
 
-#### **Alignment:** Crewmate Power
+  <div className="role-info">
+    <div className="role-tagline">
+      Jail and execute the evils!
+    </div>
 
+  <div className="role-alignment">
+      <b>&#8226; Alignment:</b> Crewmate Power<br />
+    </div>
+
+<p>
 The **Jailor** can **jail** other players. During a meeting, everyone will see who is jailed. The Jailor can privately talk with the jailed player using the private chatbox. The Jailor can then decide whether to **execute** the jailed player (unless the Jailor is an **Imitator**). If the executed player is a Crewmate, the Jailor will lose the ability to Jail.
+</p>
+
+  </div>
+</div>
+
+:::important Strategy Guide
+
+While the aim is to execute evildoers, sometimes it's a good idea to jail fellow Crewmates in order to learn more information or to protect them in meetings!
+
+:::
+
+---
 
 ### Abilities
 
