@@ -1,6 +1,7 @@
 ---
 title: Round Start Options
 description: Settings for the first round of a game.
+custom_edit_url: null
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
