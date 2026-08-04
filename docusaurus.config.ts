@@ -37,7 +37,6 @@ const config: Config = {
   markdown: {
     mdx1Compat: {
       admonitions: true, // TODO figure out replacement
-      comments: true, // TODO replace <!-- truncate --> with {/* truncate */}
     },
   },
 
