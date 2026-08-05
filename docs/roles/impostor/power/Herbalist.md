@@ -3,19 +3,46 @@ title: Herbalist
 description: Let your plants and herbs guide the way!
 custom_edit_url: null
 ---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Herbalist.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Herbalist.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Herbalist
 
-### _Let your plants and herbs guide the way_
+<div className="role-header">
+  <img
+    className="role-banner"
+    src="https://raw.githubusercontent.com/AU-Avengers/TownOfUs-Mira-Unity/master/Assets/TOU-Mira/Sprites/RoleBanners/ImpostorBanner.png" />
 
-#### **Alignment:** Impostor Power
+  <div className="role-info">
+    <div className="role-tagline">
+      Let Your Plants and Herbs Guide the Way!
+    </div>
 
-The **Herbalist** can use three different abilities to help the Impostors or affect what other players see. The abilities—Expose, Confuse, and Protect—are linked to one cooldown, separate from the Kill Cooldown, allowing the Herbalist to choose which ability they wish to use on another player.
+  <div className="role-alignment">
+      <b>&#8226; Alignment:</b> Impostor Power<br />
+    </div>
 
-### Abilities
+<p>
+      The **Herbalist** can use different abilities to help the Impostors or affect what other players see. 
+</p>
+<p>
+ The three abilities—**_Expose, Confuse and Protect_**—are linked to one cooldown, separate to the Kill Cooldown, allowing the Herbalist to choose which ability they wish to use on another player.
+</p>
+
+  </div>
+</div>
+
+:::danger[TIP]
+
+Click the ability button to switch between the three options.
+
+:::
+
+---
+
+## Abilities
 
 |                                               Button                                               |   Ability   |                                          Description                                           |        Type        |
 | :------------------------------------------------------------------------------------------------: | :---------: | :--------------------------------------------------------------------------------------------: | :----------------: |
@@ -23,16 +50,16 @@ The **Herbalist** can use three different abilities to help the Impostors or aff
 | <img src={useBaseUrl('/img/ImpButtons/HerbConfuseButton.png')} alt="Button" style={{width: 50}} /> | **Confuse** |         Confuse a player with fungal spores to prevent them from identifying players.          | Player Interaction |
 | <img src={useBaseUrl('/img/ImpButtons/HerbProtectButton.png')} alt="Button" style={{width: 50}} /> | **Protect** |        Protect a player temporarily as if you were a Cleric, including other impostors.        | Player Interaction |
 
-### Options
+## Options
 
-| Option                                        |                               Description                               |  Type   | Default |     Range     |
-| --------------------------------------------- | :---------------------------------------------------------------------: | :-----: | :-----: | :-----------: |
-| Herb Cooldown                          |        Cooldown duration for using the Change Herb ability.        |  Seconds  |    30s    |  10 - 90s   |
-| Max Exposes Uses                          |        The maximum number of times the Expose ability can be used.        |  Count  |    3    |  1 - 15 / ∞  |
-| Max Confuse Uses                          |        The maximum number of times the Confuse ability can be used.        |  Count  |    5    |  1 - 15 / ∞  |
-| Max Protect Uses                          |        The maximum number of times the Protect ability can be used.        |  Count  |    7    |  1 - 15 / ∞  |
-| Confuse Delay | The duration before the Confuse ability will affect the targeted player. | Seconds | 3s | 0.5 - 5s | 
-| Confuse Duration | How long the Confuse ability will last on a targeted player. | Seconds | 15s | 5 - 30s | 
-| Protect Duration | How long the Protect ability will protect a targeted player for. | Seconds | 15s | 5 - 30s | 
-| Protected Player Sees Barrier | Whether or not the targeted player will see the Protect barrier/shield. | Toggle | False | True / False |
-| Notify Herablist Upon Attack | Whether the Herbalist will be alerted if a Protected player is attacked. | Toggle | True | True / False |
+| Option                        |                               Description                                |  Type   | Default |    Range     |
+| ----------------------------- | :----------------------------------------------------------------------: | :-----: | :-----: | :----------: |
+| Herb Cooldown                 |           Cooldown duration for using the Change Herb ability.           | Seconds |   30s   |   10 - 90s   |
+| Max Exposes Uses              |       The maximum number of times the Expose ability can be used.        |  Count  |    3    |  1 - 15 / ∞  |
+| Max Confuse Uses              |       The maximum number of times the Confuse ability can be used.       |  Count  |    5    |  1 - 15 / ∞  |
+| Max Protect Uses              |       The maximum number of times the Protect ability can be used.        |  Count  |    7    |  1 - 15 / ∞  |
+| Confuse Delay                 | The duration before the Confuse ability will affect the targeted player. | Seconds |   3s    |   0.5 - 5s   |
+| Confuse Duration              |       How long the Confuse ability will last on a targeted player.       | Seconds |   15s   |   5 - 30s    |
+| Protect Duration              |     How long the Protect ability will protect a targeted player for.     | Seconds |   15s   |   5 - 30s    |
+| Protected Player Sees Barrier | Whether or not the targeted player will see the Protect barrier/shield.  | Toggle  |  False  | True / False |
+| Notify Herablist Upon Attack  | Whether the Herbalist will be alerted if a Protected player is attacked. | Toggle  |  True   | True / False |
