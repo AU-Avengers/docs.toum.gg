@@ -1,11 +1,12 @@
 ---
 title: Bootlegger
 description: Roleblock Crewmates to poison them!
+custom_edit_url: null
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Crewmate.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
+<img src={useBaseUrl('/img/Icons/Bootlegger.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Bootlegger
 
@@ -36,7 +37,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 |                                                Button                                                |    Ability    |                                                   Description                                                   |        Type        |
 | :--------------------------------------------------------------------------------------------------: | :-----------: | :-------------------------------------------------------------------------------------------------------------: | :----------------: |
-| <img src={useBaseUrl('/img/ImpButtons/WineRoleblockButton.png')} alt="Button" style={{width: 50}} /> | **Roleblock** | Drink with a player, roleblocking them for 15s. After the roleblock is finished, they will be hungover for 30s. | Player Interaction |
+| <img src={useBaseUrl('/img/ImpButtons/WineRoleblockButton.png')} alt="Button" style={{width: 50}} /> | **Roleblock** | Drink with a player, roleblocking them for 15s. After the roleblock is finished, they will be hungover for 30 seconds. | Player Interaction |
 |  <img src={useBaseUrl('/img/ImpButtons/WineSickenButton.png')} alt="Button" style={{width: 50}} />   |  **Sicken**   |                                The second stage of roleblocking the same player.                                | Player Interaction |
 |  <img src={useBaseUrl('/img/ImpButtons/WinePoisonButton.png')} alt="Button" style={{width: 50}} />   |  **Poison**   |                 The third stage of roleblocking the same player who will die after a set time.                  | Player Interaction |
 
