@@ -1,23 +1,52 @@
+---
+title: Undertaker
+description: Drag Bodies and Hide Them!
+custom_edit_url: null
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Undertaker.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Undertaker.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Undertaker
 
-### _Drag Bodies and Hide Them!_
+<div className="role-header">
+  <img
+    className="role-banner"
+    src="https://raw.githubusercontent.com/AU-Avengers/TownOfUs-Mira-Unity/master/Assets/TOU-Mira/Sprites/RoleBanners/UndertakerBanner.png" />
 
-#### **Alignment:** Impostor Support
+  <div className="role-info">
+    <div className="role-tagline">
+      Drag Bodies and Hide Them!
+    </div>
 
-The **Undertaker** can **drag** dead bodies around the map and **drop** them elsewhere to prevent them from being reported easily.
+  <div className="role-alignment">
+      <b>&#8226; Alignment:</b> Impostor Support<br />
+    </div>
 
-### Abilities
+<p>
+      The **Undertaker** can **_drag_** dead bodies around the map and drop them elsewhere to prevent them from being reported easily.
+</p>
+
+  </div>
+</div>
+
+:::danger[TIP]
+
+Avoid dragging bodies through high-traffic areas if you don't want to be caught by passersby!
+
+:::
+
+---
+
+## Abilities
 
 |                                           Button                                            | Ability  |                                   Description                                   |         Type          |
 | :-----------------------------------------------------------------------------------------: | :------: | :-----------------------------------------------------------------------------: | :-------------------: |
 | <img src={useBaseUrl('/img/ImpButtons/DragButton.png')} alt="Button" style={{width: 50}} /> | **Drag** | Drag a dead body, if allowed through settings you can also take it into a vent. | Dead Body Interaction |
 | <img src={useBaseUrl('/img/ImpButtons/DropButton.png')} alt="Button" style={{width: 50}} /> | **Drop** |     Drop the dragged dead body, stopping it from being dragged any further.     | Dead Body Interaction |
 
-### Options
+## Options
 
 | Option                                  |                                 Description                                  |    Type    | Default |   Range    |
 | --------------------------------------- | :--------------------------------------------------------------------------: | :--------: | :-----: | :--------: |
