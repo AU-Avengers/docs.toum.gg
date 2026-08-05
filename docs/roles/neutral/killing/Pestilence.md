@@ -49,7 +49,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 | Option                             | Description                                                                                         |  Type   | Default |    Range     |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------- | :-----: | :-----: | :----------: |
-| Pestilence Kill Cooldown           | Cooldown for actively killing players.                                                              | Seconds |   25s   |   10 - 60s   |
-| Pestilence Can Vent                | Determines whether the Pestilence can use vents.                                                    | Toggle  |  True   | True / False |
-| Instant Pestilence Chance          | Determines whether the Pestilence will spawn at the beginning of the game.                          | Percent |   0%    |   0 - 100%   |
+| Instant Pestilence Chance          | Determines the chance for Pestilence to spawn immediately.                                          | Percent |   0%    |   0 - 100%   |
+| Infect Cooldown                    | Cooldown for using the Infect ability.                                                              | Seconds |   25s   |   10 - 60s   |
 | Announce Pestilence Transformation | Determines whether everyone will be notified that the Plaguebearer has transformed into Pestilence. | Toggle  |  True   | True / False |
+| Pestilence Kill Cooldown           | Cooldown for actively killing players.                                                              | Seconds |   25s   |   5 - 120s   |
+| Pestilence Can Vent                | Determines whether Pestilence can vent.                                                             | Toggle  |  False  | True / False |
