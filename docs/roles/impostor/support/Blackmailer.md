@@ -1,26 +1,49 @@
+---
+title: Blackmailer
+description: Silence the Crewmates During Meetings!
+custom_edit_url: null
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/Icons/Blackmailer.png')} alt="Icon" align="left" style={{height: 60}} />
 
 # Blackmailer
 
-### _Silence Crewmates During Meetings!_
+<div className="role-header">
+  <img
+    className="role-banner"
+    src="https://raw.githubusercontent.com/AU-Avengers/TownOfUs-Mira-Unity/master/Assets/TOU-Mira/Sprites/RoleBanners/ImpostorBanner.png" />
 
-#### **Alignment:** Impostor Support
+  <div className="role-info">
+    <div className="role-tagline">
+      Silence the Crewmates During Meetings!
+    </div>
 
-The **Blackmailer** can stop a player from speaking in the next meeting by **blackmailing** them (marked with a black **M**).
+  <div className="role-alignment">
+      <b>&#8226; Alignment:</b> Impostor Support <br />
+    </div>
 
-The blackmailed player will recieve a notification before the meeting that they are blackmailed, and will not be able to use text-chat.
+<p>
+      The **Blackmailer** can stop a player from speaking in the next meeting by **_blackmailing_** them (marked with a black **M**). The Blackmailed player will also receive a notification before the meeting that they are blackmailed, and will not be able to use text-chat.
+</p>
 
-Depending on settings, they may be visibly blackmailed to others with a red overlay on their nameplate and a small envelope with their character. On top of that, blackmailed players will not be able to vote until less or equal amount of people are alive than the Blackmailer settings allow.
+<p>
+      Depending on settings, they may be visibly blackmailed to others with a red overlay on their nameplate and a small envelope with their character. On top of that, blackmailed players will not be able to vote until fewer or an equal number of people are alive than the Blackmailer settings allow.
+</p>
 
-### Abilities
+  </div>
+</div>
+
+---
+
+## Abilities
 
 |                                              Button                                              |    Ability    |              Description               |        Type        |
 | :----------------------------------------------------------------------------------------------: | :-----------: | :------------------------------------: | :----------------: |
 | <img src={useBaseUrl('/img/ImpButtons/BlackmailButton.png')} alt="Button" style={{width: 50}} /> | **Blackmail** | Silence a player for the next meeting. | Player Interaction |
 
-### Options
+## Options
 
 | Option                                       | Description                                                                                    |  Type   | Default |  Range   |
 | -------------------------------------------- | ---------------------------------------------------------------------------------------------- | :-----: | :-----: | :------: |
