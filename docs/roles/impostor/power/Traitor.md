@@ -6,7 +6,7 @@ custom_edit_url: null
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Bomber.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
+<img src={useBaseUrl('/img/Icons/Traitor.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Traitor
 
