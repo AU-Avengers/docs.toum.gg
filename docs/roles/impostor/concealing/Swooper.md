@@ -1,27 +1,50 @@
+---
+title: Swooper
+description: Turn invisible temporarily!
+custom_edit_url: null
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Swooper.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Swooper.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Swooper
 
-### _Turn Invisible Temporarily!_
+<div className="role-header">
+  <img
+    className="role-banner"
+    src="https://raw.githubusercontent.com/AU-Avengers/TownOfUs-Mira-Unity/master/Assets/TOU-Mira/Sprites/RoleBanners/ImpostorBanner.png" />
 
-#### **Alignment:** Impostor Concealing
+  <div className="role-info">
+    <div className="role-tagline">
+      Turn Invisible Temporarily!
+    </div>
 
-The **Swooper** can temporarily turn invisible to avoid being seen.
+  <div className="role-alignment">
+      <b>&#8226; Alignment:</b> Impostor Conealing<br />
+    </div>
 
-### Abilities
+<p>
+      The **Swooper** can temporarily turn invisible to avoid being seen.
+</p>
+  </div>
+</div>
+
+---
+
+## Abilities
 
 |                                             Button                                             |   Ability   |                                     Description                                      |     Type      |
 | :--------------------------------------------------------------------------------------------: | :---------: | :----------------------------------------------------------------------------------: | :-----------: |
 |  <img src={useBaseUrl('/img/ImpButtons/SwoopButton.png')} alt="Button" style={{width: 50}} />  |  **Swoop**  |                   Turn invisible to all players except Impostors.                    | Basic Ability |
 | <img src={useBaseUrl('/img/ImpButtons/UnswoopButton.png')} alt="Button" style={{width: 50}} /> | **Unswoop** | Cancel your swoop early, or let it finish fully to make yourself visible once again. | Basic Ability |
 
-### Options
+## Options
 
-| Option         |                    Description                     |  Type   | Default |   Range   |
-| -------------- | :------------------------------------------------: | :-----: | :-----: | :-------: |
-| Max Swoops     | Maximum times that Swooping is possible per round. |  Uses   |    ∞    |  ∞ - 15   |
-| Swoop Cooldown |               Cooldown for swooping.               | Seconds |   10s   | 10s - 60s |
-| Swoop Duration |               Duration for swooping.               | Seconds |   25s   | 10s - 60s |
-| Can Vent       |        Determines if the Swooper can vent.         | Toggle  |  True   |    N/A    |
+| Option                         |                          Description                          |  Type   | Default |             Range             |
+| ------------------------------ | :-----------------------------------------------------------: | :-----: | :-----: | :---------------------------: |
+| Swoop Uses Per Round           |   The number of times that Swooping is possible per round.    |  Uses   |    ∞    |          1 - 10 / ∞           |
+| Swoop Cooldown                 |                  The cooldown for Swooping.                   | Seconds |   25s   |           5s - 120s           |
+| Swoop Duration                 |                  The duration for Swooping.                   | Seconds |   10s   |           5s - 15s            |
+| Can Be Tracked While Invisible | Determines whether the Swooper can be tracked while Swooping. | String  | Always  | Always / Never / Not By Radar |
+| Swooper Can Vent               |              Determines if the Swooper can vent.              | Toggle  |  True   |         True / False          |
