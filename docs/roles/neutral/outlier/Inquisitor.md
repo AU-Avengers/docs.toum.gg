@@ -1,30 +1,63 @@
+---
+title: Inquisitor
+description: Vanquish the heretics!
+custom_edit_url: null
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Inquisitor.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Inquisitor.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Inquisitor
 
-### _Vanquish the Heretics!_
+<div className="role-header">
+  <img
+    className="role-banner"
+    src="https://raw.githubusercontent.com/AU-Avengers/TownOfUs-Mira-Unity/master/Assets/TOU-Mira/Sprites/RoleBanners/NeutralBanner.png" />
 
-#### **Alignment:** Neutral Outlier
+  <div className="role-info">
+    <div className="role-tagline">
+      Vanquish the Heretics!
+    </div>
 
-The **Inquisitor** wins by eliminating Heretics (targets). The Inquisitor will have a list of roles and can use their **inquire** ability on a player to find out if they are a Heretic during a meeting. The Inquisitor must eliminate the Heretics by any means necessary; vote them out, wait for them to die, or **Vanquish** (kill) them!
+  <div className="role-alignment">
+      <b>&#8226; Alignment:</b> Neutral Outlier <br />
+    </div>
 
-### Abilities
+<p>
+      The **Inquisitor** wins by eliminating Heretics (targets). 
+    </p>
+    <p>
+    The Inquisitor will have a list of roles and can use their **inquire** ability on a player to find out if they are a Heretic during a meeting. The Inquisitor must eliminate the Heretics by any means necessary; vote them out, wait for them to die, or **Vanquish** (kill) them!
+</p>
 
-|                                               Button                                               | Ability  |                                                                                                    Description                                                                                                     |        Type        |
-| :------------------------------------------------------------------------------------------------: | :------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------: |
+  </div>
+</div>
+
+:::note Strategy Guide
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+:::
+
+---
+
+## Abilities
+
+|                                               Button                                               |   Ability    |                                                                                                    Description                                                                                                     |        Type        |
+| :------------------------------------------------------------------------------------------------: | :----------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------: |
 |  <img src={useBaseUrl('/img/NeutButtons/InquireButton.png')} alt="Button" style={{width: 50}} />   | **Inquire**  |                                                             Inquire a player, which will tell you if they are one of your targets within the meeting.                                                              | Player Interaction |
 | <img src={useBaseUrl('/img/NeutButtons/InquisKillButton.png')} alt="Button" style={{width: 50}} /> | **Vanquish** | Vanquish a player to kill them. If they are a heretic, you will be told, and you can continue vanquishing. However, if the victim isn't a heretic, you will lose the ability to vanquish for the rest of the game. | Player Interaction |
 
-### Options
+## Options
 
-| Option                               |                                Description                                |  Type   | Default |    Range     |
-| ------------------------------------ | :-----------------------------------------------------------------------: | :-----: | :-----: | :----------: |
-| Vanquish Cooldown                    |                     Cooldown for Vanquishing players.                     | Seconds |   25s   |   10 - 60s   |
-| Allow Vanquish in First Round        |              Determines if Inquisitor can Vanquish round one.              | Toggle  |  False  | True / False |
-| Inquisitor Continues Game in Final 3 | Determines if the game will continue if the Inquisitor is in the final 3. | Toggle  |  True   | True / False |
-| Inquisitor Can't Inquire             |      Determines whether the Inquisitor can use the Inquire ability.       | Toggle  |  False  | True / False |
-| Inquire Cooldown                     |                       Cooldown for the Inquire ability.                       | Seconds |   25s   |   10 - 60s   |
-| Max Number of Inquiries              |          Determines how many times Inquire ability can be used.           |  Uses   |    5    |    1 - 15    |
-| Amount of Heretics Needed            |      Determines how many Heretic targets must be vanquished to win.       |  Count  |    3    |    3 - 5     |
+| Option                               | Description                                                                   |  Type   | Default |    Range     |
+| ------------------------------------ | ----------------------------------------------------------------------------- | :-----: | :-----: | :----------: |
+| Vanquish Cooldown                    | Cooldown for Vanquishing players.                                             | Seconds |   25s   |   10 - 60s   |
+| Allow Vanquish in First Round        | Determines if Inquisitor can Vanquish round one.                              | Toggle  |  False  | True / False |
+| Inquisitor Continues Game in Final 3 | Determines if the game will continue if the Inquisitor is in the final 3.     | Toggle  |  True   | True / False |
+| Inquisitor Can't Inquire             | Determines whether the Inquisitor can use the Inquire ability.                | Toggle  |  False  | True / False |
+| Inquire Cooldown                     | Cooldown for the Inquire ability.                                             | Seconds |   25s   |   10 - 60s   |
+| Max Number of Inquiries              | Determines how many times Inquire ability can be used.                        |  Uses   |    5    |    1 - 15    |
+| Amount of Heretics Needed            | Determines how many Heretic targets must be vanquished to win.                |  Count  |    3    |    3 - 5     |
+| Hide Role on Win Notification        | Determines whether the Inquisitor's role is hidden upon victory notification. | Toggle  |  False  | True / False |
