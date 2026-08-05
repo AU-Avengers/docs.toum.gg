@@ -1,23 +1,51 @@
+---
+title: Pestilence
+description: Horseman of the Apocalypse!
+custom_edit_url: null
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Pestilence.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Pestilence.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Pestilence
 
-### _Horseman of the Apocalypse!_
+<div className="role-header">
+  <img
+    className="role-banner"
+    src="https://raw.githubusercontent.com/AU-Avengers/TownOfUs-Mira-Unity/master/Assets/TOU-Mira/Sprites/RoleBanners/NeutralBanner.png" />
 
-#### **Alignment:** Neutral Killing
+  <div className="role-info">
+    <div className="role-tagline">
+      Horseman of the Apocalypse!
+    </div>
 
-The **Pestillence** wins by being the last killer alive. They are invincible to all interactions and attacks, instantly killing anybody who interacts with them. They can only be defeated by being exiled or guessing incorrectly during meetings.
+  <div className="role-alignment">
+      <b>&#8226; Alignment:</b> Neutral Killing <br />
+    </div>
 
-If enabled, there is a chance that Pestilence will spawn without first being the Plaguebearer.
+<p>
+      The **Pestillence** wins by being the last killer alive. They are invincible to all interactions and attacks, instantly killing anybody who interacts with them. They can only be defeated by being exiled or guessing incorrectly during meetings.
+
+</p>
+<p>
+      If enabled, there is a chance that Pestilence will spawn without first being the Plaguebearer.
+
+</p>
+
+  </div>
+</div>
+
+---
+
+## Abilities
 
 |                                              Button                                              | Ability  |           Description            |           Type            |
 | :----------------------------------------------------------------------------------------------: | :------: | :------------------------------: | :-----------------------: |
 | <img src={useBaseUrl('/img/NeutButtons/PestKillButton.png')} alt="Button" style={{width: 50}} /> | **Kill** |          Kill players.           |    Player Interaction     |
 | <img src={useBaseUrl('/img/NeutButtons/PestVentButton.png')} alt="Button" style={{width: 50}} /> | **Vent** | If enabled, Pestilence can vent. | Basic Ability, if enabled |
 
-### Options
+## Options
 
 | Option                             | Description                                                                                         |  Type   | Default |    Range     |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------- | :-----: | :-----: | :----------: |
