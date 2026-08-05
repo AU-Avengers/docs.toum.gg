@@ -1,16 +1,39 @@
+---
+title: Werewolf
+description: Rampage to kill everyone!
+custom_edit_url: null
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Werewolf.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Werewolf.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Werewolf
 
-### _Rampage to Kill Everyone!_
+<div className="role-header">
+  <img
+    className="role-banner"
+    src="https://raw.githubusercontent.com/AU-Avengers/TownOfUs-Mira-Unity/master/Assets/TOU-Mira/Sprites/RoleBanners/NeutralBanner.png" />
 
-#### **Alignment:** Neutral Killing
+  <div className="role-info">
+    <div className="role-tagline">
+      Rampage to Kill Everyone!
+    </div>
 
-The **Werewolf** wins by being the last killer alive. They can go on a **rampage** to increase their vision and gain the ability to kill multiple times within a set duration.
+  <div className="role-alignment">
+      <b>&#8226; Alignment:</b> Neutral Killing <br />
+    </div>
 
-### Abilities
+<p>
+      The **Werewolf** wins by being the last killer alive. They can go on a **rampage** to increase their vision and gain the ability to kill multiple times within a set duration.
+</p>
+
+  </div>
+</div>
+
+---
+
+## Abilities
 
 |                                              Button                                              |   Ability   |                                                   Description                                                    |           Type            |
 | :----------------------------------------------------------------------------------------------: | :---------: | :--------------------------------------------------------------------------------------------------------------: | :-----------------------: |
@@ -18,7 +41,7 @@ The **Werewolf** wins by being the last killer alive. They can go on a **rampage
 | <img src={useBaseUrl('/img/NeutButtons/WolfKillButton.png')} alt="Button" style={{width: 50}} /> | **┣ Kill**  |                                       Kill another player while Rampaging.                                       |    Player Interaction     |
 | <img src={useBaseUrl('/img/NeutButtons/WolfVentButton.png')} alt="Button" style={{width: 50}} /> | **┗ Vent**  |                                If enabled, the Werewolf can vent while Rampaging.                                | Basic Ability, if enabled |
 
-### Options
+## Options
 
 | Option                          | Description                                               |  Type   | Default |    Range     |
 | ------------------------------- | --------------------------------------------------------- | :-----: | :-----: | :----------: |
