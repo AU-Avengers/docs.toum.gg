@@ -46,10 +46,11 @@ Focus on vents that are commonly used for escapes or cross-map movement. A well-
 
 ### Options
 
-| Option                                    | Description                                         |  Type   | Default |   Range    |
-| ----------------------------------------- | --------------------------------------------------- | :-----: | :-----: | :--------: |
-| Flush Cooldown                            | Cooldown for using the Flush ability.               | Seconds |   25s   |  10 - 60s  |
-| Block Cooldown                            | Cooldown for using Barricade ability.               | Seconds |   25s   |  10 - 60s  |
-| Max Number of Barricades                  | Determines how many Barricades the Plumber can set. |  Count  |    3    |   1 - 15   |
-| Amount of Rounds Barricades Last          | Determines how many rounds a Barricade will remain. |  Count  |    2    | 1 - 15 / ∞ |
-| Get More Barricades From Completing Tasks | Determines if doing tasks earns more Barricades.    | Toggle  |  True   | True False |
+| Option                                    | Description                                                   |  Type   | Default |   Range    |
+| ----------------------------------------- | ------------------------------------------------------------- | :-----: | :-----: | :--------: |
+| Flush Cooldown                            | Cooldown for using the Flush ability.                         | Seconds |   25s   |  10 - 60s  |
+| Flush Duration                            | How long the Flush ability will be active.                    | Seconds |   3s    |  1 - 20s   |
+| Block Cooldown                            | Cooldown for using Barricade ability.                         | Seconds |   25s   |  10 - 60s  |
+| Initial Number of Barricades              | Determines how many Barricades the Plumber can set initially. |  Count  |    3    |   1 - 15   |
+| Amount of Rounds Barricades Last          | Determines how many rounds a Barricade will remain.           |  Count  |    2    | 1 - 15 / ∞ |
+| Get More Barricades From Completing Tasks | Determines if doing tasks earns more Barricades.              | Toggle  |  True   | True False |
