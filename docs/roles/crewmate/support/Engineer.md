@@ -1,14 +1,41 @@
+---
+title: Engineer
+description: Maintain important systems on the ship!
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Engineer.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Engineer.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Engineer
 
-### _Maintain Important Systems on the Ship!_
+<div className="role-header">
+  <img
+    className="role-banner"
+    src={useBaseUrl('/img/RoleBanners/EngineerBanner.png')} />
 
-#### **Alignment:** Crewmate Support
+  <div className="role-info">
+    <div className="role-tagline">
+      Maintain Important Systems on the Ship!
+    </div>
 
-The **Engineer** can use the **vent** systems and **fix** active sabotages remotely.
+  <div className="role-alignment">
+      <b>&#8226; Alignment:</b> Crewmate Support<br />
+    </div>
+
+<p>
+      The **Engineer** can use the **vent** systems and **fix** active sabotages remotely.
+</p>
+
+  </div>
+</div>
+
+:::important[Strategy Guide]
+
+As the Engineer, your ability to use the vents also makes you a great information scout. Just be careful where and when you jump out—appearing from a vent at the wrong time can create unwanted suspicion!
+:::
+
+---
 
 ### Abilities
 
@@ -19,11 +46,11 @@ The **Engineer** can use the **vent** systems and **fix** active sabotages remot
 
 ### Options
 
-| Option                                       |                          Description                          |  Type   | Default |    Range     |
-| -------------------------------------------- | :-----------------------------------------------------------: | :-----: | :-----: | :----------: |
-| Vent Uses Per Game                           |    Determines how many times the Engineer is able to vent.    |  Count  |    ∞    |    5 - 30    |
+| Option                                      |                          Description                          |  Type   | Default |    Range     |
+| ------------------------------------------- | :-----------------------------------------------------------: | :-----: | :-----: | :----------: |
+| Vent Uses Per Game                          |    Determines how many times the Engineer is able to vent.    |  Count  |    ∞    |    5 - 30    |
 | ┗ Earn More Vent Uses From Completing Tasks |        Determines if doing tasks earns more Vent uses.        | Toggle  |  True   | True / False |
-| Vent Cooldown                                |           Cooldown for being able to use the vents.           | Seconds |   15s   |   0 - 25s    |
-| Vent Duration                                |   Determines how long the Engineer can stay inside a vent.    | Seconds |   10s   | 5 - 25s / ∞  |
-| Fixes Per Game                               | How many times the Engineer can use the Fix ability per game. |  Count  |    5    |    1 - 15    |
-| Fix Delay                                    |  How long it takes for the Fix to stop the active sabotage.   | Seconds |  0.5s   |    0 - 5s    |
+| Vent Cooldown                               |           Cooldown for being able to use the vents.           | Seconds |   15s   |   0 - 25s    |
+| Vent Duration                               |   Determines how long the Engineer can stay inside a vent.    | Seconds |   10s   | 5 - 25s / ∞  |
+| Fixes Per Game                              | How many times the Engineer can use the Fix ability per game. |  Count  |    5    |    1 - 15    |
+| Fix Delay                                   |  How long it takes for the Fix to stop the active sabotage.   | Seconds |  0.5s   |    0 - 5s    |
