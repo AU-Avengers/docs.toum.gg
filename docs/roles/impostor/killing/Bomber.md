@@ -31,7 +31,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </div>
 </div>
 
-:::danger TIP
+:::danger[TIP]
 
 Bombs are most effective in high-traffic areas and on sabotages where people are forced to gather. The **_Bomb_** cooldown is linked to the **_Kill_** cooldown, so be strategic about choosing which ability to use when!
 
