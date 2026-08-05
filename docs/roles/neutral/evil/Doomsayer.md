@@ -69,13 +69,13 @@ Pay attention to information shared during meetings as well as your own Doomsaye
 
 ## Options
 
-| Option                                       | Description                                                            |  Type   |      Default      |                  Range                  |
-| -------------------------------------------- | ---------------------------------------------------------------------- | :-----: | :---------------: | :-------------------------------------: |
-| Observe Cooldown                             | Cooldown for using the Observe ability.                                | Seconds |        20s        |                 1 - 30s                 |
-| Number of Guesses Needed to Win              | How many correct guesses are required to win.                          |  Count  |         3         |                  2 - 5                  |
-| Doomsayer Can Guess Crew Investigative Roles | Determines whether the Doomsayer can guess CI roles.                   | Toggle  |       False       |              True / False               |
-| Doomsayer Guesses All Roles at Once          | Determines if the Doomsayer must make all guesses in one round to win. | Toggle  |       False       |              True / False               |
-| Doomsayer Can't Observe                      | Determines whether the Doomsayer cannot use the Observe ability.       | Toggle  |       False       |              True / False               |
-| Doomsayer Win                                | Determines what happens when the Doomsayer meets their win condition.  | String  | Leaves in Victory | Leaves in Victory / Ends Game / Nothing |
-| ┗ Hide Role On Win Notification | Determines whether the Doomsayer win notification is hidden upon victory. |
-| Doomsayer Continues The Game | Determines whether the game will continue if the Doomsayer is the last evil left. | Toggle | True | True / False |
+| Option                                                            | Description                                                                       |  Type   |      Default      |                  Range                  |
+| ----------------------------------------------------------------- | --------------------------------------------------------------------------------- | :-----: | :---------------: | :-------------------------------------: |
+| Observe Cooldown                                                  | Cooldown for using the Observe ability.                                           | Seconds |        20s        |                 1 - 30s                 |
+| Number of Guesses Needed to Win                                   | How many correct guesses are required to win.                                     |  Count  |         3         |                  2 - 5                  |
+| Doomsayer Can Guess Crew Investigative Roles                      | Determines whether the Doomsayer can guess CI roles.                              | Toggle  |       False       |              True / False               |
+| Doomsayer Guesses All Roles at Once                               | Determines if the Doomsayer must make all guesses in one round to win.            | Toggle  |       False       |              True / False               |
+| Doomsayer Can't Observe                                           | Determines whether the Doomsayer cannot use the Observe ability.                  | Toggle  |       False       |              True / False               |
+| Doomsayer Win                                                     | Determines what happens when the Doomsayer meets their win condition.             | String  | Leaves in Victory | Leaves in Victory / Ends Game / Nothing |
+| ┗ Hide Role On Win Notification (if Leaves in Victory or Nothing) | Determines whether the Doomsayer win notification is hidden upon victory.         | Toggle  |       False        |              True / False               |
+| Doomsayer Continues The Game                                      | Determines whether the game will continue if the Doomsayer is the last evil left. | Toggle  |       True        |              True / False               |
