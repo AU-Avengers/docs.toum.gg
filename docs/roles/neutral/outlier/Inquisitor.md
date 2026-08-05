@@ -34,12 +34,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   </div>
 </div>
 
-:::note Strategy Guide
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-:::
-
 ---
 
 ## Abilities
