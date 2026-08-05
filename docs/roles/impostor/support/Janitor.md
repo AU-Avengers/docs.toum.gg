@@ -1,24 +1,54 @@
+---
+title: Janitor
+description: Clean Bodies to Hide Kills and Crime Scenes!
+custom_edit_url: null
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/Icons/Janitor.png')} alt="Icon" align="left" style={{height: 60}} />
 
 # Janitor
 
-### _Clean bodies to hide kills and crime scenes!_
+<div className="role-header">
+  <img
+    className="role-banner"
+    src="https://raw.githubusercontent.com/AU-Avengers/TownOfUs-Mira-Unity/master/Assets/TOU-Mira/Sprites/RoleBanners/ImpostorBanner.png" />
 
-#### **Alignment:** Impostor Support
+  <div className="role-info">
+    <div className="role-tagline">
+      Clean Bodies to Hide Kills and Crime Scenes!
+    </div>
 
-The **Janitor** can **clean** dead bodies, making them disappear to clear evidence (besides the victim's pet, if any).
+  <div className="role-alignment">
+      <b>&#8226; Alignment:</b> Impostor Support <br />
+    </div>
 
-If the clean delay is not 0 seconds, then the Janitor must stay next to the body while cleaning, otherwise a use is wasted (if there's a set limit.)
+<p>
+      The **Janitor** can **_clean_** dead bodies, making them disappear to clear evidence (besides the victim's pet, if any).
+</p>
+<p>
+      If the clean delay is not 0 seconds, then the Janitor must stay next to the body while cleaning, otherwise a use is wasted (if there's a set limit).
+</p>
 
-### Abilities
+  </div>
+</div>
+
+:::danger[TIP]
+
+Try to avoid sticking with your Impostor partner at all times, otherwise you'll easily be suspected as the cleaning duo!
+
+:::
+
+---
+
+## Abilities
 
 |                                            Button                                            |  Ability  |                            Description                            |         Type          |
 | :------------------------------------------------------------------------------------------: | :-------: | :---------------------------------------------------------------: | :-------------------: |
-| <img src={useBaseUrl('/img/ImpButtons/CleanButton.png')} alt="Button" style={{width: 50}} /> | **Clean** | Clean a dead body, making it disapear and making it unreportable. | Dead Body Interaction |
+| <img src={useBaseUrl('/img/ImpButtons/CleanButton.png')} alt="Button" style={{width: 50}} /> | **Clean** | Clean a dead body, making it disappear and making it unreportable. | Dead Body Interaction |
 
-### Options
+## Options
 
 | Option                                |                                 Description                                  |  Type   | Default |   Range   |
 | ------------------------------------- | :--------------------------------------------------------------------------: | :-----: | :-----: | :-------: |
