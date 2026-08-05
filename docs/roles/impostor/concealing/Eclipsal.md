@@ -1,22 +1,48 @@
+---
+title: Eclipsal
+description: Black Out the Light!
+custom_edit_url: null
+---
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/Icons/Eclipsal.png')} alt="Icon" align="left" style={{height: 60}} />
+<img src={useBaseUrl('/img/Icons/Eclipsal.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
 # Eclipsal
 
-### _Block Out the light!_
+<div className="role-header">
+  <img
+    className="role-banner"
+    src="https://raw.githubusercontent.com/AU-Avengers/TownOfUs-Mira-Unity/master/Assets/TOU-Mira/Sprites/RoleBanners/ImpostorBanner.png" />
 
-#### **Alignment:** Impostor Concealing
+  <div className="role-info">
+    <div className="role-tagline">
+      Black Out the Light!
+    </div>
 
-The **Eclipsal** can **blind** nearby players, reducing their vision to only be able to see the map and prevent reporting. After a set duration, blinded players' vision will return to normal.
+  <div className="role-alignment">
+      <b>&#8226; Alignment:</b> Impostor Concealing<br />
+    </div>
 
-### Abilities
+<p>
+The **Eclipsal** can **_blind_** nearby players, reducing their vision to only be able to see the map, and prevents reporting.
+</p>
+<p>
+After a set duration, blinded players' vision will return to normal.
+</p>
+
+</div>
+</div>
+
+---
+
+## Abilities
 
 |                                            Button                                            |  Ability  |        Description        |      Type      |
 | :------------------------------------------------------------------------------------------: | :-------: | :-----------------------: | :------------: |
 | <img src={useBaseUrl('/img/ImpButtons/BlindButton.png')} alt="Button" style={{width: 50}} /> | **Blind** | Blind all nearby players. | Radius Ability |
 
-### Options
+## Options
 
 | Option         |             Description              |    Type    | Default |   Range    |
 | -------------- | :----------------------------------: | :--------: | :-----: | :--------: |
