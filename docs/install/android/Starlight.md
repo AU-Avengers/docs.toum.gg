@@ -13,15 +13,6 @@ This guide requires you to have [_Among Us_](https://play.google.com/store/apps/
 
 ---
 
-:::danger[IMPORTANT]
-
-**<u>You must downgrade both Among Us and Starlight to be able to play.</u> This is due to the latest version of Among Us (v.174) causing instability with mods.**
-
-**Refer to the downgrading steps below.**
-:::
-
----
-
 ### Installing Starlight & Account Linking
 
 **If you have previously linked Starlight with Itch.io before, you can log in as normal using Itch.io.**
@@ -51,32 +42,6 @@ This guide requires you to have [_Among Us_](https://play.google.com/store/apps/
 > **3.** Go to **Home**, select your profile, and click launch.
 
 **Note:** It can take several attempts to open the mod at times. Keep trying if it crashes.
-
----
-
-### Downgrading
-
-> **1.** Uninstall both Among Us and Starlight.
->
-> **2.** Download the Among Us APK file [here](https://www.apkmirror.com/apk/innersloth-llc/among-us/among-us-2026-4-7-release/among-us-2026-4-7-android-apk-download/).
->
-> **3.** Click on the bundle variant of Among Us (it should be the only option).
->
-> **4.** Scroll down until you see the red `DOWNLOAD APK BUNDLE` button.
->
-> **5.** Once downloaded, go to the Google Play Store and download the [**APK Mirror Installer**](https://play.google.com/store/apps/details?id=com.apkmirror.helper.prod&hl=en_US).
->
-> **6.** Once installed, use the APK Mirror Installer to select and install your **Among Us.apkm** file from your downloads folder using the **Install Package** button. (You may be required to watch an ad in order to install—this is unavoidable.)
->
-> **7.** Once Among Us is installed, launch it to make sure that **v17.3.1a** is displayed on the lower left corner. This is the required version for Starlight.
->
-> **8.** Go to the Starlight GitHub and download the [**starlight-1540.apk**](https://github.com/All-Of-Us-Mods/starlight-releases/releases/tag/1540) to install v1.5.4.
->
-> **9.** Install this Starlight APK using Android's Package Manager.
->
-> **10.** Once you have logged in, you should be able to install the mods and play as normal!
-
-**Note:** If logging in using Google Play, you may be required to log back in occasionally. Refer to the login steps above if required.
 
 ---
 
