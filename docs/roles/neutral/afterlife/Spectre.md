@@ -29,7 +29,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
       When a Neutral role dies, they have a chance to respawn as the **Spectre**, who must complete their tasks without being clicked on to win. 
 </p>
 <p>
-      If successful, and the setting is enabled, the Phantom can **_Spook_** a chosen player to kill them.
+      If successful, and the setting is enabled, the Spectre can **_Spook_** a chosen player to kill them.
 </p>
 
   </div>
