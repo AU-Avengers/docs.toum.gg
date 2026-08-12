@@ -54,7 +54,7 @@ If the settings mean you cannot when overtaking a player, position yourself on a
 
 |                                             Button                                              |   Ability    |                                         Description                                          |        Type        |
 | :---------------------------------------------------------------------------------------------: | :----------: | :------------------------------------------------------------------------------------------: | :----------------: |
-| <img src={useBaseUrl('/img/ImpButtons/OvertakeButton.png')} alt="Button" style={{width: 50}} /> | **Overtake** | Place a bomb, showing the radius in which it'll kill, killing up to a set amount of players. | Player Interaction |
+| <img src={useBaseUrl('/img/ImpButtons/OvertakeButton.png')} alt="Button" style={{width: 50}} /> | **Overtake** | Overtake a nearby non-impostor to take control of their movement. By default, you move with WASD and control them with Arrow Keys. If "Parasite Can Move Independently" is disabled, you cannot move and control them with WASD instead. | Player Interaction |
 
 ## Options
 
