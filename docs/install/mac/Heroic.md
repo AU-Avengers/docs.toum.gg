@@ -1,6 +1,7 @@
 ---
 title: "Epic Games (Heroic Launcher)"
 description: "Guide to install Town of Us: Mira via Epic Games on macOS."
+custom_edit_url: null
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
