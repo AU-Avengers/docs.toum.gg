@@ -1,11 +1,12 @@
 ---
 title: "Epic Games (Heroic Launcher)"
 description: "Guide to install Town of Us: Mira via Heroic Launcher on Linux."
+custom_edit_url: null
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<img src={useBaseUrl('/img/install/HGLlogo.png')} alt="Icon" align="left" style={{ height: '40px', margin: '15px 10px 10px 00px'}} />
+<img src={useBaseUrl('/img/Install/HGLlogo.png')} alt="Icon" align="left" style={{ height: '40px', margin: '15px 10px 10px 00px'}} />
 
 # Epic Games (Heroic Launcher)
 
@@ -13,6 +14,12 @@ This guide requires that you own _Among Us_ on [**Epic Games**.](https://store.e
 
 ---
 
+:::danger[incompatiblity update]
+<big><b>Town of Us is incompatible with the latest update of Among Us (v18).</b></big>
+
+Please be patient while we work on compatibility updates.
+
+:::
 ### Mod Installation
 
 > **1.** Download the latest [**epic-msstore.zip**](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder of Town of Us: Mira.
