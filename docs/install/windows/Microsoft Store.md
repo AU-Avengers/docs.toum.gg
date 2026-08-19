@@ -1,6 +1,8 @@
 ---
 title: "Microsoft Store / Xbox App"
 description: "Guide to install Town of Us: Mira via Microsoft Store/Xbox App."
+author: Tony
+custom_edit_url: null
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -15,9 +17,16 @@ This guide requires that you own _Among Us_ on [Microsoft Store / Xbox App](http
 
 ---
 
+:::danger[incompatiblity update]
+<big><b>Town of Us is incompatible with the latest update of Among Us (v18).</b></big>
+
+<u>Microsoft Store / Xbox App cannot downgrade to the required version</u>. Please be patient while we work on compatibility updates.
+
+:::
+
 ### Mod Installation
 
-> **1.** Download the [latest](https://github.com/AU-Avengers/TOU-Mira/releases/latest) version of TOU: Mira (look for the **.epic-msstore.zip** file).
+> **1.** Download the latest [**epic-msstore.zip**](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder for Town of Us: Mira.
 >
 > **2.** In the Xbox App Library, right-click _Among Us_ and then click **Manage**.
 >
@@ -28,9 +37,9 @@ This guide requires that you own _Among Us_ on [Microsoft Store / Xbox App](http
 > **5.** Extract the contents of the .zip folder you downloaded and copy the files. Paste them into your Content folder. It should look like this example:
 >
 > <img src={useBaseUrl('/img/Install/XboxStep4.png')} />
-
-If installed correctly, launching _Among Us_ from the Xbox App should open the auto-updater, then _Among Us_ with the **Town of Us: Mira** logo displayed in the top left corner.
+>
+> **6.** If installed correctly, launching _Among Us_ from the Xbox App should open the auto-updater, then _Among Us_ with the **Town of Us: Mira** logo displayed in the top left corner.
 
 ---
 
-If you encounter any issues with installing, please join the Town of Us [Discord](https://discord.gg/town-of-us) server and make a **Town of Us Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel.
+If you encounter any issues installing, please join the [Town of Us Discord](https://discord.com/invite/town-of-us) server and open a **Town of Us Support** ticket in the [TOU Support](https://discord.com/channels/890249154402586734/900986905154453504) channel.
