@@ -16,28 +16,6 @@ This guide requires you to have [_Among Us_](https://play.google.com/store/apps/
 
 ---
 
-### Downgrading
-
-Town of Us is currently incompatible with the latest version of Among Us (v18). You must downgrade your Among Us version before installing the mod.
-
-> **1.** Uninstall Among Us.
->
-> **2.** Download the **Among Us APK bundle** [here](https://www.apkmirror.com/apk/innersloth-llc/among-us/among-us-2026-6-5-release/among-us-2026-6-5-android-apk-download/).
->
-> **3.** Once downloaded, go to the Google Play Store and download the [**APK Mirror Installer**](https://play.google.com/store/apps/details?id=com.apkmirror.helper.prod&hl=en_US).
->
-> **4.** Once installed, use the APK Mirror Installer to select and install your `Among Us.apkm` file from your downloads folder using the **Install Package** button.
->
-> - **Note:** You may be required to watch an ad in order to install—this is unavoidable.
->
-> **5.** Once Among Us is installed, launch it to make sure that **v17.4.1a** is displayed in the lower left corner. This is the required version for Starlight and Town of Us.
->
-> **6** Once you have logged in, you should be able to install the mods and play as normal!
->
-> **Note:** If logging in using Google Play, you may be required to log back in occasionally. Refer to the login steps below if required.
-
----
-
 ### Installing Starlight & Account Linking
 
 **If you have previously linked Starlight with Itch.io before, you can log in as normal using Itch.io.**
