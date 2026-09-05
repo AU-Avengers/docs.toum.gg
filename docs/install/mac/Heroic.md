@@ -16,13 +16,6 @@ This guide requires that you own _Among Us_ on [Epic Games.](https://store.epicg
 
 ---
 
-:::danger[incompatiblity update]
-<big><b>Town of Us is incompatible with the latest update of Among Us (v18).</b></big>
-
-Please be patient while we work on downgrade and compatibility updates.
-
-:::
-
 ### Installation
 
 > **1.** If you don't already have it, download [**Heroic Games Launcher**](https://heroicgameslauncher.com/). Once installed, log into your Epic Games account.
