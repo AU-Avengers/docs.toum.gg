@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/Icons/Spectre.png')} align="left" style={{ height: 65, marginRight: '12px' }} />
 
-# Postmodtem Options
+# Postmortem Options
 
 Settings for dead players specifically.
 
