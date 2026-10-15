@@ -14,6 +14,20 @@ This guide requires that you own _Among Us_ on [Itch.io](https://innersloth.itch
 
 ---
 
+:::danger[Downgrading is required]
+
+Town of Us: Mira is not yet compatible with the latest version of Among Us. You must downgrade your base game before following the mod installation stops.
+
+:::
+
+1. Right-click Among Us on Itch and go to **Manage > Switch to another version...**.
+
+2. Select the `version 115` option.
+
+Itch should then automatically update the game version to v18.
+
+---
+
 ### Mod Installation
 
 > **1.** Download the [latest](https://github.com/AU-Avengers/TOU-Mira/releases/latest) **Town of Us: Mira** version (download the **steam-itch.zip** file.)
