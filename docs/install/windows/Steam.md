@@ -14,6 +14,20 @@ This guide requires that you own _Among Us_ on [Steam](https://store.steampowere
 
 ---
 
+:::danger[Downgrading is required]
+
+Town of Us: Mira does not yet run on the latest version of Among Us. You must downgrade your base game before following the mod installation stops.
+
+:::
+
+> **1.** Right-click Among Us on Steam, then click **Properties**.
+>
+> **2.** Click **Betas** and select `public previous`.
+>
+> Steam should then automatically update the game version to v18.
+
+---
+
 ### Mod Installation
 
 > **1.** Download the latest [**steam-itch.zip**](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder for Town of Us: Mira.
