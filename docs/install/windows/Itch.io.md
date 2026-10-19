@@ -16,7 +16,7 @@ This guide requires that you own _Among Us_ on [Itch.io](https://innersloth.itch
 
 ### Mod Installation
 
-> **1.** Download the latest [x86-Itchio.zip](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder for **Town of Us: Mira**.
+> **1.** Download the latest [**x86-Itchio.zip**](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder for **Town of Us: Mira**.
 >
 > **2.** In your Itch.io library, right-click _Among Us_, then `Manage` > `Open folder in  explorer`.
 >
