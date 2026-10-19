@@ -16,14 +16,6 @@ It is highly recommended to install using the <b>Heroic Games Launcher</b> metho
 
 ---
 
-:::danger[Downgrading is required]
-
-Town of Us: Mira is not yet compatible with the latest version of Among Us. Please join the [Town of Us Discord](https://discord.com/invite/town-of-us) server for support with downgrading to the compatible game version.
-
-:::
-
----
-
 ### Heroic Games Launcher
 
 > **1.** If you don't already have it, down [**Heroic Games Launcher**](https://heroicgameslauncher.com/). Once installed, log in to your Epic Games account and install Among Us.
