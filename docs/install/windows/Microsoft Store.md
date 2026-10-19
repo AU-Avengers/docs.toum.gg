@@ -17,13 +17,6 @@ This guide requires that you own _Among Us_ on [Microsoft Store / Xbox App](http
 
 ---
 
-:::danger[Incompatible game version]
-Town of Us: Mira is not yet compatible with the latest version of Among Us. It is not possible to downgrade on this platform. 
-
-:::
-
----
-
 ### Mod Installation
 
 > **1.** Download the latest [**epic-msstore.zip**](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder for Town of Us: Mira.
