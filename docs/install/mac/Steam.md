@@ -24,7 +24,7 @@ This guide requires that you own _Among Us_ on [**Steam**](https://store.steampo
 >
 > **3.** Go to the Settings for the Among Us instance and select **Wine Configuration**. Select “Libraries” and add `winhttp` in the new override section, then click Apply.
 >
-> **4.** Download the latest [macOS-linux.zip](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder for Town of Us: Mira.
+> **4.** Download the latest [**x64-Steam-Epic-MsStore.zip](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder for Town of Us: Mira.
 >
 > **5.** In the **Settings** for the Among Us instance, click **Open C: Drive** and follow this path:
 >
