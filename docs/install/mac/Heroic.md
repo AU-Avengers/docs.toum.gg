@@ -1,4 +1,4 @@
----
+n---
 title: "Epic Games (Heroic Launcher)"
 description: "Guide to install Town of Us: Mira via Epic Games on macOS."
 custom_edit_url: null
@@ -28,7 +28,7 @@ This guide requires that you own _Among Us_ on [Epic Games.](https://store.epicg
 > - On the right side, it will show you the installation path.
 > - Click the path to open the game directory.
 >
-> **4.** Download the latest [**epic-msstore.zip**](https://github.com/AU-Avengers/TOU-Mira/releases/latest) for Town of Us: Mira.
+> **4.** Download the latest [**x64-Steam-Epic-MsStore.zip**](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder for Town of Us: Mira.
 >
 > **5.** Extract the .zip folder. Copy all contents and paste them into the Among Us folder opened in Step 3. It should look like the example below.
 > <img src={useBaseUrl('/img/Install/HGLinstall.png')} />
