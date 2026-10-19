@@ -20,7 +20,7 @@ It is highly recommended to install using the <b>Heroic Games Launcher</b> metho
 
 > **1.** If you don't already have it, down [**Heroic Games Launcher**](https://heroicgameslauncher.com/). Once installed, log in to your Epic Games account and install Among Us.
 >
-> **2.** Download the latest [**epic-msstore.zip**](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder for Town of Us: Mira.
+> **2.** Download the latest [**Steam-Epic-MsStore.zip**](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder for Town of Us: Mira.
 >
 > **3.** On Heroic Games Launcher, go to **Library** and right-click Among Us and go to **Details**. On the right side, you will see `Install Path:`. Click this to open the game directory folder.
 >
@@ -33,7 +33,7 @@ It is highly recommended to install using the <b>Heroic Games Launcher</b> metho
 
 ### EpicGamesStarter
 
-> **1.** Download the latest [**epic-msstore.zip**](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder for Town of Us: Mira.
+> **1.** Download the latest [**Steam-Epic-MsStore.zip**](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder for Town of Us: Mira.
 >
 > **2.** Download the [**EpicGamesStarter.exe.zip**](https://github.com/whichtwix/EpicGamesStarter/releases/latest) and extract the exe file.
 >
