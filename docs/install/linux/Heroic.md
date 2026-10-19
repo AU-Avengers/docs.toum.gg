@@ -10,13 +10,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Epic Games (Heroic Launcher)
 
-This guide requires that you own _Among Us_ on [**Epic Games**.](https://store.epicgames.com/en-US/p/among-us)
+This guide requires that you own _Among Us_ on [**Epic Games**](https://store.epicgames.com/en-US/p/among-us) and have [**Heroic Games Launcher**](https://heroicgameslauncher.com/).
 
 ---
 
 ### Mod Installation
 
-> **1.** Download the latest [**epic-msstore.zip**](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder of Town of Us: Mira.
+> **1.** Download the latest [**x64-Steam-Epic-MsStore.zip**](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder of Town of Us: Mira.
 >
 > **2.** On Heroic Games Launcher, in the **Wine Manager** tab, make sure that you have `Wine-GE-Latest` installed.
 >
