@@ -19,7 +19,7 @@ This guide requires that you own _Among Us_ on [Microsoft Store / Xbox App](http
 
 ### Mod Installation
 
-> **1.** Download the latest [**epic-msstore.zip**](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder for Town of Us: Mira.
+> **1.** Download the latest [**Steam-Epic-MsStore.zip**](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder for Town of Us: Mira.
 >
 > **2.** In the Xbox App Library, right-click _Among Us_ and then click **Manage**.
 >
