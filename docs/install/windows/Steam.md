@@ -16,7 +16,7 @@ This guide requires that you own _Among Us_ on [Steam](https://store.steampowere
 
 ### Mod Installation
 
-> **1.** Download the latest [**steam-itch.zip**](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder for Town of Us: Mira.
+> **1.** Download the latest [**Steam-Epic-MsStore.zip**](https://github.com/AU-Avengers/TOU-Mira/releases/latest) folder for Town of Us: Mira.
 >
 > **2.** Go to your Steam library, right-click _Among Us_ and click **Manage** > **Browse Local Files**
 >
